@@ -1,0 +1,43 @@
+## Default values for deuda.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+ 
+# name of the bussines unit (automotive, enterprise, insurance-investment), for common projects use (corporate-common)
+bu: enterprise
+namespace: enterprise
+ 
+# name of project or application
+project: example-portal
+ 
+# name of front or backend service 
+appName: example-api
+
+readinessProbe:
+  path: "/health"
+ 
+appsettings_path : "/app/settings"
+ 
+acr: tanner
+
+nginxIngress: true
+ 
+ingress:
+  enabled: false
+  annotations:
+    ingressClass : "kubernetes.io/ingress.class: nginx"
+    requestTimeout: 120
+  hosts:
+    dev: "nginx-dev.tanner.cl"
+    qa: "nginx-qa2.tanner.cl"
+    uat: "nginx-uat.tanner.cl"
+    prod: "nginx-prod4.tanner.cl"
+  path: "/enterprise/example-portal/main/"
+
+resources:
+    limits:
+      cpu: 200m
+      memory: 350Mi
+    requests:
+      cpu: 100m
+      memory: 250Mi
+

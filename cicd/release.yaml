@@ -1,0 +1,95 @@
+trigger: none
+
+variables:
+- template: ../cicd-variables.yaml  # Template reference
+
+resources:
+  repositories:
+  - repository: commonPipelinesRepo
+    type: git
+    name: devops-assets/common-pipelines
+  - repository: helmChart
+    type: git
+    name: devops-assets/aks-helm-charts
+    ref: aksnew
+  pipelines:
+  - pipeline: build
+    source: Back-End\Build/Build.PaymentPortalApi
+    trigger: true
+
+stages:
+- template: net-core-app/release-new-aks-prod.yaml@commonPipelinesRepo
+  parameters:
+      aks-definition-folder: 'AKS-Definition/Development' # path to solution or projects that will be used in the build and restore tasks
+      env: 'dev'
+      azure-subscription: 'EATannerDev'
+      region: "des-westus"
+      app-name: $(app-name)
+      app-project: $(app-project)
+      app-bu: $(app-bu)
+      namespace: $(namespace)
+      helm-template: net-core-app
+      storage-account: saaksdesbackend
+      container-name: akshelmreleasesbackup
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
+      app-secrets: ["swagger-api-key"]
+      keyvault-name: 'kv-des-example-portal'
+      secrets-project-prefix: 'example-portal'
+      secrets-app-prefix: 'example-main'
+
+- template: net-core-app/release-new-aks-prod.yaml@commonPipelinesRepo
+  parameters:
+      aks-definition-folder: 'AKS-Definition/Quality' # path to solution or project that will be used in the build and restore tasks
+      env: 'qa2'
+      azure-subscription: 'EATannerQA (c24bad97-a494-43fe-96fc-e1b441316c92)'
+      region: "qa2-westus"
+      app-name: $(app-name)
+      app-project: $(app-project)
+      app-bu: $(app-bu)
+      namespace: $(namespace)
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
+      app-secrets: ["swagger-api-key"]
+      secrets-project-prefix: 'tanner-example'
+      secrets-app-prefix: 'example-main'
+      keyvault-name: kv-qa-example
+      helm-template: net-core-app
+      storage-account: saaksqabackend
+      container-name: akshelmreleasesbackup
+
+- template: net-core-app/release-new-aks-prod.yaml@commonPipelinesRepo
+  parameters:
+      aks-definition-folder: 'AKS-Definition/Uat' # path to solution or project that will be used in the build and restore tasks
+      env: 'uat'
+      azure-subscription: 'EATannerQA (c24bad97-a494-43fe-96fc-e1b441316c92)'
+      region: "uat-westus"
+      app-name: $(app-name)
+      app-project: $(app-project)
+      app-bu: $(app-bu)
+      namespace: $(namespace)      
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
+      app-secrets: ["swagger-api-key"]
+      secrets-project-prefix: 'tanner-payment-portal'
+      secrets-app-prefix: 'payment-portal-main'
+      keyvault-name: kv-uat-payment-portal
+      helm-template: net-core-app
+      storage-account: saaksuatbackend
+      container-name: akshelmreleasesbackup
+      
+- template: net-core-app/release-new-aks-prod.yaml@commonPipelinesRepo
+  parameters:
+      aks-definition-folder: 'AKS-Definition/Production' # path to solution or project that will be used in the build and restore tasks
+      env: 'prod4'
+      azure-subscription: 'GlobalEAAzureTannerForReleasePipeline'
+      region: "prod4-westus"
+      app-name: $(app-name)
+      app-project: $(app-project)
+      app-bu: $(app-bu)
+      namespace: $(namespace)
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
+      app-secrets: ["swagger-api-key"]
+      secrets-project-prefix: 'tanner-example'
+      secrets-app-prefix: 'example-main'
+      keyvault-name: $(keyvault-name)
+      helm-template: net-core-app
+      storage-account: saaksprod3backend
+      container-name: akshelmreleasesbackup
