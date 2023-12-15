@@ -14,7 +14,7 @@ resources:
     ref: aksnew
   pipelines:
   - pipeline: build
-    source: Back-End\Build/Build.PaymentPortalApi
+    source: Back-End\Build/Build.payment-button-api
     trigger: true
 
 stages:
@@ -31,11 +31,11 @@ stages:
       helm-template: net-core-app
       storage-account: saaksdesbackend
       container-name: akshelmreleasesbackup
-      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
-      app-secrets: ["swagger-api-key"]
-      keyvault-name: 'kv-des-example-portal'
-      secrets-project-prefix: 'example-portal'
-      secrets-app-prefix: 'example-main'
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key"]
+      app-secrets: []
+      keyvault-name: kv-payment-button-dev
+      secrets-project-prefix: 'payment-button'
+      secrets-app-prefix: 'main'
 
 - template: net-core-app/release-new-aks-prod.yaml@commonPipelinesRepo
   parameters:
@@ -47,11 +47,11 @@ stages:
       app-project: $(app-project)
       app-bu: $(app-bu)
       namespace: $(namespace)
-      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
-      app-secrets: ["swagger-api-key"]
-      secrets-project-prefix: 'tanner-example'
-      secrets-app-prefix: 'example-main'
-      keyvault-name: kv-qa-example
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key"]
+      app-secrets: []
+      secrets-project-prefix: 'payment-button'
+      secrets-app-prefix: 'main'
+      keyvault-name: kv-payment-button-qa
       helm-template: net-core-app
       storage-account: saaksqabackend
       container-name: akshelmreleasesbackup
@@ -66,11 +66,11 @@ stages:
       app-project: $(app-project)
       app-bu: $(app-bu)
       namespace: $(namespace)      
-      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
-      app-secrets: ["swagger-api-key"]
-      secrets-project-prefix: 'tanner-payment-portal'
-      secrets-app-prefix: 'payment-portal-main'
-      keyvault-name: kv-uat-payment-portal
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key"]
+      app-secrets: []
+      secrets-project-prefix: 'payment-button'
+      secrets-app-prefix: 'main'
+      keyvault-name: kv-payment-button-uat
       helm-template: net-core-app
       storage-account: saaksuatbackend
       container-name: akshelmreleasesbackup
@@ -85,10 +85,10 @@ stages:
       app-project: $(app-project)
       app-bu: $(app-bu)
       namespace: $(namespace)
-      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key","tannerfile-account-key","api-tanner-email-subs-key","api-core-extension-subs-key"]
-      app-secrets: ["swagger-api-key"]
-      secrets-project-prefix: 'tanner-example'
-      secrets-app-prefix: 'example-main'
+      project-secrets: ["user-mongodb","pass-mongodb","instrumentation-key"]
+      app-secrets: []
+      secrets-project-prefix: 'payment-button'
+      secrets-app-prefix: 'main'
       keyvault-name: $(keyvault-name)
       helm-template: net-core-app
       storage-account: saaksprod3backend

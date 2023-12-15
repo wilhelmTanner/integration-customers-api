@@ -7,10 +7,10 @@ bu: enterprise
 namespace: enterprise
  
 # name of project or application
-project: example-portal
+project: payment-button
  
 # name of front or backend service 
-appName: example-api
+appName: payment-button-api
 
 readinessProbe:
   path: "/health"
@@ -31,7 +31,7 @@ ingress:
     qa: "nginx-qa2.tanner.cl"
     uat: "nginx-uat.tanner.cl"
     prod: "nginx-prod4.tanner.cl"
-  path: "/enterprise/example-portal/main/"
+  path: "/enterprise/payment-button/main/"
 
 resources:
     limits:

@@ -1,6 +1,6 @@
 ﻿### Solución de Template
 
 
-### 10-01-2022
+### 15-12-2023
 [1.0.0]
-- Versión inicial de template
+- Versión inicial de proyecto
