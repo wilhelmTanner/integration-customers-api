@@ -10,10 +10,19 @@ services:
       ports:
       - 27017:27017
       restart: unless-stopped
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server
+    container_name: sql
+    build:
+      context: .
+      dockerfile: sql-data/Dockerfile    
+    ports:
+      - "1433:1433"
   web-api:
     build: .
-    container_name: payment-button-api
+    container_name: template-webapi
     ports: 
       - "8081:80"      
     depends_on: 
+      - sqlserver
       - mongodb   

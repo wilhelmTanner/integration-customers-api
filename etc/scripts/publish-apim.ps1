@@ -9,9 +9,9 @@ $environment = $args[0]
 $subscriptionId = "293c1183-8b08-4bbd-9f28-e042fd037525" # EATannerDev
 $rgApim = "RG_ApimTanner_Des" # Resource group name
 $svcNameApim = "apimtanner-dev" # APIM service name
-$svcUrl = "https://nginx-dev.tanner.cl/enterprise/payment-button/main" # Backend services url
-$urlSwagger = "https://nginx-dev.tanner.cl/enterprise/payment-button/main/swagger/1.0/swagger.json" # Swagger specification
-$apimSubscriptionId = "payment-button-api" # identificador de la subscripcion al Producto en el APIM
+$svcUrl = "https://nginx-dev.tanner.cl/enterprise/example" # Backend services url
+$urlSwagger = "https://nginx-dev.tanner.cl/enterprise/example/swagger/1.0/swagger.json" # Swagger specification
+$apimSubscriptionId = "example-api" # identificador de la subscripcion al Producto en el APIM
 
 if ($environment -ne "dev" -and $environment -ne "qa" -and $environment -ne "uat" -and $environment -ne "prod")
 {
@@ -24,8 +24,8 @@ if ($environment -eq "qa")
     $subscriptionId = "c24bad97-a494-43fe-96fc-e1b441316c92" # EATannerQA
     $rgApim = "RG_ApimTanner_QA"
     $svcNameApim = "apimtanner-qa"
-    $svcUrl = "https://nginx-qa2.tanner.cl/enterprise/payment-button/main" # Backend services url
-    $urlSwagger = "https://nginx-qa2.tanner.cl/enterprise/payment-button/main/swagger/1.0/swagger.json" # Swagger specification
+    $svcUrl = "https://nginx-qa.tanner.cl/enterprise/example" # Backend services url
+    $urlSwagger = "https://nginx-qa.tanner.cl/enterprise/exampple/swagger/1.0/swagger.json" # Swagger specification
 }
 
 if ($environment -eq "uat")
@@ -33,8 +33,8 @@ if ($environment -eq "uat")
     $subscriptionId = "c24bad97-a494-43fe-96fc-e1b441316c92" # EATannerUAT
     $rgApim = "rg-api-management-uat"
     $svcNameApim = "api-tanner-uat"
-    $svcUrl = "https://nginx-uat.tanner.cl/enterprise/payment-button/main" # Backend services url
-    $urlSwagger = "https://nginx-uat.tanner.cl/enterprise/payment-button/main/swagger/1.0/swagger.json" # Swagger specification
+    $svcUrl = "https://nginx-uat.tanner.cl/enterprise/example" # Backend services url
+    $urlSwagger = "https://nginx-uat.tanner.cl/enterprise/example/swagger/1.0/swagger.json" # Swagger specification
 }
 
 if ($environment -eq "prod")
@@ -42,15 +42,15 @@ if ($environment -eq "prod")
     $subscriptionId = "858875e0-ac97-41a4-b389-887600375d5c"
     $rgApim = "RG-API-Management"
     $svcNameApim = "api-tanner"
-    $svcUrl = "https://nginx-prod.tanner.cl/enterprise/payment-button/main" # Backend services url
-    $urlSwagger = "https://nginx-prod.tanner.cl/enterprise/payment-button/main/swagger/v1/swagger.json" # Swagger specification
+    $svcUrl = "https://nginx-prod.tanner.cl/enterprise/example" # Backend services url
+    $urlSwagger = "https://nginx-prod.tanner.cl/enterprise/example/swagger/v1/swagger.json" # Swagger specification
 }
 
-$productId = "payment-button"
-$versionSetId = "payment-button"
+$productId = "digital-ecosystem"
+$versionSetId = "example"
 $apiVersion = "1.0"
-$apiId = "payment-button-api"
-$apiUrlSuffix = "enterprise/payment-button/main" # Path
+$apiId = "example-api"
+$apiUrlSuffix = "enterprise/example" # Path
 
 Connect-AzAccount
 
@@ -71,8 +71,8 @@ if ($null -eq $apimProduct)
     # Create Product
     New-AzApiManagementProduct -Context $apimContext `
                 -ProductId $productId `
-                -Title "payment-button-api" `
-                -Description "Producto asociado al api transversal de botón de pagos" `
+                -Title "example-api" `
+                -Description "Producto que agrupa las apis de digital-ecosystem de consumo interno de la compa��a Tanner Servicios Financieros" `
                 -SubscriptionRequired $True `
                 -State "Published" `
                 -ApprovalRequired $True
@@ -95,7 +95,7 @@ if ($null -eq $subsApim)
   New-AzApiManagementSubscription `
        -Context $apimContext `
        -SubscriptionId $apimSubscriptionId `
-       -Name "API Botón de pago" `
+       -Name "API Example" `
        -Scope "/apis/$apiId" `
        -UserId 1 `
        -AllowTracing
