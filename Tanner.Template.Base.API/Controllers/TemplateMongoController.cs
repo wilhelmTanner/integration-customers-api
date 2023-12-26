@@ -38,6 +38,7 @@ namespace Tanner.Template.Base.API.Controllers
         public async Task<ActionResult<BaseObjectResponse<ItemObjectResponse>>> GetItemByIdAsync(string id)
         {
             ItemObject result = await _services.GetItemByIdAsync(id);
+
             return CustomOk(new ItemObjectResponse(result));
         }
 
@@ -85,7 +86,7 @@ namespace Tanner.Template.Base.API.Controllers
             newItem = await _services.InsertItemAsync(newItem);
             ItemObjectResponse response = new(newItem);
 
-            return CustomCreate(RouteGet, response, new { id = response.Id }, "Se creó el ItemObject correctamente."); ;
+            return CustomCreate(RouteGet, response, new { id = response.Id }, "Se creó el ItemObject correctamente.");
         }
 
         /// <summary>

@@ -16,6 +16,5 @@ global using Tanner.Template.Base.Common.Models.Requests;
 global using Tanner.Template.Base.Common.Models.Responses;
 global using Tanner.Template.Base.Common.Validators;
 
-
-
+global using Tanner.Integration.Common.Interfaces.Services;
 

@@ -26,9 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tanner.Template.Base.Common\Tanner.Template.Base.Common.csproj" />
-    <ProjectReference Include="..\Tanner.Template.Base.Service\Tanner.Template.Base.Service.csproj" />
-    <ProjectReference Include="..\Tanner.Template.Base.DataAccess\Tanner.Template.Base.DataAccess.csproj" />
+    <ProjectReference Include="..\Tanner.Template.Base.Common\Tanner.Integration.Common.csproj" />
+    <ProjectReference Include="..\Tanner.Template.Base.Service\Tanner.Integration.Service.csproj" />
+    <ProjectReference Include="..\Tanner.Template.Base.DataAccess\Tanner.Integration.DataAccess.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

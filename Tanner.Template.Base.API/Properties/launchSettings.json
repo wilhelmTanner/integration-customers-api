@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Tanner.Template.Base.API": {
+    "Tanner.Integration.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

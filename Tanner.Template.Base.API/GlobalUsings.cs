@@ -39,3 +39,7 @@ global using Tanner.Template.Base.DataAccess.Mongo;
 global using Tanner.Template.Base.DataAccess.SQL;
 global using Tanner.Template.Base.Service.HttpClients;
 global using Tanner.Template.Base.Service.Implementations;
+
+
+global using Tanner.Integration.Common.Interfaces.Services;
+global using Tanner.Integration.Service.Implementations;
