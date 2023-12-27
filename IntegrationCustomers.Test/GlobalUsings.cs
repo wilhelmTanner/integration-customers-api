@@ -1,0 +1,10 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Moq;
+global using System.Threading.Tasks;
+global using IntegrationCustomers.API.Controllers;
+global using IntegrationCustomers.Common.Interfaces.HttpClients;
+global using IntegrationCustomers.Common.Interfaces.Repositories;
+global using IntegrationCustomers.Common.Interfaces.Services;
+global using IntegrationCustomers.Common.Models.Entities;
+global using IntegrationCustomers.Service.Implementations;
+global using Xunit;
