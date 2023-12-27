@@ -40,6 +40,3 @@ global using IntegrationCustomers.DataAccess.Mongo;
 global using IntegrationCustomers.DataAccess.SQL;
 global using IntegrationCustomers.Service.HttpClients;
 global using IntegrationCustomers.Service.Implementations;
-
-
- global using IntegrationCustomers.Service.Implementations;
