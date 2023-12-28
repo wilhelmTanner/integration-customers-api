@@ -4,7 +4,9 @@ namespace IntegrationCustomers.Common.Interfaces.Services
     public interface ICustomerService
     {
 
-        public Task<CustomerEntity> GetById(ObjectId customerId);
+        public Task<CustomerEntity> GetByIdAsync(ObjectId customerId);
+
+        public CustomerEntity GetById(ObjectId customerId);
 
         public Task<IEnumerable<CustomerEntity>> GetAll();
 

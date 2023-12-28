@@ -10,6 +10,7 @@ namespace IntegrationCustomers.API.Controllers
     {
         private readonly ICustomerService _customerService;
         private const int RETRIES = 4;
+        private const int DELAY = 5;
 
         public CustomerController(ICustomerService service)
         {
@@ -48,19 +49,23 @@ namespace IntegrationCustomers.API.Controllers
 
 
             var policy = Policy.Handle<ApplicationException>()
-                .RetryAsync(RETRIES, (ex, retryCount) =>
+                .WaitAndRetryAsync(RETRIES, tiempo =>TimeSpan.FromSeconds(1*DELAY), (ex, retryCount) =>
                 {
-                    Console.WriteLine($"Current attempt: {retryCount}, {ex}");
+                    Console.WriteLine($"Reintento numero: {retryCount}");
                 });
 
+  
 
             var response = await policy.ExecuteAsync(()=>
             {
+
+                throw new ApplicationException("---- Reintentando -----");
+
                 Random randomNumber = new Random();
 
-                if (randomNumber.Next(1, 5) == 4) throw new ApplicationException("Attempt error");
+                if (randomNumber.Next(1, 5) == 4) throw new ApplicationException("---- Reintentando -----");
 
-               return _customerService.GetById(new MongoDB.Bson.ObjectId()); 
+               return _customerService.GetByIdAsync(new MongoDB.Bson.ObjectId()); 
             });
 
             //var response = await _customerService.GetById(new MongoDB.Bson.ObjectId());

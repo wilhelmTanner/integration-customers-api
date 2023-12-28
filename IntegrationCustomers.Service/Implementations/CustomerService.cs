@@ -13,10 +13,9 @@ namespace IntegrationCustomers.Service.Implementations
             throw new System.NotImplementedException();
         }
 
-        public async Task<CustomerEntity> GetById(ObjectId customerId)
+        public async Task<CustomerEntity> GetByIdAsync(ObjectId customerId)
         {
-            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", Age = 20 };
-            return customer;
+            return await Task.FromResult<CustomerEntity>(GetById(customerId));
         }
 
         public async Task<RecordSavedResponse> Insert(CustomerEntity customer)
@@ -35,6 +34,12 @@ namespace IntegrationCustomers.Service.Implementations
         public Task<int> Update(CustomerEntity customer)
         {
             throw new System.NotImplementedException();
+        }
+
+        public CustomerEntity GetById(ObjectId customerId)
+        {
+            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", Age = 20 };
+            return customer;
         }
     }
 }
