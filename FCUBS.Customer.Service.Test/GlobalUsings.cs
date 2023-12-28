@@ -1,0 +1,10 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Moq;
+global using System.Threading.Tasks;
+global using FCUBS.Customer.Service.API.Controllers;
+global using FCUBS.Customer.Service.Common.Interfaces.HttpClients;
+global using FCUBS.Customer.Service.Common.Interfaces.Repositories;
+global using FCUBS.Customer.Service.Common.Interfaces.Services;
+global using FCUBS.Customer.Service.Common.Models.Entities;
+global using FCUBS.Customer.Service.Service.Implementations;
+global using Xunit;

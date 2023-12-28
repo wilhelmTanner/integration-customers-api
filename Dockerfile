@@ -9,9 +9,9 @@ RUN for file in $(ls *.csproj); do mkdir -p ${file%.*} && mv $file ${file%.*}; d
 RUN dotnet restore
 WORKDIR /app/
 COPY . .
-WORKDIR /app/IntegrationCustomers.API
+WORKDIR /app/FCUBS.Customer.Service.API
 RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/IntegrationCustomers.API/out ./
-ENTRYPOINT ["dotnet", "IntegrationCustomers.API.dll"]
+COPY --from=build /app/FCUBS.Customer.Service.API/out ./
+ENTRYPOINT ["dotnet", "FCUBS.Customer.Service.API.dll"]

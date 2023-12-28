@@ -1,0 +1,15 @@
+﻿global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using System.Collections.Generic;
+global using System.Net.Http;
+global using System.Threading.Tasks;
+global using FCUBS.Customer.Service.Common;
+global using FCUBS.Customer.Service.Common.Configurations;
+global using FCUBS.Customer.Service.Common.Exceptions;
+global using FCUBS.Customer.Service.Common.Extensions;
+global using FCUBS.Customer.Service.Common.Interfaces.HttpClients;
+global using FCUBS.Customer.Service.Common.Interfaces.Repositories;
+global using FCUBS.Customer.Service.Common.Interfaces.Services;
+global using FCUBS.Customer.Service.Common.Models.Entities;
+global using FCUBS.Customer.Service.Common.Models.Requests;
+global using FCUBS.Customer.Service.Common.Models.Responses;

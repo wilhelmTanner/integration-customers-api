@@ -10,7 +10,7 @@
    "type": "project",
    "vsmac-category": "other/net/general"
  },
- "sourceName": "IntegrationCustomers",
+ "sourceName": "FCUBS.Customer.Service",
  "sources": [
    {
      "modifiers": [
