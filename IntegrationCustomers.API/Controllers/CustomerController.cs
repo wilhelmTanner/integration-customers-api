@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using Polly;
+using Prometheus;
 
 namespace IntegrationCustomers.API.Controllers
 {
@@ -28,11 +29,29 @@ namespace IntegrationCustomers.API.Controllers
         [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
         [SwaggerResponse((int)HttpStatusCode.Forbidden)]
         [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-         public async Task<ActionResult<BaseObjectResponse<RecordSavedResponse>>> InsertCustomer([FromBody] CustomerEntity customer)
+        public async Task<ActionResult<BaseObjectResponse<RecordSavedResponse>>> InsertCustomer([FromBody] CustomerEntity customer)
         {
             var response = await _customerService.Insert(customer);
             return CustomOk(response);
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [HttpPut]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [Produces(MediaTypeNames.Application.Json)]
+        [SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<CustomerEntity>))]
+        [SwaggerResponse((int)HttpStatusCode.BadRequest, type: typeof(BaseErrorResponse))]
+        [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
+        [SwaggerResponse((int)HttpStatusCode.Forbidden)]
+        [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
+        public async Task<ActionResult<BaseObjectResponse<RecordSavedResponse>>> UpdateCustomer([FromBody] CustomerEntity customer)
+        {
+            var response = await _customerService.UpdateAsync(customer);
+            return CustomOk(response);
+        }
+
 
         /// <summary>
         /// 
@@ -45,37 +64,35 @@ namespace IntegrationCustomers.API.Controllers
         [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
         [SwaggerResponse((int)HttpStatusCode.Forbidden)]
         [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        public async Task<ActionResult<BaseObjectResponse<CustomerEntity>>> GetById() {
+        public async Task<ActionResult<BaseObjectResponse<CustomerEntity>>> GetById()
+        {
 
 
             var policy = Policy.Handle<ApplicationException>()
-                .WaitAndRetryAsync(RETRIES, tiempo =>TimeSpan.FromSeconds(1*DELAY), (ex, retryCount) =>
+                .WaitAndRetryAsync(RETRIES, tiempo => TimeSpan.FromSeconds(1 * DELAY), (exception, timeSpan, retry, ctx) =>
                 {
-                    Console.WriteLine($"Reintento numero: {retryCount}");
+                    Console.WriteLine($"Exception {exception.GetType().Name} with message {exception.Message} detected on attempt {retry} of {RETRIES}");
                 });
 
-  
-
-            var response = await policy.ExecuteAsync(()=>
+            var response = await policy.ExecuteAsync(() =>
             {
 
-                throw new ApplicationException("---- Reintentando -----");
+                //throw new ApplicationException("---- Reintentando -----");
 
                 Random randomNumber = new Random();
 
-                if (randomNumber.Next(1, 5) == 4) throw new ApplicationException("---- Reintentando -----");
+                if (randomNumber.Next(1, 3) == 2) throw new ApplicationException(" * Reintentando * ");
 
-               return _customerService.GetByIdAsync(new MongoDB.Bson.ObjectId()); 
+                return _customerService.GetByIdAsync(new MongoDB.Bson.ObjectId());
             });
 
-            //var response = await _customerService.GetById(new MongoDB.Bson.ObjectId());
             var jsondata = response.ToJson();
             Console.WriteLine($"json: {jsondata}");
 
             return CustomOk(response);
         }
 
- 
+
     }
 
 }

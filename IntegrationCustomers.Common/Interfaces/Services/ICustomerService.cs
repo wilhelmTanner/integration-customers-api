@@ -12,7 +12,7 @@ namespace IntegrationCustomers.Common.Interfaces.Services
 
         public Task<RecordSavedResponse> Insert(CustomerEntity customer);
 
-        public Task<int> Update(CustomerEntity customer);
-
+        public Task<CustomerEntity> UpdateAsync(CustomerEntity customer);
+        public CustomerEntity Update(CustomerEntity customer);
     }
 }

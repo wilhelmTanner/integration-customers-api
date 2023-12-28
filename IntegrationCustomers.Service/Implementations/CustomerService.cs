@@ -31,9 +31,15 @@ namespace IntegrationCustomers.Service.Implementations
             return response;
         }
 
-        public Task<int> Update(CustomerEntity customer)
+        public async Task<CustomerEntity> UpdateAsync(CustomerEntity customer)
         {
-            throw new System.NotImplementedException();
+            return await Task.FromResult<CustomerEntity>(Update(customer));
+        }
+
+        public CustomerEntity Update(CustomerEntity customer)
+        {
+            CustomerEntity customerNew = new() { Name = "Wilhelm", LastName = "Sauerbaum", Age = 20 };
+            return customerNew;
         }
 
         public CustomerEntity GetById(ObjectId customerId)

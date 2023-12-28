@@ -1,4 +1,9 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Polly.Extensions.Http;
+ 
+using Polly;
+using Microsoft.Extensions.DependencyInjection;
+
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
 {
@@ -25,6 +30,16 @@ builder.Services.AddCustomHttpClient();
 builder.Services.AddCustomServices();
 builder.Services.AddSwaggerConfiguration();
 builder.Services.AddHealthChecks();
+
+builder.Services.AddHttpClient<ICustomerService, CustomerService>()
+        .SetHandlerLifetime(TimeSpan.FromMinutes(5))//Set lifetime to five minutes
+        .AddPolicyHandler(GetRetryPolicy());
+
+//builder.Services.AddHttpClient("HttpCustomers", client =>
+//{
+//}).AddPolicyHandler(GetRetryPolicy())
+//.AddPolicyHandler(GetCircuitBreakerPolicy());
+
 
 builder.Services
     .AddControllers()
@@ -66,6 +81,23 @@ app.UseEndpoints((endpoints) =>
     endpoints.MapHealthChecks("/health");
     endpoints.MapControllers();
 });
+
+
+static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
+{
+    return HttpPolicyExtensions
+        .HandleTransientHttpError()
+        .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
+        .WaitAndRetryAsync(6, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+}
+
+// Definir política de circuit breaker
+static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
+{
+    return HttpPolicyExtensions
+        .HandleTransientHttpError()
+        .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30));
+}
 
 #endregion
 
