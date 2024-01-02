@@ -1,4 +1,4 @@
-﻿namespace FCUBS.Customer.Service.Service.Implementations;
+﻿namespace FCUBS.Customer.Service.Services.Implementations;
 
 public class TemplateMongoService : ITemplateMongoService
 {

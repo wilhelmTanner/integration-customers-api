@@ -38,5 +38,5 @@ global using FCUBS.Customer.Service.Common.Models.Requests;
 global using FCUBS.Customer.Service.Common.Models.Responses;
 global using FCUBS.Customer.Service.DataAccess.Mongo;
 global using FCUBS.Customer.Service.DataAccess.SQL;
-global using FCUBS.Customer.Service.Service.HttpClients;
-global using FCUBS.Customer.Service.Service.Implementations;
+global using FCUBS.Customer.Service.Services.HttpClients;
+global using FCUBS.Customer.Service.Services.Implementations;

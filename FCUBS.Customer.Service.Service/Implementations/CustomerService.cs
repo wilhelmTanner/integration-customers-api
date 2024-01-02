@@ -5,7 +5,7 @@ using System.Linq;
 using WsTipoCambio;
 
 
-namespace FCUBS.Customer.Service.Service.Implementations
+namespace FCUBS.Customer.Service.Services.Implementations
 {
     public class CustomerService : ICustomerService
     {

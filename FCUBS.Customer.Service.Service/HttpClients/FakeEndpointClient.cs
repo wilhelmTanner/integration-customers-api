@@ -1,4 +1,4 @@
-﻿namespace FCUBS.Customer.Service.Service.HttpClients;
+﻿namespace FCUBS.Customer.Service.Services.HttpClients;
 
 public class FakeEndpointClient : IFakeEndpointClient
 {

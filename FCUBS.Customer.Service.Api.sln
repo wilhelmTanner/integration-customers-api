@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCUBS.Customer.Service.Comm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCUBS.Customer.Service.DataAccess", "FCUBS.Customer.Service.DataAccess\FCUBS.Customer.Service.DataAccess.csproj", "{FF27A3A4-7C49-49EA-9295-31DD40F78AB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCUBS.Customer.Service.Service", "FCUBS.Customer.Service.Service\FCUBS.Customer.Service.Service.csproj", "{F31662A3-F48D-49B3-8CE3-D401B0DFC7A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCUBS.Customer.Service.Services", "FCUBS.Customer.Service.Service\FCUBS.Customer.Service.Services.csproj", "{F31662A3-F48D-49B3-8CE3-D401B0DFC7A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3FBE5EB-98B5-44A4-9ACE-BBE5051D81CF}"
 	ProjectSection(SolutionItems) = preProject

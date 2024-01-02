@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-	<ProjectReference Include="..\FCUBS.Customer.Service.Service\FCUBS.Customer.Service.Service.csproj" />
+	<ProjectReference Include="..\FCUBS.Customer.Service.Service\FCUBS.Customer.Service.Services.csproj" />
 	<ProjectReference Include="..\FCUBS.Customer.Service.DataAccess\FCUBS.Customer.Service.DataAccess.csproj" />
 	<ProjectReference Include="..\FCUBS.Customer.Service.API\FCUBS.Customer.Service.API.csproj" />
 	<ProjectReference Include="..\FCUBS.Customer.Service.Common\FCUBS.Customer.Service.Common.csproj" />

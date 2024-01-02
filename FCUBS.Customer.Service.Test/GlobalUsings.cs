@@ -6,5 +6,5 @@ global using FCUBS.Customer.Service.Common.Interfaces.HttpClients;
 global using FCUBS.Customer.Service.Common.Interfaces.Repositories;
 global using FCUBS.Customer.Service.Common.Interfaces.Services;
 global using FCUBS.Customer.Service.Common.Models.Entities;
-global using FCUBS.Customer.Service.Service.Implementations;
+global using FCUBS.Customer.Service.Services.Implementations;
 global using Xunit;

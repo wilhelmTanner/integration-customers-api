@@ -2,7 +2,7 @@
 
 using Polly;
 using Microsoft.Extensions.DependencyInjection;
-using FCUBS.Customer.Service.Service.Implementations;
+using FCUBS.Customer.Service.Services.Implementations;
 
 using FCUBS.Customer.Service.API.Utils;
 using FCUBS.Customer.Service.API.Middlewares;
@@ -49,7 +49,7 @@ builder.Services
 
 builder.Services.AddModelValidator();
 builder.Services.AddCorsPolicy();
-builder.Services.AddTransient<PokemonMiddleware>();
+builder.Services.AddTransient<RequestMiddleware>();
 
 #endregion
 
@@ -92,7 +92,7 @@ app.UseHttpsRedirection();
 app.UseCors("DefaultPolicy");
 app.UseRouting();
 app.UseAuthorization();
-app.UseMiddleware<PokemonMiddleware>(); 
+app.UseMiddleware<RequestMiddleware>(); 
 //app.UseDemoMiddleware();
 
 
