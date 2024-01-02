@@ -21,7 +21,6 @@ namespace FCUBS.Customer.Service.Common.Models.Entities
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-
         public int Code { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }

@@ -63,36 +63,52 @@ namespace FCUBS.Customer.Service.API.Controllers
         [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
         [SwaggerResponse((int)HttpStatusCode.Forbidden)]
         [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        public async Task<ActionResult<BaseObjectResponse<CustomerEntity>>> GetById()
+        public async Task<ActionResult<BaseObjectResponse<CustomerEntity>>> GetById(string customerId)
         {
 
-            var policy = Policy.Handle<ApplicationException>()
-                .WaitAndRetryAsync(RETRIES, tiempo => TimeSpan.FromSeconds(1 * DELAY), (exception, timeSpan, retry, ctx) =>
-                {
-                    Console.WriteLine($"Exception {exception.GetType().Name} with message {exception.Message} detected on attempt {retry} of {RETRIES}");
-                });
+            //var policy = Policy.Handle<ApplicationException>()
+            //    .WaitAndRetryAsync(RETRIES, tiempo => TimeSpan.FromSeconds(1 * DELAY), (exception, timeSpan, retry, ctx) =>
+            //    {
+            //        Console.WriteLine($"Exception {exception.GetType().Name} with message {exception.Message} detected on attempt {retry} of {RETRIES}");
+            //    });
 
-            var response = await policy.ExecuteAsync(() =>
-            {
-                //throw new ApplicationException("---- Reintentando -----");
+            //var response = await policy.ExecuteAsync(() =>
+            //{
+            //    //throw new ApplicationException("---- Reintentando -----");
 
-                Random randomNumber = new Random();
+            //    Random randomNumber = new Random();
 
-                if (randomNumber.Next(1, 3) == 2) throw new ApplicationException(" * Reintentando * ");
+            //    if (randomNumber.Next(1, 3) == 2) throw new ApplicationException(" * Reintentando * ");
 
-                return _customerService.GetByIdAsync(new MongoDB.Bson.ObjectId());
-            });
+            //    ObjectId id = ObjectId.Parse(customerId);
+            //    return _customerService.GetByIdAsync(id);
+            //});
 
-             //var response = await _customerService.GetByIdAsync(new MongoDB.Bson.ObjectId());
+            var response = await _customerService.GetByIdAsync(new MongoDB.Bson.ObjectId());
 
-            //var jsondata = response.ToJson();
+            var jsondata = response.ToJson();
 
-            //Console.WriteLine($"json: {jsondata}");
+            Console.WriteLine($"json: {jsondata}");
 
             return CustomOk(response);
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        [HttpGet("all")]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [Produces(MediaTypeNames.Application.Json)]
+        [SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<IEnumerable<CustomerEntity>>))]
+        [SwaggerResponse((int)HttpStatusCode.BadRequest, type: typeof(BaseErrorResponse))]
+        [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
+        [SwaggerResponse((int)HttpStatusCode.Forbidden)]
+        [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
+        public async Task<ActionResult<BaseObjectResponse<IEnumerable<CustomerEntity>>>> GetAllAsync()
+        {
+            var result = await _customerService.GetAllAsync();
+            return CustomOk(result);
+        }
     }
 
 }

@@ -1,6 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
 using MongoDB.Bson;
- 
+using System;
+using System.Linq;
+using WsTipoCambio;
+
 
 namespace FCUBS.Customer.Service.Service.Implementations
 {
@@ -12,14 +15,44 @@ namespace FCUBS.Customer.Service.Service.Implementations
             _logger = logger;
         }
 
-        public Task<IEnumerable<CustomerEntity>> GetAll()
+        public IEnumerable<CustomerEntity> GetAll()
         {
-            throw new System.NotImplementedException();
+            WeatherService.GlobalWeatherSoapClient client = new WeatherService.GlobalWeatherSoapClient(new WeatherService.GlobalWeatherSoapClient.EndpointConfiguration());
+
+        
+            var result = client.GetWeatherAsync("Santiago", "Chile");
+
+
+            Random r = new Random();
+
+
+           // if(r.Next(1,4) == 2) throw new ApplicationException("---- Reintentando -----");
+
+
+            List<CustomerEntity> customers = new();  
+
+            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", SecondLastName="Alarcon", Age = 20 };
+            
+            customers.Add(customer);
+
+            return customers;
         }
 
+        public Task<IEnumerable<CustomerEntity>> GetAllAsync()
+        {
+            return Task.FromResult(GetAll());   
+        }
         public async Task<CustomerEntity> GetByIdAsync(ObjectId customerId)
         {
-            return await Task.FromResult<CustomerEntity>(GetById(customerId));
+
+            TipoCambioSoapClient c = new TipoCambioSoapClient(new TipoCambioSoapClient.EndpointConfiguration());
+            var x = c.TipoCambioDiaAsync();
+
+
+
+            throw new ApplicationException("---- Reintentando -----");
+
+            return await Task.FromResult(GetById(customerId));
         }
 
         public async Task<RecordSavedResponse> Insert(CustomerEntity customer)

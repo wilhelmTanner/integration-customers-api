@@ -1,16 +1,18 @@
 ﻿using Polly.Extensions.Http;
- 
+
 using Polly;
 using Microsoft.Extensions.DependencyInjection;
 using FCUBS.Customer.Service.Service.Implementations;
-using FCUBS.Customer.Service.Common.Models.Settings;
+
 using FCUBS.Customer.Service.API.Utils;
+using FCUBS.Customer.Service.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
 {
-    var env = hostingContext.HostingEnvironment;
+    IHostEnvironment env = hostingContext.HostingEnvironment;
+
 
     config.AddJsonFile("settings/appsettings.json", optional: false, reloadOnChange: true)
         .AddJsonFile($"settings/appsettings.{env.EnvironmentName}.json",
@@ -40,7 +42,6 @@ builder.Services.AddHealthChecks();
 
 //builder.Services.AddHttpClient("HttpCustomers", client =>{}).AddPolicyHandler(GetRetryPolicy())
 //.AddPolicyHandler(GetCircuitBreakerPolicy());
- 
 
 builder.Services
     .AddControllers()
@@ -48,34 +49,32 @@ builder.Services
 
 builder.Services.AddModelValidator();
 builder.Services.AddCorsPolicy();
+builder.Services.AddTransient<PokemonMiddleware>();
 
 #endregion
 
 
 #region HttpClients
 
-//var sp = builder.Services.BuildServiceProvider();
-//var servicesSettings = sp.GetRequiredService<IOptions<>>().Value;
-//var servicesSettings = app.Services.GetRequiredService<IOptions<ServicesSettings>>().Value;
+//builder.Services.AddHttpClient<ICustomerService, CustomerService>(nameof(CustomerService), (servicesSettings, client) =>
+//{
+//    //var settings = servicesSettings.GetRequiredService<IOptions<ServicesSettings>>().Value;
 
-builder.Services.AddHttpClient<ICustomerService, CustomerService>(nameof(CustomerService), (servicesSettings, client) =>
-{
-    var settings = servicesSettings.GetRequiredService<IOptions<ServicesSettings>>().Value;
-
-    client.BaseAddress = new Uri(settings.Core?.Host ?? string.Empty);
-    client.DefaultRequestHeaders.Add("Api-Version", settings.Risk?.Version);
-    client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", settings.Risk?.SubscriptionKey);
-})
-.SetHandlerLifetime(TimeSpan.FromMinutes(5))
-.AddPolicyHandler(PollyExtensions.GetRetryPolicy());
+//   // client.BaseAddress = new Uri(settings.Core?.Host ?? string.Empty);
+//   // client.DefaultRequestHeaders.Add("Api-Version", settings.Risk?.Version);
+//    //client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", settings.Risk?.SubscriptionKey);
+//})
+//.SetHandlerLifetime(TimeSpan.FromMinutes(5))
+//.AddPolicyHandler(PollyExtensions.GetRetryPolicy());
 
 #endregion
 
-WebApplication app = builder.Build();
+var app = builder.Build(); //WebApplication
 
-#region  Configure pipeline
+#region Configure pipeline
 
 var logger = app.Services.GetRequiredService<ILoggerFactory>();
+
 app.ConfigureExceptionHandler(logger);
 
 string basePath = builder.Configuration.GetValue<string>("BasePath");
@@ -88,9 +87,14 @@ if (!string.IsNullOrEmpty(basePath))
 app.UseCustomSwagger(basePath);
 
 app.UseHttpsRedirection();
+
+
 app.UseCors("DefaultPolicy");
 app.UseRouting();
 app.UseAuthorization();
+app.UseMiddleware<PokemonMiddleware>(); 
+//app.UseDemoMiddleware();
+
 
 app.Use(async (context, next) =>
 {
@@ -121,6 +125,9 @@ static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
         .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30));
 }
 
-#endregion
 
+
+#endregion
 app.Run();
+
+

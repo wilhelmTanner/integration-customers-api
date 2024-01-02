@@ -16,7 +16,7 @@ namespace FCUBS.Customer.Service.API.Utils
             return HttpPolicyExtensions
                 .HandleTransientHttpError()
                 .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
-                .WaitAndRetryAsync(Backoff.ExponentialBackoff(TimeSpan.FromSeconds(1), retryCount: 3));
+                .WaitAndRetryAsync(Backoff.ExponentialBackoff(TimeSpan.FromSeconds(5), retryCount: 5));
         }
     }
 }

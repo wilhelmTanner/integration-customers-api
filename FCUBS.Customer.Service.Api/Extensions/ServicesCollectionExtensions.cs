@@ -1,5 +1,6 @@
 ﻿using Asp.Versioning;
 
+
 namespace FCUBS.Customer.Service.API.Extensions;
 
 /// <summary>
@@ -96,8 +97,8 @@ public static class ServicesCollectionExtensions
             var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
             var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
             swagger.IncludeXmlComments(xmlPath);
-    
-              
+
+
             swagger.SchemaFilter<SwaggerIgnoreFilter>();
         });
         return services;
@@ -109,15 +110,21 @@ public static class ServicesCollectionExtensions
     /// <param name="services"></param>
     public static IServiceCollection AddCustomHttpClient(this IServiceCollection services)
     {
-        var sp = services.BuildServiceProvider();
-        var serviceSettings = sp.GetRequiredService<IOptions<ServiceSettings>>().Value;
-
-        services.AddHttpClient(nameof(FakeEndpointClient), c =>
+        services.AddHttpClient(nameof(FakeEndpointClient), (serviceSettings, client) =>
         {
-            c.BaseAddress = new Uri(serviceSettings.Host);
+            var settings = serviceSettings.GetRequiredService<IOptions<ServiceSettings>>().Value;
+
+            client.BaseAddress = new Uri(settings.Host);
             //Agregar versión, si es que aplica
             //c.DefaultRequestHeaders.Add("api-version", "1.0");
-        }).SetHandlerLifetime(TimeSpan.FromMinutes(5));
+        }).SetHandlerLifetime(TimeSpan.FromMinutes(5)).AddPolicyHandler(PollyExtensions.GetRetryPolicy()); ;
+
+        services.AddHttpClient<ICustomerService, CustomerService>(nameof(CustomerService), (serviceSettings, client) =>
+        {
+        }).SetHandlerLifetime(TimeSpan.FromMinutes(5)).AddPolicyHandler(PollyExtensions.GetRetryPolicy());
+
+
+
 
         return services;
     }
@@ -150,7 +157,7 @@ public static class ServicesCollectionExtensions
                      .AddJsonOptions(options =>
                              options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter())
                         );
-        
+
         return services;
     }
 
@@ -194,6 +201,7 @@ public static class ServicesCollectionExtensions
         IServiceProvider provider = app.ApplicationServices;
         SwaggerSettings swaggerConf = GetSwaggerSettings(provider);
 
+
         app.UseSwagger();
         app.UseSwaggerUI(c =>
         {
@@ -203,4 +211,10 @@ public static class ServicesCollectionExtensions
             }
         });
     }
+
+
+    //public static void UseCustomMiddleware(this IApplicationBuilder app)
+    //{
+    //    app.UseMiddleware<DemoMiddleware>();
+    //}
 }
