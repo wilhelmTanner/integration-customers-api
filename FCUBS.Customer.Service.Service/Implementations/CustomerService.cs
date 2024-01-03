@@ -32,7 +32,7 @@ namespace FCUBS.Customer.Service.Services.Implementations
 
             List<CustomerEntity> customers = new();
 
-            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", SecondLastName = "Alarcon", Age = 20 };
+            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", SecondLastName = "Alarcon", Age = 20, Address="Avenida siempre viva 333" };
 
             customers.Add(customer);
 
