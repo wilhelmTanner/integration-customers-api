@@ -7,7 +7,7 @@ public sealed partial class TemplateSQLRepository : ITemplateSQLRepository
     public TemplateSQLRepository(IOptions<AppSettings> appSettings)
     {
         _appSettings = appSettings?.Value;
-        Init();            
+        Init();
     }
 
     private void Init()

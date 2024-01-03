@@ -65,7 +65,7 @@ public partial class TemplateSQLRepository
     public async Task<(IEnumerable<ExampleObject>, int)> GetAllExamplesAsync(ExampleObjectParameters exampleObjectParameters)
     {
         var start = exampleObjectParameters.Offset + 1;
-        var finish= exampleObjectParameters.Offset + exampleObjectParameters.Limit;
+        var finish = exampleObjectParameters.Offset + exampleObjectParameters.Limit;
 
         var builder = new SqlBuilder();
 
@@ -93,7 +93,7 @@ public partial class TemplateSQLRepository
 
             builder.OrderBy(string.IsNullOrWhiteSpace(orderQuery) ? "Id asc" : orderQuery);
         }
-        
+
         using var connection = new SqlConnection(this.GetConnectionString());
         var items = await connection.QueryAsync<ExampleObject>(selectTemplate.RawSql, selectTemplate.Parameters);
         var total = await connection.ExecuteScalarAsync<int>(countTemplate.RawSql, countTemplate.Parameters);

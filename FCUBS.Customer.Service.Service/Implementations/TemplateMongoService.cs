@@ -1,47 +1,48 @@
-﻿namespace FCUBS.Customer.Service.Services.Implementations;
-
-public class TemplateMongoService : ITemplateMongoService
+﻿namespace FCUBS.Customer.Service.Services.Implementations
 {
-    private readonly ITemplateMongoRepository _templateMongoRepository;
-
-    public TemplateMongoService(ITemplateMongoRepository templateMongoRepository)
+    public class TemplateMongoService : ITemplateMongoService
     {
-        _templateMongoRepository = templateMongoRepository;
-    }
+        private readonly ITemplateMongoRepository _templateMongoRepository;
 
-    public async Task<(IEnumerable<ItemObject>, int)> GetAllAsync(ItemObjectParameters itemObjectParams)
-    {
-        (IEnumerable<ItemObject> items, int total) = await _templateMongoRepository.GetAllAsync(itemObjectParams);
-        return (items, total);
-    }
+        public TemplateMongoService(ITemplateMongoRepository templateMongoRepository)
+        {
+            _templateMongoRepository = templateMongoRepository;
+        }
 
-    /// <summary>
-    /// Obtiene items
-    /// </summary>
-    /// <param name="id"></param>
-    /// <returns></returns>
-    public async Task<ItemObject> GetItemByIdAsync(string id)
-    {
-        return await _templateMongoRepository.GetItemByIdAsync(id);
-    }
+        public async Task<(IEnumerable<ItemObject>, int)> GetAllAsync(ItemObjectParameters itemObjectParams)
+        {
+            (IEnumerable<ItemObject> items, int total) = await _templateMongoRepository.GetAllAsync(itemObjectParams);
+            return (items, total);
+        }
 
-    /// <summary>
-    /// Inserta nuevo item
-    /// </summary>
-    /// <param name="item"></param>
-    /// <returns></returns>
-    public async Task<ItemObject> InsertItemAsync(ItemObject item)
-    {
-        return await _templateMongoRepository.InsertItemAsync(item);
-    }
+        /// <summary>
+        /// Obtiene items
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<ItemObject> GetItemByIdAsync(string id)
+        {
+            return await _templateMongoRepository.GetItemByIdAsync(id);
+        }
 
-    /// <summary>
-    /// Actualiza item
-    /// </summary>
-    /// <param name="item"></param>
-    /// <returns></returns>
-    public async Task UpdateItemAsync(ItemObject item)
-    {
-        await _templateMongoRepository.UpdateItemAsync(item);
+        /// <summary>
+        /// Inserta nuevo item
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public async Task<ItemObject> InsertItemAsync(ItemObject item)
+        {
+            return await _templateMongoRepository.InsertItemAsync(item);
+        }
+
+        /// <summary>
+        /// Actualiza item
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public async Task UpdateItemAsync(ItemObject item)
+        {
+            await _templateMongoRepository.UpdateItemAsync(item);
+        }
     }
 }

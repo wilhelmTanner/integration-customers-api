@@ -51,7 +51,7 @@ public class TemplateBaseService : ITemplateBaseService
             Valor = exampleObject.Value
         };
 
-        newExample.Id=  await _templateRepository.InsertExampleAsync(newExample);
+        newExample.Id = await _templateRepository.InsertExampleAsync(newExample);
         return newExample;
     }
 

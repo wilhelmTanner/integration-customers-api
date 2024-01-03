@@ -11,7 +11,8 @@ namespace FCUBS.Customer.Service.Services.Implementations
     {
 
         private readonly ILogger<CustomerService> _logger;
-        public CustomerService(ILogger<CustomerService> logger) {
+        public CustomerService(ILogger<CustomerService> logger)
+        {
             _logger = logger;
         }
 
@@ -19,20 +20,20 @@ namespace FCUBS.Customer.Service.Services.Implementations
         {
             WeatherService.GlobalWeatherSoapClient client = new WeatherService.GlobalWeatherSoapClient(new WeatherService.GlobalWeatherSoapClient.EndpointConfiguration());
 
-        
+
             var result = client.GetWeatherAsync("Santiago", "Chile");
 
 
             Random r = new Random();
 
 
-           // if(r.Next(1,4) == 2) throw new ApplicationException("---- Reintentando -----");
+            // if(r.Next(1,4) == 2) throw new ApplicationException("---- Reintentando -----");
 
 
-            List<CustomerEntity> customers = new();  
+            List<CustomerEntity> customers = new();
 
-            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", SecondLastName="Alarcon", Age = 20 };
-            
+            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", SecondLastName = "Alarcon", Age = 20 };
+
             customers.Add(customer);
 
             return customers;
@@ -40,7 +41,7 @@ namespace FCUBS.Customer.Service.Services.Implementations
 
         public Task<IEnumerable<CustomerEntity>> GetAllAsync()
         {
-            return Task.FromResult(GetAll());   
+            return Task.FromResult(GetAll());
         }
         public async Task<CustomerEntity> GetByIdAsync(ObjectId customerId)
         {
@@ -59,7 +60,7 @@ namespace FCUBS.Customer.Service.Services.Implementations
         {
             RecordSavedResponse response = new();
 
-            if(customer != null)
+            if (customer != null)
             {
                 response.Success = false;
                 response.ErrorMessage = "Este es un error";
