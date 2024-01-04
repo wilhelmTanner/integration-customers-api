@@ -60,7 +60,7 @@ public static class ServicesCollectionExtensions
         services.AddScoped<ITemplateMongoService, TemplateMongoService>();
         services.AddScoped<ITemplateSQLRepository, TemplateSQLRepository>();
         services.AddScoped<ITemplateMongoRepository, TemplateMongoRepository>();
-        //services.AddScoped<ICustomerService, CustomerService>();
+        services.AddScoped<ICustomerService, CustomerService>();
 
         return services;
     }

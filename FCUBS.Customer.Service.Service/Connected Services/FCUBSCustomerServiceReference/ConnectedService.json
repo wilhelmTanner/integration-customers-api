@@ -1,7 +1,7 @@
 {
   "ExtendedData": {
     "inputs": [
-      "http://dev-tnr-stg-fxc-01.snwlbancotanner.vcndevbancotann.oraclevcn.com:7101/FCUBSCustomerService/FCUBSCustomerService?WSDL"
+      "http://dev-tnr-stg-fxc-01.bancotanner.cl:7101/FCUBSCustomerService/FCUBSCustomerService?WSDL"
     ],
     "collectionTypes": [
       "System.Collections.Generic.Dictionary`2",
@@ -83,7 +83,6 @@
       "System.Xml.XmlDocument, {System.Xml.XmlDocument, 4.3.0}",
       "ZstdSharp, {ZstdSharp.Port, 0.7.3}"
     ],
-    "sync": true,
     "targetFramework": "net8.0",
     "typeReuseMode": "All"
   }

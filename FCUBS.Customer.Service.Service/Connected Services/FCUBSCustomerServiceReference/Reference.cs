@@ -16,1192 +16,598 @@ namespace FCUBSCustomerServiceReference
     public interface FCUBSCustomerServiceSEI
     {
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeAmtBlkFSResponse AuthorizeAmtBlkFS(FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeAmtBlkFSResponse> AuthorizeAmtBlkFSAsync(FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeAmtBlkIOResponse AuthorizeAmtBlkIO(FCUBSCustomerServiceReference.AuthorizeAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeAmtBlkIOResponse> AuthorizeAmtBlkIOAsync(FCUBSCustomerServiceReference.AuthorizeAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeClosureDataFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeClosureDataFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeClosureDataFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeClosureDataFSResponse AuthorizeClosureDataFS(FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeClosureDataFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeClosureDataFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeClosureDataFSResponse> AuthorizeClosureDataFSAsync(FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeClosureDataIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeClosureDataIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeClosureDataIOResponse AuthorizeClosureDataIO(FCUBSCustomerServiceReference.AuthorizeClosureDataIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeClosureDataIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeClosureDataIOResponse> AuthorizeClosureDataIOAsync(FCUBSCustomerServiceReference.AuthorizeClosureDataIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeConsolAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeConsolAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSResponse AuthorizeConsolAmtBlkFS(FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeConsolAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSResponse> AuthorizeConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeConsolAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeConsolAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIOResponse AuthorizeConsolAmtBlkIO(FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeConsolAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIOResponse> AuthorizeConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeCustSegAssociationFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustSegAssociationFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSResponse AuthorizeCustSegAssociationFS(FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustSegAssociationFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSResponse> AuthorizeCustSegAssociationFSAsync(FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeCustSegAssociationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustSegAssociationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIOResponse AuthorizeCustSegAssociationIO(FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustSegAssociationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIOResponse> AuthorizeCustSegAssociationIOAsync(FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeCustomerFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustomerFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeCustomerFSResponse AuthorizeCustomerFS(FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustomerFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeCustomerFSResponse> AuthorizeCustomerFSAsync(FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeCustomerIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeCustomerIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeCustomerIOResponse AuthorizeCustomerIO(FCUBSCustomerServiceReference.AuthorizeCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeCustomerIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeCustomerIOResponse> AuthorizeCustomerIOAsync(FCUBSCustomerServiceReference.AuthorizeCustomerIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeTDAmountBlockFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeTDAmountBlockFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSResponse AuthorizeTDAmountBlockFS(FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeTDAmountBlockFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSResponse> AuthorizeTDAmountBlockFSAsync(FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación AuthorizeTDAmountBlockIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
             "thorizeTDAmountBlockIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIOResponse AuthorizeTDAmountBlockIO(FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Au" +
-            "thorizeTDAmountBlockIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIOResponse> AuthorizeTDAmountBlockIOAsync(FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseAmtBlkFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseAmtBlkFSResponse CloseAmtBlkFS(FCUBSCustomerServiceReference.CloseAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkFSResponse> CloseAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseAmtBlkFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseAmtBlkIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseAmtBlkIOResponse CloseAmtBlkIO(FCUBSCustomerServiceReference.CloseAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseAmtBlkIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkIOResponse> CloseAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseAmtBlkIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseConsolAmtBlkFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse CloseConsolAmtBlkFS(FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse> CloseConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseConsolAmtBlkIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse CloseConsolAmtBlkIO(FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseConsolAmtBlkIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse> CloseConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseCustSegAssociationFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse CloseCustSegAssociationFS(FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse> CloseCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseCustSegAssociationIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse CloseCustSegAssociationIO(FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustSegAssociationIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse> CloseCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseCustomerFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseCustomerFSResponse CloseCustomerFS(FCUBSCustomerServiceReference.CloseCustomerFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerFSResponse> CloseCustomerFSAsync(FCUBSCustomerServiceReference.CloseCustomerFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseCustomerIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseCustomerIOResponse CloseCustomerIO(FCUBSCustomerServiceReference.CloseCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseCustomerIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerIOResponse> CloseCustomerIOAsync(FCUBSCustomerServiceReference.CloseCustomerIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseTDAmountBlockFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse CloseTDAmountBlockFS(FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse> CloseTDAmountBlockFSAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CloseTDAmountBlockIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse CloseTDAmountBlockIO(FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
-            "oseTDAmountBlockIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse> CloseTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateAmtBlkFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateAmtBlkFSResponse CreateAmtBlkFS(FCUBSCustomerServiceReference.CreateAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkFSResponse> CreateAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateAmtBlkFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateAmtBlkIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateAmtBlkIOResponse CreateAmtBlkIO(FCUBSCustomerServiceReference.CreateAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateAmtBlkIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkIOResponse> CreateAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateAmtBlkIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateClosureDataFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateClosureDataFSResponse CreateClosureDataFS(FCUBSCustomerServiceReference.CreateClosureDataFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataFSResponse> CreateClosureDataFSAsync(FCUBSCustomerServiceReference.CreateClosureDataFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateClosureDataIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateClosureDataIOResponse CreateClosureDataIO(FCUBSCustomerServiceReference.CreateClosureDataIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateClosureDataIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataIOResponse> CreateClosureDataIOAsync(FCUBSCustomerServiceReference.CreateClosureDataIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateConsolAmtBlkFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse CreateConsolAmtBlkFS(FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse> CreateConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateConsolAmtBlkIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse CreateConsolAmtBlkIO(FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateConsolAmtBlkIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse> CreateConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateCustSegAssociationFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse CreateCustSegAssociationFS(FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse> CreateCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateCustSegAssociationIO no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationIOResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse CreateCustSegAssociationIO(FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustSegAssociationIOResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse> CreateCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateCustomerFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerFSResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateCustomerFSResponse CreateCustomerFS(FCUBSCustomerServiceReference.CreateCustomerFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerFSResponse")]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerFSResponse> CreateCustomerFSAsync(FCUBSCustomerServiceReference.CreateCustomerFSRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateCustomerIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateCustomerIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateCustomerIOResponse CreateCustomerIO(FCUBSCustomerServiceReference.CreateCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerIOResponse> CreateCustomerIOAsync(FCUBSCustomerServiceReference.CreateCustomerIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateCustomerObligationFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateCustomerObligationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateCustomerObligationFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateCustomerObligationFSResponse CreateCustomerObligationFS(FCUBSCustomerServiceReference.CreateCustomerObligationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerObligationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerObligationFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerObligationFSResponse> CreateCustomerObligationFSAsync(FCUBSCustomerServiceReference.CreateCustomerObligationFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateCustomerObligationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateCustomerObligationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateCustomerObligationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateCustomerObligationIOResponse CreateCustomerObligationIO(FCUBSCustomerServiceReference.CreateCustomerObligationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerObligationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateCustomerObligationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerObligationIOResponse> CreateCustomerObligationIOAsync(FCUBSCustomerServiceReference.CreateCustomerObligationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateFATCAFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateFATCAFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateFATCAFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateFATCAFSResponse CreateFATCAFS(FCUBSCustomerServiceReference.CreateFATCAFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateFATCAFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateFATCAFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateFATCAFSResponse> CreateFATCAFSAsync(FCUBSCustomerServiceReference.CreateFATCAFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateFATCAIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateFATCAIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateFATCAIOResponse CreateFATCAIO(FCUBSCustomerServiceReference.CreateFATCAIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateFATCAIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateFATCAIOResponse> CreateFATCAIOAsync(FCUBSCustomerServiceReference.CreateFATCAIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateNSFMutualFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateNSFMutualFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateNSFMutualFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateNSFMutualFSResponse CreateNSFMutualFS(FCUBSCustomerServiceReference.CreateNSFMutualFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateNSFMutualFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateNSFMutualFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateNSFMutualFSResponse> CreateNSFMutualFSAsync(FCUBSCustomerServiceReference.CreateNSFMutualFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateNSFMutualIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateNSFMutualIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateNSFMutualIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateNSFMutualIOResponse CreateNSFMutualIO(FCUBSCustomerServiceReference.CreateNSFMutualIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateNSFMutualIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateNSFMutualIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateNSFMutualIOResponse> CreateNSFMutualIOAsync(FCUBSCustomerServiceReference.CreateNSFMutualIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateTDAmountBlockFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateTDAmountBlockFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateTDAmountBlockFSResponse CreateTDAmountBlockFS(FCUBSCustomerServiceReference.CreateTDAmountBlockFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateTDAmountBlockFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateTDAmountBlockFSResponse> CreateTDAmountBlockFSAsync(FCUBSCustomerServiceReference.CreateTDAmountBlockFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación CreateTDAmountBlockIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
             "eateTDAmountBlockIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.CreateTDAmountBlockIOResponse CreateTDAmountBlockIO(FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
-            "eateTDAmountBlockIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateTDAmountBlockIOResponse> CreateTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteAmtBlkFSResponse DeleteAmtBlkFS(FCUBSCustomerServiceReference.DeleteAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteAmtBlkFSResponse> DeleteAmtBlkFSAsync(FCUBSCustomerServiceReference.DeleteAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteAmtBlkIOResponse DeleteAmtBlkIO(FCUBSCustomerServiceReference.DeleteAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteAmtBlkIOResponse> DeleteAmtBlkIOAsync(FCUBSCustomerServiceReference.DeleteAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteConsolAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteConsolAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSResponse DeleteConsolAmtBlkFS(FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteConsolAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSResponse> DeleteConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteConsolAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteConsolAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteConsolAmtBlkIOResponse DeleteConsolAmtBlkIO(FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteConsolAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteConsolAmtBlkIOResponse> DeleteConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteCustSegAssociationFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustSegAssociationFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteCustSegAssociationFSResponse DeleteCustSegAssociationFS(FCUBSCustomerServiceReference.DeleteCustSegAssociationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustSegAssociationFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteCustSegAssociationFSResponse> DeleteCustSegAssociationFSAsync(FCUBSCustomerServiceReference.DeleteCustSegAssociationFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteCustSegAssociationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustSegAssociationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteCustSegAssociationIOResponse DeleteCustSegAssociationIO(FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustSegAssociationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteCustSegAssociationIOResponse> DeleteCustSegAssociationIOAsync(FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteCustomerFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustomerFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteCustomerFSResponse DeleteCustomerFS(FCUBSCustomerServiceReference.DeleteCustomerFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustomerFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteCustomerFSResponse> DeleteCustomerFSAsync(FCUBSCustomerServiceReference.DeleteCustomerFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteCustomerIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteCustomerIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteCustomerIOResponse DeleteCustomerIO(FCUBSCustomerServiceReference.DeleteCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteCustomerIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteCustomerIOResponse> DeleteCustomerIOAsync(FCUBSCustomerServiceReference.DeleteCustomerIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteFATCAFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteFATCAFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteFATCAFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteFATCAFSResponse DeleteFATCAFS(FCUBSCustomerServiceReference.DeleteFATCAFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteFATCAFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteFATCAFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteFATCAFSResponse> DeleteFATCAFSAsync(FCUBSCustomerServiceReference.DeleteFATCAFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteFATCAIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteFATCAIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteFATCAIOResponse DeleteFATCAIO(FCUBSCustomerServiceReference.DeleteFATCAIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteFATCAIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteFATCAIOResponse> DeleteFATCAIOAsync(FCUBSCustomerServiceReference.DeleteFATCAIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteTDAmountBlockFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteTDAmountBlockFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteTDAmountBlockFSResponse DeleteTDAmountBlockFS(FCUBSCustomerServiceReference.DeleteTDAmountBlockFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteTDAmountBlockFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteTDAmountBlockFSResponse> DeleteTDAmountBlockFSAsync(FCUBSCustomerServiceReference.DeleteTDAmountBlockFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación DeleteTDAmountBlockIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
             "leteTDAmountBlockIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.DeleteTDAmountBlockIOResponse DeleteTDAmountBlockIO(FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/De" +
-            "leteTDAmountBlockIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteTDAmountBlockIOResponse> DeleteTDAmountBlockIOAsync(FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyAmtBlkFSResponse ModifyAmtBlkFS(FCUBSCustomerServiceReference.ModifyAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyAmtBlkFSResponse> ModifyAmtBlkFSAsync(FCUBSCustomerServiceReference.ModifyAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyAmtBlkIOResponse ModifyAmtBlkIO(FCUBSCustomerServiceReference.ModifyAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyAmtBlkIOResponse> ModifyAmtBlkIOAsync(FCUBSCustomerServiceReference.ModifyAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyClosureDataFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyClosureDataFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyClosureDataFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyClosureDataFSResponse ModifyClosureDataFS(FCUBSCustomerServiceReference.ModifyClosureDataFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyClosureDataFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyClosureDataFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyClosureDataFSResponse> ModifyClosureDataFSAsync(FCUBSCustomerServiceReference.ModifyClosureDataFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyClosureDataIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyClosureDataIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyClosureDataIOResponse ModifyClosureDataIO(FCUBSCustomerServiceReference.ModifyClosureDataIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyClosureDataIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyClosureDataIOResponse> ModifyClosureDataIOAsync(FCUBSCustomerServiceReference.ModifyClosureDataIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyConsolAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyConsolAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSResponse ModifyConsolAmtBlkFS(FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyConsolAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSResponse> ModifyConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyConsolAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyConsolAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyConsolAmtBlkIOResponse ModifyConsolAmtBlkIO(FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyConsolAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyConsolAmtBlkIOResponse> ModifyConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyCustSegAssociationFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustSegAssociationFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyCustSegAssociationFSResponse ModifyCustSegAssociationFS(FCUBSCustomerServiceReference.ModifyCustSegAssociationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustSegAssociationFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustSegAssociationFSResponse> ModifyCustSegAssociationFSAsync(FCUBSCustomerServiceReference.ModifyCustSegAssociationFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyCustSegAssociationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustSegAssociationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyCustSegAssociationIOResponse ModifyCustSegAssociationIO(FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustSegAssociationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustSegAssociationIOResponse> ModifyCustSegAssociationIOAsync(FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyCustomerFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyCustomerFSResponse ModifyCustomerFS(FCUBSCustomerServiceReference.ModifyCustomerFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustomerFSResponse> ModifyCustomerFSAsync(FCUBSCustomerServiceReference.ModifyCustomerFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyCustomerIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyCustomerIOResponse ModifyCustomerIO(FCUBSCustomerServiceReference.ModifyCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustomerIOResponse> ModifyCustomerIOAsync(FCUBSCustomerServiceReference.ModifyCustomerIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyCustomerObligationFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerObligationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerObligationFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyCustomerObligationFSResponse ModifyCustomerObligationFS(FCUBSCustomerServiceReference.ModifyCustomerObligationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerObligationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerObligationFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustomerObligationFSResponse> ModifyCustomerObligationFSAsync(FCUBSCustomerServiceReference.ModifyCustomerObligationFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyCustomerObligationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerObligationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyCustomerObligationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyCustomerObligationIOResponse ModifyCustomerObligationIO(FCUBSCustomerServiceReference.ModifyCustomerObligationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerObligationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyCustomerObligationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustomerObligationIOResponse> ModifyCustomerObligationIOAsync(FCUBSCustomerServiceReference.ModifyCustomerObligationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyFATCAFS no es RPC ni está encapsulada en un documento.
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyFATCAFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyFATCAFSResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyFATCAFSResponse ModifyFATCAFS(FCUBSCustomerServiceReference.ModifyFATCAFSRequest request);
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkFSResponse> CloseAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseAmtBlkFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseAmtBlkIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkIOResponse> CloseAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseAmtBlkIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseConsolAmtBlkFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse> CloseConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseConsolAmtBlkIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse> CloseConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustSegAssociationFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse> CloseCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustSegAssociationIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse> CloseCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustomerFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerFSResponse> CloseCustomerFSAsync(FCUBSCustomerServiceReference.CloseCustomerFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseCustomerIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerIOResponse> CloseCustomerIOAsync(FCUBSCustomerServiceReference.CloseCustomerIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseTDAmountBlockFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse> CloseTDAmountBlockFSAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cl" +
+            "oseTDAmountBlockIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse> CloseTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateAmtBlkFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkFSResponse> CreateAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateAmtBlkFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateAmtBlkIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkIOResponse> CreateAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateAmtBlkIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateClosureDataFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateClosureDataFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataFSResponse> CreateClosureDataFSAsync(FCUBSCustomerServiceReference.CreateClosureDataFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateClosureDataIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataIOResponse> CreateClosureDataIOAsync(FCUBSCustomerServiceReference.CreateClosureDataIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateConsolAmtBlkFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse> CreateConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateConsolAmtBlkIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse> CreateConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateCustSegAssociationFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse> CreateCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateCustSegAssociationIOResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse> CreateCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Cr" +
+            "eateCustomerFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerFSResponse> CreateCustomerFSAsync(FCUBSCustomerServiceReference.CreateCustomerFSRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyFATCAFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyFATCAFSResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyFATCAFSResponse> ModifyFATCAFSAsync(FCUBSCustomerServiceReference.ModifyFATCAFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyFATCAIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyFATCAIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyFATCAIOResponse ModifyFATCAIO(FCUBSCustomerServiceReference.ModifyFATCAIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyFATCAIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyFATCAIOResponse> ModifyFATCAIOAsync(FCUBSCustomerServiceReference.ModifyFATCAIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyNSFMutualFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyNSFMutualFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyNSFMutualFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyNSFMutualFSResponse ModifyNSFMutualFS(FCUBSCustomerServiceReference.ModifyNSFMutualFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyNSFMutualFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyNSFMutualFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyNSFMutualFSResponse> ModifyNSFMutualFSAsync(FCUBSCustomerServiceReference.ModifyNSFMutualFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyNSFMutualIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyNSFMutualIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyNSFMutualIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyNSFMutualIOResponse ModifyNSFMutualIO(FCUBSCustomerServiceReference.ModifyNSFMutualIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyNSFMutualIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyNSFMutualIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyNSFMutualIOResponse> ModifyNSFMutualIOAsync(FCUBSCustomerServiceReference.ModifyNSFMutualIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyTDAmountBlockFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyTDAmountBlockFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyTDAmountBlockFSResponse ModifyTDAmountBlockFS(FCUBSCustomerServiceReference.ModifyTDAmountBlockFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyTDAmountBlockFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyTDAmountBlockFSResponse> ModifyTDAmountBlockFSAsync(FCUBSCustomerServiceReference.ModifyTDAmountBlockFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ModifyTDAmountBlockIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
             "difyTDAmountBlockIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ModifyTDAmountBlockIOResponse ModifyTDAmountBlockIO(FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Mo" +
-            "difyTDAmountBlockIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyTDAmountBlockIOResponse> ModifyTDAmountBlockIOAsync(FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryAmtBlkIOResponse QueryAmtBlkIO(FCUBSCustomerServiceReference.QueryAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryAmtBlkIOResponse> QueryAmtBlkIOAsync(FCUBSCustomerServiceReference.QueryAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryBlkIOResponse QueryBlkIO(FCUBSCustomerServiceReference.QueryBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryBlkIOResponse> QueryBlkIOAsync(FCUBSCustomerServiceReference.QueryBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryClosureDataIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryClosureDataIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryClosureDataIOResponse QueryClosureDataIO(FCUBSCustomerServiceReference.QueryClosureDataIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryClosureDataIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryClosureDataIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryClosureDataIOResponse> QueryClosureDataIOAsync(FCUBSCustomerServiceReference.QueryClosureDataIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryConsolAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryConsolAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryConsolAmtBlkIOResponse QueryConsolAmtBlkIO(FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryConsolAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryConsolAmtBlkIOResponse> QueryConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustAccDetailIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustAccDetailIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustAccDetailIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustAccDetailIOResponse QueryCustAccDetailIO(FCUBSCustomerServiceReference.QueryCustAccDetailIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustAccDetailIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustAccDetailIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustAccDetailIOResponse> QueryCustAccDetailIOAsync(FCUBSCustomerServiceReference.QueryCustAccDetailIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustSegAssociationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustSegAssociationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustSegAssociationIOResponse QueryCustSegAssociationIO(FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustSegAssociationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustSegAssociationIOResponse> QueryCustSegAssociationIOAsync(FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustSigHistoryIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustSigHistoryIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustSigHistoryIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustSigHistoryIOResponse QueryCustSigHistoryIO(FCUBSCustomerServiceReference.QueryCustSigHistoryIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustSigHistoryIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustSigHistoryIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustSigHistoryIOResponse> QueryCustSigHistoryIOAsync(FCUBSCustomerServiceReference.QueryCustSigHistoryIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustSignImgeIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustSignImgeIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustSignImgeIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustSignImgeIOResponse QueryCustSignImgeIO(FCUBSCustomerServiceReference.QueryCustSignImgeIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustSignImgeIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustSignImgeIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustSignImgeIOResponse> QueryCustSignImgeIOAsync(FCUBSCustomerServiceReference.QueryCustSignImgeIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustStsIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustStsIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustStsIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustStsIOResponse QueryCustStsIO(FCUBSCustomerServiceReference.QueryCustStsIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustStsIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustStsIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustStsIOResponse> QueryCustStsIOAsync(FCUBSCustomerServiceReference.QueryCustStsIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustomerIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustomerIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustomerIOResponse QueryCustomerIO(FCUBSCustomerServiceReference.QueryCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustomerIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustomerIOResponse> QueryCustomerIOAsync(FCUBSCustomerServiceReference.QueryCustomerIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustomerDetailsIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustomerDetailsIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustomerDetailsIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustomerDetailsIOResponse QueryCustomerDetailsIO(FCUBSCustomerServiceReference.QueryCustomerDetailsIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustomerDetailsIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustomerDetailsIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustomerDetailsIOResponse> QueryCustomerDetailsIOAsync(FCUBSCustomerServiceReference.QueryCustomerDetailsIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryCustomerObligationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustomerObligationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryCustomerObligationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryCustomerObligationIOResponse QueryCustomerObligationIO(FCUBSCustomerServiceReference.QueryCustomerObligationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustomerObligationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryCustomerObligationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustomerObligationIOResponse> QueryCustomerObligationIOAsync(FCUBSCustomerServiceReference.QueryCustomerObligationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryFATCAIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryFATCAIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryFATCAIOResponse QueryFATCAIO(FCUBSCustomerServiceReference.QueryFATCAIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryFATCAIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryFATCAIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryFATCAIOResponse> QueryFATCAIOAsync(FCUBSCustomerServiceReference.QueryFATCAIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryNSFCBenqIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryNSFCBenqIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryNSFCBenqIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryNSFCBenqIOResponse QueryNSFCBenqIO(FCUBSCustomerServiceReference.QueryNSFCBenqIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryNSFCBenqIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryNSFCBenqIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryNSFCBenqIOResponse> QueryNSFCBenqIOAsync(FCUBSCustomerServiceReference.QueryNSFCBenqIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryNSFCheckIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryNSFCheckIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryNSFCheckIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryNSFCheckIOResponse QueryNSFCheckIO(FCUBSCustomerServiceReference.QueryNSFCheckIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryNSFCheckIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryNSFCheckIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryNSFCheckIOResponse> QueryNSFCheckIOAsync(FCUBSCustomerServiceReference.QueryNSFCheckIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryNSFMutualIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryNSFMutualIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryNSFMutualIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryNSFMutualIOResponse QueryNSFMutualIO(FCUBSCustomerServiceReference.QueryNSFMutualIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryNSFMutualIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryNSFMutualIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryNSFMutualIOResponse> QueryNSFMutualIOAsync(FCUBSCustomerServiceReference.QueryNSFMutualIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación QueryTDAmountBlockIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
             "eryTDAmountBlockIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.QueryTDAmountBlockIOResponse QueryTDAmountBlockIO(FCUBSCustomerServiceReference.QueryTDAmountBlockIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Qu" +
-            "eryTDAmountBlockIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryTDAmountBlockIOResponse> QueryTDAmountBlockIOAsync(FCUBSCustomerServiceReference.QueryTDAmountBlockIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenAmtBlkFSResponse ReopenAmtBlkFS(FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenAmtBlkFSResponse> ReopenAmtBlkFSAsync(FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenAmtBlkIOResponse ReopenAmtBlkIO(FCUBSCustomerServiceReference.ReopenAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenAmtBlkIOResponse> ReopenAmtBlkIOAsync(FCUBSCustomerServiceReference.ReopenAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenConsolAmtBlkFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openConsolAmtBlkFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSResponse ReopenConsolAmtBlkFS(FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openConsolAmtBlkFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openConsolAmtBlkFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSResponse> ReopenConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenConsolAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openConsolAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenConsolAmtBlkIOResponse ReopenConsolAmtBlkIO(FCUBSCustomerServiceReference.ReopenConsolAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openConsolAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openConsolAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenConsolAmtBlkIOResponse> ReopenConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.ReopenConsolAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenCustSegAssociationFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustSegAssociationFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenCustSegAssociationFSResponse ReopenCustSegAssociationFS(FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustSegAssociationFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustSegAssociationFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenCustSegAssociationFSResponse> ReopenCustSegAssociationFSAsync(FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenCustSegAssociationIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustSegAssociationIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenCustSegAssociationIOResponse ReopenCustSegAssociationIO(FCUBSCustomerServiceReference.ReopenCustSegAssociationIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustSegAssociationIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustSegAssociationIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenCustSegAssociationIOResponse> ReopenCustSegAssociationIOAsync(FCUBSCustomerServiceReference.ReopenCustSegAssociationIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenCustomerFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustomerFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenCustomerFSResponse ReopenCustomerFS(FCUBSCustomerServiceReference.ReopenCustomerFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustomerFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustomerFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenCustomerFSResponse> ReopenCustomerFSAsync(FCUBSCustomerServiceReference.ReopenCustomerFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenCustomerIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openCustomerIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenCustomerIOResponse ReopenCustomerIO(FCUBSCustomerServiceReference.ReopenCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openCustomerIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenCustomerIOResponse> ReopenCustomerIOAsync(FCUBSCustomerServiceReference.ReopenCustomerIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenTDAmountBlockFS no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openTDAmountBlockFSResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenTDAmountBlockFSResponse ReopenTDAmountBlockFS(FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openTDAmountBlockFSRequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openTDAmountBlockFSResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenTDAmountBlockFSResponse> ReopenTDAmountBlockFSAsync(FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación ReopenTDAmountBlockIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
             "openTDAmountBlockIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.ReopenTDAmountBlockIOResponse ReopenTDAmountBlockIO(FCUBSCustomerServiceReference.ReopenTDAmountBlockIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openTDAmountBlockIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Re" +
-            "openTDAmountBlockIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenTDAmountBlockIOResponse> ReopenTDAmountBlockIOAsync(FCUBSCustomerServiceReference.ReopenTDAmountBlockIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación SummaryQueryAmtBlkIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
             "mmaryQueryAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
             "mmaryQueryAmtBlkIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.SummaryQueryAmtBlkIOResponse SummaryQueryAmtBlkIO(FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
-            "mmaryQueryAmtBlkIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
-            "mmaryQueryAmtBlkIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.SummaryQueryAmtBlkIOResponse> SummaryQueryAmtBlkIOAsync(FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que la operación SummaryQueryCustomerIO no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
             "mmaryQueryCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
             "mmaryQueryCustomerIOResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        FCUBSCustomerServiceReference.SummaryQueryCustomerIOResponse SummaryQueryCustomerIO(FCUBSCustomerServiceReference.SummaryQueryCustomerIORequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
-            "mmaryQueryCustomerIORequest", ReplyAction="http://FCUBSCustomerService.types.ws.gw.fcubs.ofss.com/FCUBSCustomerServiceSEI/Su" +
-            "mmaryQueryCustomerIOResponse")]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.SummaryQueryCustomerIOResponse> SummaryQueryCustomerIOAsync(FCUBSCustomerServiceReference.SummaryQueryCustomerIORequest request);
     }
     
@@ -9884,6 +9290,1150 @@ namespace FCUBSCustomerServiceReference
             set
             {
                 this.rEMARKSField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="CustSegAssociation-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CustSegAssociationCreateIOType
+    {
+        
+        private string cUSTNOField;
+        
+        private string cUSTSEGCDField;
+        
+        private string cUSTSEGSTATUSField;
+        
+        private string cUSTCCYField;
+        
+        private UDFDETAILSType2[] uDFDETAILSField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string CUSTNO
+        {
+            get
+            {
+                return this.cUSTNOField;
+            }
+            set
+            {
+                this.cUSTNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string CUSTSEGCD
+        {
+            get
+            {
+                return this.cUSTSEGCDField;
+            }
+            set
+            {
+                this.cUSTSEGCDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string CUSTSEGSTATUS
+        {
+            get
+            {
+                return this.cUSTSEGSTATUSField;
+            }
+            set
+            {
+                this.cUSTSEGSTATUSField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string CUSTCCY
+        {
+            get
+            {
+                return this.cUSTCCYField;
+            }
+            set
+            {
+                this.cUSTCCYField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("UDFDETAILS", Order=4)]
+        public UDFDETAILSType2[] UDFDETAILS
+        {
+            get
+            {
+                return this.uDFDETAILSField;
+            }
+            set
+            {
+                this.uDFDETAILSField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ConsolAmtBlk-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class ConsolAmtBlkCreateIOType
+    {
+        
+        private string cUSTNOField;
+        
+        private string bRANCH_CODEField;
+        
+        private ConsolAmtBlkCreateIOTypeCaba[] cabaField;
+        
+        private UDFDETAILSType2[] uDFDETAILSField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string CUSTNO
+        {
+            get
+            {
+                return this.cUSTNOField;
+            }
+            set
+            {
+                this.cUSTNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string BRANCH_CODE
+        {
+            get
+            {
+                return this.bRANCH_CODEField;
+            }
+            set
+            {
+                this.bRANCH_CODEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Caba", Order=2)]
+        public ConsolAmtBlkCreateIOTypeCaba[] Caba
+        {
+            get
+            {
+                return this.cabaField;
+            }
+            set
+            {
+                this.cabaField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("UDFDETAILS", Order=3)]
+        public UDFDETAILSType2[] UDFDETAILS
+        {
+            get
+            {
+                return this.uDFDETAILSField;
+            }
+            set
+            {
+                this.uDFDETAILSField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class ConsolAmtBlkCreateIOTypeCaba
+    {
+        
+        private string nODEBITField;
+        
+        private ConsolAmtBlkCreateIOTypeCabaCabd[] cabdField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string NODEBIT
+        {
+            get
+            {
+                return this.nODEBITField;
+            }
+            set
+            {
+                this.nODEBITField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabd", Order=1)]
+        public ConsolAmtBlkCreateIOTypeCabaCabd[] Cabd
+        {
+            get
+            {
+                return this.cabdField;
+            }
+            set
+            {
+                this.cabdField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class ConsolAmtBlkCreateIOTypeCabaCabd
+    {
+        
+        private System.DateTime eFFDATEField;
+        
+        private System.DateTime eXPDATEField;
+        
+        private bool eXPDATEFieldSpecified;
+        
+        private string rEMField;
+        
+        private string cLOSEField;
+        
+        private decimal aMTBLOCKEDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=0)]
+        public System.DateTime EFFDATE
+        {
+            get
+            {
+                return this.eFFDATEField;
+            }
+            set
+            {
+                this.eFFDATEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
+        public System.DateTime EXPDATE
+        {
+            get
+            {
+                return this.eXPDATEField;
+            }
+            set
+            {
+                this.eXPDATEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool EXPDATESpecified
+        {
+            get
+            {
+                return this.eXPDATEFieldSpecified;
+            }
+            set
+            {
+                this.eXPDATEFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string REM
+        {
+            get
+            {
+                return this.rEMField;
+            }
+            set
+            {
+                this.rEMField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string CLOSE
+        {
+            get
+            {
+                return this.cLOSEField;
+            }
+            set
+            {
+                this.cLOSEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public decimal AMTBLOCKED
+        {
+            get
+            {
+                return this.aMTBLOCKEDField;
+            }
+            set
+            {
+                this.aMTBLOCKEDField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ClosureData-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class ClosureDataCreateIOType
+    {
+        
+        private string eNTITY_TYPEField;
+        
+        private string eNTITY_IDField;
+        
+        private string cLOSURE_ALLOWEDField;
+        
+        private string sOURCE_CODEField;
+        
+        private string pROCESSING_DATEField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string ENTITY_TYPE
+        {
+            get
+            {
+                return this.eNTITY_TYPEField;
+            }
+            set
+            {
+                this.eNTITY_TYPEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string ENTITY_ID
+        {
+            get
+            {
+                return this.eNTITY_IDField;
+            }
+            set
+            {
+                this.eNTITY_IDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string CLOSURE_ALLOWED
+        {
+            get
+            {
+                return this.cLOSURE_ALLOWEDField;
+            }
+            set
+            {
+                this.cLOSURE_ALLOWEDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string SOURCE_CODE
+        {
+            get
+            {
+                return this.sOURCE_CODEField;
+            }
+            set
+            {
+                this.sOURCE_CODEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string PROCESSING_DATE
+        {
+            get
+            {
+                return this.pROCESSING_DATEField;
+            }
+            set
+            {
+                this.pROCESSING_DATEField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="AmtBlk-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class AmtBlkCreateIOType
+    {
+        
+        private string aCCField;
+        
+        private string aMTBLKNOField;
+        
+        private decimal aMTField;
+        
+        private System.DateTime eXPDATEField;
+        
+        private bool eXPDATEFieldSpecified;
+        
+        private string rEMField;
+        
+        private string aBLKTYPEField;
+        
+        private string rEFERENCE_NOField;
+        
+        private string hPCODEField;
+        
+        private System.DateTime eFFDATEField;
+        
+        private bool eFFDATEFieldSpecified;
+        
+        private string hOLDDESCField;
+        
+        private string bRANCHField;
+        
+        private string bENEFICIARY_EMAIL_IDField;
+        
+        private string bENEFICIARY_FACEBOOK_IDField;
+        
+        private string bENEFICIARY_TELEPHONEField;
+        
+        private string vERIFY_AVL_BALField;
+        
+        private UDFDETAILSType2[] uDFDETAILSField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string ACC
+        {
+            get
+            {
+                return this.aCCField;
+            }
+            set
+            {
+                this.aCCField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string AMTBLKNO
+        {
+            get
+            {
+                return this.aMTBLKNOField;
+            }
+            set
+            {
+                this.aMTBLKNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public decimal AMT
+        {
+            get
+            {
+                return this.aMTField;
+            }
+            set
+            {
+                this.aMTField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=3)]
+        public System.DateTime EXPDATE
+        {
+            get
+            {
+                return this.eXPDATEField;
+            }
+            set
+            {
+                this.eXPDATEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool EXPDATESpecified
+        {
+            get
+            {
+                return this.eXPDATEFieldSpecified;
+            }
+            set
+            {
+                this.eXPDATEFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string REM
+        {
+            get
+            {
+                return this.rEMField;
+            }
+            set
+            {
+                this.rEMField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string ABLKTYPE
+        {
+            get
+            {
+                return this.aBLKTYPEField;
+            }
+            set
+            {
+                this.aBLKTYPEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string REFERENCE_NO
+        {
+            get
+            {
+                return this.rEFERENCE_NOField;
+            }
+            set
+            {
+                this.rEFERENCE_NOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public string HPCODE
+        {
+            get
+            {
+                return this.hPCODEField;
+            }
+            set
+            {
+                this.hPCODEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=8)]
+        public System.DateTime EFFDATE
+        {
+            get
+            {
+                return this.eFFDATEField;
+            }
+            set
+            {
+                this.eFFDATEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool EFFDATESpecified
+        {
+            get
+            {
+                return this.eFFDATEFieldSpecified;
+            }
+            set
+            {
+                this.eFFDATEFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public string HOLDDESC
+        {
+            get
+            {
+                return this.hOLDDESCField;
+            }
+            set
+            {
+                this.hOLDDESCField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public string BRANCH
+        {
+            get
+            {
+                return this.bRANCHField;
+            }
+            set
+            {
+                this.bRANCHField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public string BENEFICIARY_EMAIL_ID
+        {
+            get
+            {
+                return this.bENEFICIARY_EMAIL_IDField;
+            }
+            set
+            {
+                this.bENEFICIARY_EMAIL_IDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public string BENEFICIARY_FACEBOOK_ID
+        {
+            get
+            {
+                return this.bENEFICIARY_FACEBOOK_IDField;
+            }
+            set
+            {
+                this.bENEFICIARY_FACEBOOK_IDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        public string BENEFICIARY_TELEPHONE
+        {
+            get
+            {
+                return this.bENEFICIARY_TELEPHONEField;
+            }
+            set
+            {
+                this.bENEFICIARY_TELEPHONEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=14)]
+        public string VERIFY_AVL_BAL
+        {
+            get
+            {
+                return this.vERIFY_AVL_BALField;
+            }
+            set
+            {
+                this.vERIFY_AVL_BALField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("UDFDETAILS", Order=15)]
+        public UDFDETAILSType2[] UDFDETAILS
+        {
+            get
+            {
+                return this.uDFDETAILSField;
+            }
+            set
+            {
+                this.uDFDETAILSField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="TDAmountBlock-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class TDAmountBlockCloseIOType
+    {
+        
+        private string aMTBLKNOField;
+        
+        private string mAKERField;
+        
+        private string mAKERSTAMPField;
+        
+        private decimal mODNOField;
+        
+        private bool mODNOFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AMTBLKNO
+        {
+            get
+            {
+                return this.aMTBLKNOField;
+            }
+            set
+            {
+                this.aMTBLKNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string MAKER
+        {
+            get
+            {
+                return this.mAKERField;
+            }
+            set
+            {
+                this.mAKERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string MAKERSTAMP
+        {
+            get
+            {
+                return this.mAKERSTAMPField;
+            }
+            set
+            {
+                this.mAKERSTAMPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public decimal MODNO
+        {
+            get
+            {
+                return this.mODNOField;
+            }
+            set
+            {
+                this.mODNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MODNOSpecified
+        {
+            get
+            {
+                return this.mODNOFieldSpecified;
+            }
+            set
+            {
+                this.mODNOFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="Customer-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CustomerCloseIOType
+    {
+        
+        private string cUSTNOField;
+        
+        private string mAKERField;
+        
+        private string mAKERSTAMPField;
+        
+        private decimal mODNOField;
+        
+        private bool mODNOFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string CUSTNO
+        {
+            get
+            {
+                return this.cUSTNOField;
+            }
+            set
+            {
+                this.cUSTNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string MAKER
+        {
+            get
+            {
+                return this.mAKERField;
+            }
+            set
+            {
+                this.mAKERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string MAKERSTAMP
+        {
+            get
+            {
+                return this.mAKERSTAMPField;
+            }
+            set
+            {
+                this.mAKERSTAMPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public decimal MODNO
+        {
+            get
+            {
+                return this.mODNOField;
+            }
+            set
+            {
+                this.mODNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MODNOSpecified
+        {
+            get
+            {
+                return this.mODNOFieldSpecified;
+            }
+            set
+            {
+                this.mODNOFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="CustSegAssociation-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CustSegAssociationCloseIOType
+    {
+        
+        private string cUSTNOField;
+        
+        private string mAKERField;
+        
+        private string mAKERSTAMPField;
+        
+        private decimal mODNOField;
+        
+        private bool mODNOFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string CUSTNO
+        {
+            get
+            {
+                return this.cUSTNOField;
+            }
+            set
+            {
+                this.cUSTNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string MAKER
+        {
+            get
+            {
+                return this.mAKERField;
+            }
+            set
+            {
+                this.mAKERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string MAKERSTAMP
+        {
+            get
+            {
+                return this.mAKERSTAMPField;
+            }
+            set
+            {
+                this.mAKERSTAMPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public decimal MODNO
+        {
+            get
+            {
+                return this.mODNOField;
+            }
+            set
+            {
+                this.mODNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MODNOSpecified
+        {
+            get
+            {
+                return this.mODNOFieldSpecified;
+            }
+            set
+            {
+                this.mODNOFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ConsolAmtBlk-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class ConsolAmtBlkCloseIOType
+    {
+        
+        private string cUSTNOField;
+        
+        private string bRANCH_CODEField;
+        
+        private string mAKERField;
+        
+        private string mAKERSTAMPField;
+        
+        private decimal mODNOField;
+        
+        private bool mODNOFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string CUSTNO
+        {
+            get
+            {
+                return this.cUSTNOField;
+            }
+            set
+            {
+                this.cUSTNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string BRANCH_CODE
+        {
+            get
+            {
+                return this.bRANCH_CODEField;
+            }
+            set
+            {
+                this.bRANCH_CODEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string MAKER
+        {
+            get
+            {
+                return this.mAKERField;
+            }
+            set
+            {
+                this.mAKERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string MAKERSTAMP
+        {
+            get
+            {
+                return this.mAKERSTAMPField;
+            }
+            set
+            {
+                this.mAKERSTAMPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public decimal MODNO
+        {
+            get
+            {
+                return this.mODNOField;
+            }
+            set
+            {
+                this.mODNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MODNOSpecified
+        {
+            get
+            {
+                return this.mODNOFieldSpecified;
+            }
+            set
+            {
+                this.mODNOFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="AmtBlk-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class AmtBlkCloseIOType
+    {
+        
+        private string aMTBLKNOField;
+        
+        private string mAKERField;
+        
+        private string mAKERSTAMPField;
+        
+        private decimal mODNOField;
+        
+        private bool mODNOFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AMTBLKNO
+        {
+            get
+            {
+                return this.aMTBLKNOField;
+            }
+            set
+            {
+                this.aMTBLKNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string MAKER
+        {
+            get
+            {
+                return this.mAKERField;
+            }
+            set
+            {
+                this.mAKERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string MAKERSTAMP
+        {
+            get
+            {
+                return this.mAKERSTAMPField;
+            }
+            set
+            {
+                this.mAKERSTAMPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public decimal MODNO
+        {
+            get
+            {
+                return this.mODNOField;
+            }
+            set
+            {
+                this.mODNOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MODNOSpecified
+        {
+            get
+            {
+                return this.mODNOFieldSpecified;
+            }
+            set
+            {
+                this.mODNOFieldSpecified = value;
             }
         }
     }
@@ -38331,1150 +38881,6 @@ namespace FCUBSCustomerServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="CustSegAssociation-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CustSegAssociationCreateIOType
-    {
-        
-        private string cUSTNOField;
-        
-        private string cUSTSEGCDField;
-        
-        private string cUSTSEGSTATUSField;
-        
-        private string cUSTCCYField;
-        
-        private UDFDETAILSType2[] uDFDETAILSField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CUSTNO
-        {
-            get
-            {
-                return this.cUSTNOField;
-            }
-            set
-            {
-                this.cUSTNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string CUSTSEGCD
-        {
-            get
-            {
-                return this.cUSTSEGCDField;
-            }
-            set
-            {
-                this.cUSTSEGCDField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string CUSTSEGSTATUS
-        {
-            get
-            {
-                return this.cUSTSEGSTATUSField;
-            }
-            set
-            {
-                this.cUSTSEGSTATUSField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string CUSTCCY
-        {
-            get
-            {
-                return this.cUSTCCYField;
-            }
-            set
-            {
-                this.cUSTCCYField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("UDFDETAILS", Order=4)]
-        public UDFDETAILSType2[] UDFDETAILS
-        {
-            get
-            {
-                return this.uDFDETAILSField;
-            }
-            set
-            {
-                this.uDFDETAILSField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ConsolAmtBlk-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class ConsolAmtBlkCreateIOType
-    {
-        
-        private string cUSTNOField;
-        
-        private string bRANCH_CODEField;
-        
-        private ConsolAmtBlkCreateIOTypeCaba[] cabaField;
-        
-        private UDFDETAILSType2[] uDFDETAILSField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CUSTNO
-        {
-            get
-            {
-                return this.cUSTNOField;
-            }
-            set
-            {
-                this.cUSTNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string BRANCH_CODE
-        {
-            get
-            {
-                return this.bRANCH_CODEField;
-            }
-            set
-            {
-                this.bRANCH_CODEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Caba", Order=2)]
-        public ConsolAmtBlkCreateIOTypeCaba[] Caba
-        {
-            get
-            {
-                return this.cabaField;
-            }
-            set
-            {
-                this.cabaField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("UDFDETAILS", Order=3)]
-        public UDFDETAILSType2[] UDFDETAILS
-        {
-            get
-            {
-                return this.uDFDETAILSField;
-            }
-            set
-            {
-                this.uDFDETAILSField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class ConsolAmtBlkCreateIOTypeCaba
-    {
-        
-        private string nODEBITField;
-        
-        private ConsolAmtBlkCreateIOTypeCabaCabd[] cabdField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string NODEBIT
-        {
-            get
-            {
-                return this.nODEBITField;
-            }
-            set
-            {
-                this.nODEBITField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabd", Order=1)]
-        public ConsolAmtBlkCreateIOTypeCabaCabd[] Cabd
-        {
-            get
-            {
-                return this.cabdField;
-            }
-            set
-            {
-                this.cabdField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class ConsolAmtBlkCreateIOTypeCabaCabd
-    {
-        
-        private System.DateTime eFFDATEField;
-        
-        private System.DateTime eXPDATEField;
-        
-        private bool eXPDATEFieldSpecified;
-        
-        private string rEMField;
-        
-        private string cLOSEField;
-        
-        private decimal aMTBLOCKEDField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=0)]
-        public System.DateTime EFFDATE
-        {
-            get
-            {
-                return this.eFFDATEField;
-            }
-            set
-            {
-                this.eFFDATEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime EXPDATE
-        {
-            get
-            {
-                return this.eXPDATEField;
-            }
-            set
-            {
-                this.eXPDATEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EXPDATESpecified
-        {
-            get
-            {
-                return this.eXPDATEFieldSpecified;
-            }
-            set
-            {
-                this.eXPDATEFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string REM
-        {
-            get
-            {
-                return this.rEMField;
-            }
-            set
-            {
-                this.rEMField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string CLOSE
-        {
-            get
-            {
-                return this.cLOSEField;
-            }
-            set
-            {
-                this.cLOSEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public decimal AMTBLOCKED
-        {
-            get
-            {
-                return this.aMTBLOCKEDField;
-            }
-            set
-            {
-                this.aMTBLOCKEDField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ClosureData-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class ClosureDataCreateIOType
-    {
-        
-        private string eNTITY_TYPEField;
-        
-        private string eNTITY_IDField;
-        
-        private string cLOSURE_ALLOWEDField;
-        
-        private string sOURCE_CODEField;
-        
-        private string pROCESSING_DATEField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string ENTITY_TYPE
-        {
-            get
-            {
-                return this.eNTITY_TYPEField;
-            }
-            set
-            {
-                this.eNTITY_TYPEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string ENTITY_ID
-        {
-            get
-            {
-                return this.eNTITY_IDField;
-            }
-            set
-            {
-                this.eNTITY_IDField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string CLOSURE_ALLOWED
-        {
-            get
-            {
-                return this.cLOSURE_ALLOWEDField;
-            }
-            set
-            {
-                this.cLOSURE_ALLOWEDField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string SOURCE_CODE
-        {
-            get
-            {
-                return this.sOURCE_CODEField;
-            }
-            set
-            {
-                this.sOURCE_CODEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string PROCESSING_DATE
-        {
-            get
-            {
-                return this.pROCESSING_DATEField;
-            }
-            set
-            {
-                this.pROCESSING_DATEField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="AmtBlk-Create-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class AmtBlkCreateIOType
-    {
-        
-        private string aCCField;
-        
-        private string aMTBLKNOField;
-        
-        private decimal aMTField;
-        
-        private System.DateTime eXPDATEField;
-        
-        private bool eXPDATEFieldSpecified;
-        
-        private string rEMField;
-        
-        private string aBLKTYPEField;
-        
-        private string rEFERENCE_NOField;
-        
-        private string hPCODEField;
-        
-        private System.DateTime eFFDATEField;
-        
-        private bool eFFDATEFieldSpecified;
-        
-        private string hOLDDESCField;
-        
-        private string bRANCHField;
-        
-        private string bENEFICIARY_EMAIL_IDField;
-        
-        private string bENEFICIARY_FACEBOOK_IDField;
-        
-        private string bENEFICIARY_TELEPHONEField;
-        
-        private string vERIFY_AVL_BALField;
-        
-        private UDFDETAILSType2[] uDFDETAILSField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string ACC
-        {
-            get
-            {
-                return this.aCCField;
-            }
-            set
-            {
-                this.aCCField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string AMTBLKNO
-        {
-            get
-            {
-                return this.aMTBLKNOField;
-            }
-            set
-            {
-                this.aMTBLKNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public decimal AMT
-        {
-            get
-            {
-                return this.aMTField;
-            }
-            set
-            {
-                this.aMTField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=3)]
-        public System.DateTime EXPDATE
-        {
-            get
-            {
-                return this.eXPDATEField;
-            }
-            set
-            {
-                this.eXPDATEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EXPDATESpecified
-        {
-            get
-            {
-                return this.eXPDATEFieldSpecified;
-            }
-            set
-            {
-                this.eXPDATEFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string REM
-        {
-            get
-            {
-                return this.rEMField;
-            }
-            set
-            {
-                this.rEMField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string ABLKTYPE
-        {
-            get
-            {
-                return this.aBLKTYPEField;
-            }
-            set
-            {
-                this.aBLKTYPEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public string REFERENCE_NO
-        {
-            get
-            {
-                return this.rEFERENCE_NOField;
-            }
-            set
-            {
-                this.rEFERENCE_NOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public string HPCODE
-        {
-            get
-            {
-                return this.hPCODEField;
-            }
-            set
-            {
-                this.hPCODEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=8)]
-        public System.DateTime EFFDATE
-        {
-            get
-            {
-                return this.eFFDATEField;
-            }
-            set
-            {
-                this.eFFDATEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool EFFDATESpecified
-        {
-            get
-            {
-                return this.eFFDATEFieldSpecified;
-            }
-            set
-            {
-                this.eFFDATEFieldSpecified = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-        public string HOLDDESC
-        {
-            get
-            {
-                return this.hOLDDESCField;
-            }
-            set
-            {
-                this.hOLDDESCField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
-        public string BRANCH
-        {
-            get
-            {
-                return this.bRANCHField;
-            }
-            set
-            {
-                this.bRANCHField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-        public string BENEFICIARY_EMAIL_ID
-        {
-            get
-            {
-                return this.bENEFICIARY_EMAIL_IDField;
-            }
-            set
-            {
-                this.bENEFICIARY_EMAIL_IDField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-        public string BENEFICIARY_FACEBOOK_ID
-        {
-            get
-            {
-                return this.bENEFICIARY_FACEBOOK_IDField;
-            }
-            set
-            {
-                this.bENEFICIARY_FACEBOOK_IDField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
-        public string BENEFICIARY_TELEPHONE
-        {
-            get
-            {
-                return this.bENEFICIARY_TELEPHONEField;
-            }
-            set
-            {
-                this.bENEFICIARY_TELEPHONEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=14)]
-        public string VERIFY_AVL_BAL
-        {
-            get
-            {
-                return this.vERIFY_AVL_BALField;
-            }
-            set
-            {
-                this.vERIFY_AVL_BALField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("UDFDETAILS", Order=15)]
-        public UDFDETAILSType2[] UDFDETAILS
-        {
-            get
-            {
-                return this.uDFDETAILSField;
-            }
-            set
-            {
-                this.uDFDETAILSField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="TDAmountBlock-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class TDAmountBlockCloseIOType
-    {
-        
-        private string aMTBLKNOField;
-        
-        private string mAKERField;
-        
-        private string mAKERSTAMPField;
-        
-        private decimal mODNOField;
-        
-        private bool mODNOFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AMTBLKNO
-        {
-            get
-            {
-                return this.aMTBLKNOField;
-            }
-            set
-            {
-                this.aMTBLKNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string MAKER
-        {
-            get
-            {
-                return this.mAKERField;
-            }
-            set
-            {
-                this.mAKERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string MAKERSTAMP
-        {
-            get
-            {
-                return this.mAKERSTAMPField;
-            }
-            set
-            {
-                this.mAKERSTAMPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public decimal MODNO
-        {
-            get
-            {
-                return this.mODNOField;
-            }
-            set
-            {
-                this.mODNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MODNOSpecified
-        {
-            get
-            {
-                return this.mODNOFieldSpecified;
-            }
-            set
-            {
-                this.mODNOFieldSpecified = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="Customer-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CustomerCloseIOType
-    {
-        
-        private string cUSTNOField;
-        
-        private string mAKERField;
-        
-        private string mAKERSTAMPField;
-        
-        private decimal mODNOField;
-        
-        private bool mODNOFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CUSTNO
-        {
-            get
-            {
-                return this.cUSTNOField;
-            }
-            set
-            {
-                this.cUSTNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string MAKER
-        {
-            get
-            {
-                return this.mAKERField;
-            }
-            set
-            {
-                this.mAKERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string MAKERSTAMP
-        {
-            get
-            {
-                return this.mAKERSTAMPField;
-            }
-            set
-            {
-                this.mAKERSTAMPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public decimal MODNO
-        {
-            get
-            {
-                return this.mODNOField;
-            }
-            set
-            {
-                this.mODNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MODNOSpecified
-        {
-            get
-            {
-                return this.mODNOFieldSpecified;
-            }
-            set
-            {
-                this.mODNOFieldSpecified = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="CustSegAssociation-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CustSegAssociationCloseIOType
-    {
-        
-        private string cUSTNOField;
-        
-        private string mAKERField;
-        
-        private string mAKERSTAMPField;
-        
-        private decimal mODNOField;
-        
-        private bool mODNOFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CUSTNO
-        {
-            get
-            {
-                return this.cUSTNOField;
-            }
-            set
-            {
-                this.cUSTNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string MAKER
-        {
-            get
-            {
-                return this.mAKERField;
-            }
-            set
-            {
-                this.mAKERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string MAKERSTAMP
-        {
-            get
-            {
-                return this.mAKERSTAMPField;
-            }
-            set
-            {
-                this.mAKERSTAMPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public decimal MODNO
-        {
-            get
-            {
-                return this.mODNOField;
-            }
-            set
-            {
-                this.mODNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MODNOSpecified
-        {
-            get
-            {
-                return this.mODNOFieldSpecified;
-            }
-            set
-            {
-                this.mODNOFieldSpecified = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ConsolAmtBlk-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class ConsolAmtBlkCloseIOType
-    {
-        
-        private string cUSTNOField;
-        
-        private string bRANCH_CODEField;
-        
-        private string mAKERField;
-        
-        private string mAKERSTAMPField;
-        
-        private decimal mODNOField;
-        
-        private bool mODNOFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string CUSTNO
-        {
-            get
-            {
-                return this.cUSTNOField;
-            }
-            set
-            {
-                this.cUSTNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string BRANCH_CODE
-        {
-            get
-            {
-                return this.bRANCH_CODEField;
-            }
-            set
-            {
-                this.bRANCH_CODEField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string MAKER
-        {
-            get
-            {
-                return this.mAKERField;
-            }
-            set
-            {
-                this.mAKERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string MAKERSTAMP
-        {
-            get
-            {
-                return this.mAKERSTAMPField;
-            }
-            set
-            {
-                this.mAKERSTAMPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public decimal MODNO
-        {
-            get
-            {
-                return this.mODNOField;
-            }
-            set
-            {
-                this.mODNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MODNOSpecified
-        {
-            get
-            {
-                return this.mODNOFieldSpecified;
-            }
-            set
-            {
-                this.mODNOFieldSpecified = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="AmtBlk-Close-IO-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class AmtBlkCloseIOType
-    {
-        
-        private string aMTBLKNOField;
-        
-        private string mAKERField;
-        
-        private string mAKERSTAMPField;
-        
-        private decimal mODNOField;
-        
-        private bool mODNOFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AMTBLKNO
-        {
-            get
-            {
-                return this.aMTBLKNOField;
-            }
-            set
-            {
-                this.aMTBLKNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string MAKER
-        {
-            get
-            {
-                return this.mAKERField;
-            }
-            set
-            {
-                this.mAKERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string MAKERSTAMP
-        {
-            get
-            {
-                return this.mAKERSTAMPField;
-            }
-            set
-            {
-                this.mAKERSTAMPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public decimal MODNO
-        {
-            get
-            {
-                return this.mODNOField;
-            }
-            set
-            {
-                this.mODNOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MODNOSpecified
-        {
-            get
-            {
-                return this.mODNOFieldSpecified;
-            }
-            set
-            {
-                this.mODNOFieldSpecified = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(TypeName="TDAmountBlock-PK-Type", Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
     public partial class TDAmountBlockPKType
     {
@@ -60188,3988 +59594,6 @@ namespace FCUBSCustomerServiceReference
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSEAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSEAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_FSFS_REQFCUBS_BODY
-    {
-        
-        private AmtBlkFullType amountBlocksFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
-        public AmtBlkFullType AmountBlocksFull
-        {
-            get
-            {
-                return this.amountBlocksFullField;
-            }
-            set
-            {
-                this.amountBlocksFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSEAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSEAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_FSFS_RESFCUBS_BODY
-    {
-        
-        private AmtBlkFullType amountBlocksFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
-        public AmtBlkFullType AmountBlocksFull
-        {
-            get
-            {
-                return this.amountBlocksFullField;
-            }
-            set
-            {
-                this.amountBlocksFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseAmtBlkFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_REQ CLOSEAMTBLK_FSFS_REQ;
-        
-        public CloseAmtBlkFSRequest()
-        {
-        }
-        
-        public CloseAmtBlkFSRequest(FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_REQ CLOSEAMTBLK_FSFS_REQ)
-        {
-            this.CLOSEAMTBLK_FSFS_REQ = CLOSEAMTBLK_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseAmtBlkFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_RES CLOSEAMTBLK_FSFS_RES;
-        
-        public CloseAmtBlkFSResponse()
-        {
-        }
-        
-        public CloseAmtBlkFSResponse(FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_RES CLOSEAMTBLK_FSFS_RES)
-        {
-            this.CLOSEAMTBLK_FSFS_RES = CLOSEAMTBLK_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSEAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSEAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_IOPK_REQFCUBS_BODY
-    {
-        
-        private AmtBlkCloseIOType amountBlocksIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=0)]
-        public AmtBlkCloseIOType AmountBlocksIO
-        {
-            get
-            {
-                return this.amountBlocksIOField;
-            }
-            set
-            {
-                this.amountBlocksIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSEAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSEAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSEAMTBLK_IOPK_RESFCUBS_BODY
-    {
-        
-        private AmtBlkPKType amountBlocksPKField;
-        
-        private AmtBlkCloseIOType amountBlocksIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-PK", Order=0)]
-        public AmtBlkPKType AmountBlocksPK
-        {
-            get
-            {
-                return this.amountBlocksPKField;
-            }
-            set
-            {
-                this.amountBlocksPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=1)]
-        public AmtBlkCloseIOType AmountBlocksIO
-        {
-            get
-            {
-                return this.amountBlocksIOField;
-            }
-            set
-            {
-                this.amountBlocksIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseAmtBlkIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_REQ CLOSEAMTBLK_IOPK_REQ;
-        
-        public CloseAmtBlkIORequest()
-        {
-        }
-        
-        public CloseAmtBlkIORequest(FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_REQ CLOSEAMTBLK_IOPK_REQ)
-        {
-            this.CLOSEAMTBLK_IOPK_REQ = CLOSEAMTBLK_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseAmtBlkIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_RES CLOSEAMTBLK_IOPK_RES;
-        
-        public CloseAmtBlkIOResponse()
-        {
-        }
-        
-        public CloseAmtBlkIOResponse(FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_RES CLOSEAMTBLK_IOPK_RES)
-        {
-            this.CLOSEAMTBLK_IOPK_RES = CLOSEAMTBLK_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECONSOLAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECONSOLAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_FSFS_REQFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkFullType cabmFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
-        public ConsolAmtBlkFullType CabmFull
-        {
-            get
-            {
-                return this.cabmFullField;
-            }
-            set
-            {
-                this.cabmFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECONSOLAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECONSOLAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_FSFS_RESFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkFullType cabmFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
-        public ConsolAmtBlkFullType CabmFull
-        {
-            get
-            {
-                return this.cabmFullField;
-            }
-            set
-            {
-                this.cabmFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseConsolAmtBlkFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_REQ CLOSECONSOLAMTBLK_FSFS_REQ;
-        
-        public CloseConsolAmtBlkFSRequest()
-        {
-        }
-        
-        public CloseConsolAmtBlkFSRequest(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_REQ CLOSECONSOLAMTBLK_FSFS_REQ)
-        {
-            this.CLOSECONSOLAMTBLK_FSFS_REQ = CLOSECONSOLAMTBLK_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseConsolAmtBlkFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_RES CLOSECONSOLAMTBLK_FSFS_RES;
-        
-        public CloseConsolAmtBlkFSResponse()
-        {
-        }
-        
-        public CloseConsolAmtBlkFSResponse(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_RES CLOSECONSOLAMTBLK_FSFS_RES)
-        {
-            this.CLOSECONSOLAMTBLK_FSFS_RES = CLOSECONSOLAMTBLK_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECONSOLAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECONSOLAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_IOPK_REQFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkCloseIOType cabmIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=0)]
-        public ConsolAmtBlkCloseIOType CabmIO
-        {
-            get
-            {
-                return this.cabmIOField;
-            }
-            set
-            {
-                this.cabmIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECONSOLAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECONSOLAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECONSOLAMTBLK_IOPK_RESFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkPKType cabmPKField;
-        
-        private ConsolAmtBlkCloseIOType cabmIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-PK", Order=0)]
-        public ConsolAmtBlkPKType CabmPK
-        {
-            get
-            {
-                return this.cabmPKField;
-            }
-            set
-            {
-                this.cabmPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=1)]
-        public ConsolAmtBlkCloseIOType CabmIO
-        {
-            get
-            {
-                return this.cabmIOField;
-            }
-            set
-            {
-                this.cabmIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseConsolAmtBlkIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_REQ CLOSECONSOLAMTBLK_IOPK_REQ;
-        
-        public CloseConsolAmtBlkIORequest()
-        {
-        }
-        
-        public CloseConsolAmtBlkIORequest(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_REQ CLOSECONSOLAMTBLK_IOPK_REQ)
-        {
-            this.CLOSECONSOLAMTBLK_IOPK_REQ = CLOSECONSOLAMTBLK_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseConsolAmtBlkIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_RES CLOSECONSOLAMTBLK_IOPK_RES;
-        
-        public CloseConsolAmtBlkIOResponse()
-        {
-        }
-        
-        public CloseConsolAmtBlkIOResponse(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_RES CLOSECONSOLAMTBLK_IOPK_RES)
-        {
-            this.CLOSECONSOLAMTBLK_IOPK_RES = CLOSECONSOLAMTBLK_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY
-    {
-        
-        private CustSegAssociationFullType custSegMappingFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
-        public CustSegAssociationFullType CustSegMappingFull
-        {
-            get
-            {
-                return this.custSegMappingFullField;
-            }
-            set
-            {
-                this.custSegMappingFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY
-    {
-        
-        private CustSegAssociationFullType custSegMappingFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
-        public CustSegAssociationFullType CustSegMappingFull
-        {
-            get
-            {
-                return this.custSegMappingFullField;
-            }
-            set
-            {
-                this.custSegMappingFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustSegAssociationFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_REQ CLOSECUSTSEGASSOCIATION_FSFS_REQ;
-        
-        public CloseCustSegAssociationFSRequest()
-        {
-        }
-        
-        public CloseCustSegAssociationFSRequest(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_REQ CLOSECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            this.CLOSECUSTSEGASSOCIATION_FSFS_REQ = CLOSECUSTSEGASSOCIATION_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustSegAssociationFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_RES CLOSECUSTSEGASSOCIATION_FSFS_RES;
-        
-        public CloseCustSegAssociationFSResponse()
-        {
-        }
-        
-        public CloseCustSegAssociationFSResponse(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_RES CLOSECUSTSEGASSOCIATION_FSFS_RES)
-        {
-            this.CLOSECUSTSEGASSOCIATION_FSFS_RES = CLOSECUSTSEGASSOCIATION_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY
-    {
-        
-        private CustSegAssociationCloseIOType custSegMappingIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=0)]
-        public CustSegAssociationCloseIOType CustSegMappingIO
-        {
-            get
-            {
-                return this.custSegMappingIOField;
-            }
-            set
-            {
-                this.custSegMappingIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY
-    {
-        
-        private CustSegAssociationPKType custSegMappingPKField;
-        
-        private CustSegAssociationCloseIOType custSegMappingIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-PK", Order=0)]
-        public CustSegAssociationPKType CustSegMappingPK
-        {
-            get
-            {
-                return this.custSegMappingPKField;
-            }
-            set
-            {
-                this.custSegMappingPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=1)]
-        public CustSegAssociationCloseIOType CustSegMappingIO
-        {
-            get
-            {
-                return this.custSegMappingIOField;
-            }
-            set
-            {
-                this.custSegMappingIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustSegAssociationIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_REQ CLOSECUSTSEGASSOCIATION_IOPK_REQ;
-        
-        public CloseCustSegAssociationIORequest()
-        {
-        }
-        
-        public CloseCustSegAssociationIORequest(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_REQ CLOSECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            this.CLOSECUSTSEGASSOCIATION_IOPK_REQ = CLOSECUSTSEGASSOCIATION_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustSegAssociationIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_RES CLOSECUSTSEGASSOCIATION_IOPK_RES;
-        
-        public CloseCustSegAssociationIOResponse()
-        {
-        }
-        
-        public CloseCustSegAssociationIOResponse(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_RES CLOSECUSTSEGASSOCIATION_IOPK_RES)
-        {
-            this.CLOSECUSTSEGASSOCIATION_IOPK_RES = CLOSECUSTSEGASSOCIATION_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTOMER_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTOMER_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_FSFS_REQFCUBS_BODY
-    {
-        
-        private CustomerFullType customerFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
-        public CustomerFullType CustomerFull
-        {
-            get
-            {
-                return this.customerFullField;
-            }
-            set
-            {
-                this.customerFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTOMER_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTOMER_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_FSFS_RESFCUBS_BODY
-    {
-        
-        private CustomerFullType customerFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
-        public CustomerFullType CustomerFull
-        {
-            get
-            {
-                return this.customerFullField;
-            }
-            set
-            {
-                this.customerFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustomerFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_REQ CLOSECUSTOMER_FSFS_REQ;
-        
-        public CloseCustomerFSRequest()
-        {
-        }
-        
-        public CloseCustomerFSRequest(FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_REQ CLOSECUSTOMER_FSFS_REQ)
-        {
-            this.CLOSECUSTOMER_FSFS_REQ = CLOSECUSTOMER_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustomerFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_RES CLOSECUSTOMER_FSFS_RES;
-        
-        public CloseCustomerFSResponse()
-        {
-        }
-        
-        public CloseCustomerFSResponse(FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_RES CLOSECUSTOMER_FSFS_RES)
-        {
-            this.CLOSECUSTOMER_FSFS_RES = CLOSECUSTOMER_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTOMER_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTOMER_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_IOPK_REQFCUBS_BODY
-    {
-        
-        private CustomerCloseIOType customerIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Customer-IO", Order=0)]
-        public CustomerCloseIOType CustomerIO
-        {
-            get
-            {
-                return this.customerIOField;
-            }
-            set
-            {
-                this.customerIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSECUSTOMER_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSECUSTOMER_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSECUSTOMER_IOPK_RESFCUBS_BODY
-    {
-        
-        private CustomerPKType customerPKField;
-        
-        private CustomerCloseIOType customerIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Customer-PK", Order=0)]
-        public CustomerPKType CustomerPK
-        {
-            get
-            {
-                return this.customerPKField;
-            }
-            set
-            {
-                this.customerPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Customer-IO", Order=1)]
-        public CustomerCloseIOType CustomerIO
-        {
-            get
-            {
-                return this.customerIOField;
-            }
-            set
-            {
-                this.customerIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustomerIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_REQ CLOSECUSTOMER_IOPK_REQ;
-        
-        public CloseCustomerIORequest()
-        {
-        }
-        
-        public CloseCustomerIORequest(FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_REQ CLOSECUSTOMER_IOPK_REQ)
-        {
-            this.CLOSECUSTOMER_IOPK_REQ = CLOSECUSTOMER_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseCustomerIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_RES CLOSECUSTOMER_IOPK_RES;
-        
-        public CloseCustomerIOResponse()
-        {
-        }
-        
-        public CloseCustomerIOResponse(FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_RES CLOSECUSTOMER_IOPK_RES)
-        {
-            this.CLOSECUSTOMER_IOPK_RES = CLOSECUSTOMER_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSETDAMOUNTBLOCK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSETDAMOUNTBLOCK_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_FSFS_REQFCUBS_BODY
-    {
-        
-        private TDAmountBlockFullType amountBlocksFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
-        public TDAmountBlockFullType AmountBlocksFull
-        {
-            get
-            {
-                return this.amountBlocksFullField;
-            }
-            set
-            {
-                this.amountBlocksFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSETDAMOUNTBLOCK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSETDAMOUNTBLOCK_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_FSFS_RESFCUBS_BODY
-    {
-        
-        private TDAmountBlockFullType amountBlocksFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
-        public TDAmountBlockFullType AmountBlocksFull
-        {
-            get
-            {
-                return this.amountBlocksFullField;
-            }
-            set
-            {
-                this.amountBlocksFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseTDAmountBlockFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_REQ CLOSETDAMOUNTBLOCK_FSFS_REQ;
-        
-        public CloseTDAmountBlockFSRequest()
-        {
-        }
-        
-        public CloseTDAmountBlockFSRequest(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_REQ CLOSETDAMOUNTBLOCK_FSFS_REQ)
-        {
-            this.CLOSETDAMOUNTBLOCK_FSFS_REQ = CLOSETDAMOUNTBLOCK_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseTDAmountBlockFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_RES CLOSETDAMOUNTBLOCK_FSFS_RES;
-        
-        public CloseTDAmountBlockFSResponse()
-        {
-        }
-        
-        public CloseTDAmountBlockFSResponse(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_RES CLOSETDAMOUNTBLOCK_FSFS_RES)
-        {
-            this.CLOSETDAMOUNTBLOCK_FSFS_RES = CLOSETDAMOUNTBLOCK_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSETDAMOUNTBLOCK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSETDAMOUNTBLOCK_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_IOPK_REQFCUBS_BODY
-    {
-        
-        private TDAmountBlockCloseIOType amountBlocksIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=0)]
-        public TDAmountBlockCloseIOType AmountBlocksIO
-        {
-            get
-            {
-                return this.amountBlocksIOField;
-            }
-            set
-            {
-                this.amountBlocksIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CLOSETDAMOUNTBLOCK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CLOSETDAMOUNTBLOCK_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CLOSETDAMOUNTBLOCK_IOPK_RESFCUBS_BODY
-    {
-        
-        private TDAmountBlockPKType amountBlocksPKField;
-        
-        private TDAmountBlockCloseIOType amountBlocksIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-PK", Order=0)]
-        public TDAmountBlockPKType AmountBlocksPK
-        {
-            get
-            {
-                return this.amountBlocksPKField;
-            }
-            set
-            {
-                this.amountBlocksPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=1)]
-        public TDAmountBlockCloseIOType AmountBlocksIO
-        {
-            get
-            {
-                return this.amountBlocksIOField;
-            }
-            set
-            {
-                this.amountBlocksIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseTDAmountBlockIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_REQ CLOSETDAMOUNTBLOCK_IOPK_REQ;
-        
-        public CloseTDAmountBlockIORequest()
-        {
-        }
-        
-        public CloseTDAmountBlockIORequest(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_REQ CLOSETDAMOUNTBLOCK_IOPK_REQ)
-        {
-            this.CLOSETDAMOUNTBLOCK_IOPK_REQ = CLOSETDAMOUNTBLOCK_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CloseTDAmountBlockIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_RES CLOSETDAMOUNTBLOCK_IOPK_RES;
-        
-        public CloseTDAmountBlockIOResponse()
-        {
-        }
-        
-        public CloseTDAmountBlockIOResponse(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_RES CLOSETDAMOUNTBLOCK_IOPK_RES)
-        {
-            this.CLOSETDAMOUNTBLOCK_IOPK_RES = CLOSETDAMOUNTBLOCK_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATEAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATEAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_FSFS_REQFCUBS_BODY
-    {
-        
-        private AmtBlkFullType amountBlocksFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
-        public AmtBlkFullType AmountBlocksFull
-        {
-            get
-            {
-                return this.amountBlocksFullField;
-            }
-            set
-            {
-                this.amountBlocksFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATEAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATEAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_FSFS_RESFCUBS_BODY
-    {
-        
-        private AmtBlkFullType amountBlocksFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
-        public AmtBlkFullType AmountBlocksFull
-        {
-            get
-            {
-                return this.amountBlocksFullField;
-            }
-            set
-            {
-                this.amountBlocksFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateAmtBlkFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_REQ CREATEAMTBLK_FSFS_REQ;
-        
-        public CreateAmtBlkFSRequest()
-        {
-        }
-        
-        public CreateAmtBlkFSRequest(FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_REQ CREATEAMTBLK_FSFS_REQ)
-        {
-            this.CREATEAMTBLK_FSFS_REQ = CREATEAMTBLK_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateAmtBlkFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_RES CREATEAMTBLK_FSFS_RES;
-        
-        public CreateAmtBlkFSResponse()
-        {
-        }
-        
-        public CreateAmtBlkFSResponse(FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_RES CREATEAMTBLK_FSFS_RES)
-        {
-            this.CREATEAMTBLK_FSFS_RES = CREATEAMTBLK_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATEAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATEAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_IOPK_REQFCUBS_BODY
-    {
-        
-        private AmtBlkCreateIOType amountBlocksIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=0)]
-        public AmtBlkCreateIOType AmountBlocksIO
-        {
-            get
-            {
-                return this.amountBlocksIOField;
-            }
-            set
-            {
-                this.amountBlocksIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATEAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATEAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATEAMTBLK_IOPK_RESFCUBS_BODY
-    {
-        
-        private AmtBlkPKType amountBlocksPKField;
-        
-        private AmtBlkCreateIOType amountBlocksIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-PK", Order=0)]
-        public AmtBlkPKType AmountBlocksPK
-        {
-            get
-            {
-                return this.amountBlocksPKField;
-            }
-            set
-            {
-                this.amountBlocksPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=1)]
-        public AmtBlkCreateIOType AmountBlocksIO
-        {
-            get
-            {
-                return this.amountBlocksIOField;
-            }
-            set
-            {
-                this.amountBlocksIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateAmtBlkIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_REQ CREATEAMTBLK_IOPK_REQ;
-        
-        public CreateAmtBlkIORequest()
-        {
-        }
-        
-        public CreateAmtBlkIORequest(FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_REQ CREATEAMTBLK_IOPK_REQ)
-        {
-            this.CREATEAMTBLK_IOPK_REQ = CREATEAMTBLK_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateAmtBlkIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_RES CREATEAMTBLK_IOPK_RES;
-        
-        public CreateAmtBlkIOResponse()
-        {
-        }
-        
-        public CreateAmtBlkIOResponse(FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_RES CREATEAMTBLK_IOPK_RES)
-        {
-            this.CREATEAMTBLK_IOPK_RES = CREATEAMTBLK_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECLOSUREDATA_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECLOSUREDATA_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_FSFS_REQFCUBS_BODY
-    {
-        
-        private ClosureDataFullType custClosureFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-Full", Order=0)]
-        public ClosureDataFullType CustClosureFull
-        {
-            get
-            {
-                return this.custClosureFullField;
-            }
-            set
-            {
-                this.custClosureFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECLOSUREDATA_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECLOSUREDATA_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_FSFS_RESFCUBS_BODY
-    {
-        
-        private ClosureDataFullType custClosureFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-Full", Order=0)]
-        public ClosureDataFullType CustClosureFull
-        {
-            get
-            {
-                return this.custClosureFullField;
-            }
-            set
-            {
-                this.custClosureFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateClosureDataFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_REQ CREATECLOSUREDATA_FSFS_REQ;
-        
-        public CreateClosureDataFSRequest()
-        {
-        }
-        
-        public CreateClosureDataFSRequest(FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_REQ CREATECLOSUREDATA_FSFS_REQ)
-        {
-            this.CREATECLOSUREDATA_FSFS_REQ = CREATECLOSUREDATA_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateClosureDataFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_RES CREATECLOSUREDATA_FSFS_RES;
-        
-        public CreateClosureDataFSResponse()
-        {
-        }
-        
-        public CreateClosureDataFSResponse(FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_RES CREATECLOSUREDATA_FSFS_RES)
-        {
-            this.CREATECLOSUREDATA_FSFS_RES = CREATECLOSUREDATA_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECLOSUREDATA_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECLOSUREDATA_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_IOPK_REQFCUBS_BODY
-    {
-        
-        private ClosureDataCreateIOType custClosureIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-IO", Order=0)]
-        public ClosureDataCreateIOType CustClosureIO
-        {
-            get
-            {
-                return this.custClosureIOField;
-            }
-            set
-            {
-                this.custClosureIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECLOSUREDATA_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECLOSUREDATA_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECLOSUREDATA_IOPK_RESFCUBS_BODY
-    {
-        
-        private ClosureDataPKType custClosurePKField;
-        
-        private ClosureDataCreateIOType custClosureIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-PK", Order=0)]
-        public ClosureDataPKType CustClosurePK
-        {
-            get
-            {
-                return this.custClosurePKField;
-            }
-            set
-            {
-                this.custClosurePKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-IO", Order=1)]
-        public ClosureDataCreateIOType CustClosureIO
-        {
-            get
-            {
-                return this.custClosureIOField;
-            }
-            set
-            {
-                this.custClosureIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateClosureDataIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_REQ CREATECLOSUREDATA_IOPK_REQ;
-        
-        public CreateClosureDataIORequest()
-        {
-        }
-        
-        public CreateClosureDataIORequest(FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_REQ CREATECLOSUREDATA_IOPK_REQ)
-        {
-            this.CREATECLOSUREDATA_IOPK_REQ = CREATECLOSUREDATA_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateClosureDataIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_RES CREATECLOSUREDATA_IOPK_RES;
-        
-        public CreateClosureDataIOResponse()
-        {
-        }
-        
-        public CreateClosureDataIOResponse(FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_RES CREATECLOSUREDATA_IOPK_RES)
-        {
-            this.CREATECLOSUREDATA_IOPK_RES = CREATECLOSUREDATA_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECONSOLAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECONSOLAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_FSFS_REQFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkFullType cabmFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
-        public ConsolAmtBlkFullType CabmFull
-        {
-            get
-            {
-                return this.cabmFullField;
-            }
-            set
-            {
-                this.cabmFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECONSOLAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECONSOLAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_FSFS_RESFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkFullType cabmFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
-        public ConsolAmtBlkFullType CabmFull
-        {
-            get
-            {
-                return this.cabmFullField;
-            }
-            set
-            {
-                this.cabmFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateConsolAmtBlkFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_REQ CREATECONSOLAMTBLK_FSFS_REQ;
-        
-        public CreateConsolAmtBlkFSRequest()
-        {
-        }
-        
-        public CreateConsolAmtBlkFSRequest(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_REQ CREATECONSOLAMTBLK_FSFS_REQ)
-        {
-            this.CREATECONSOLAMTBLK_FSFS_REQ = CREATECONSOLAMTBLK_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateConsolAmtBlkFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_RES CREATECONSOLAMTBLK_FSFS_RES;
-        
-        public CreateConsolAmtBlkFSResponse()
-        {
-        }
-        
-        public CreateConsolAmtBlkFSResponse(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_RES CREATECONSOLAMTBLK_FSFS_RES)
-        {
-            this.CREATECONSOLAMTBLK_FSFS_RES = CREATECONSOLAMTBLK_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECONSOLAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECONSOLAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_IOPK_REQFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkCreateIOType cabmIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=0)]
-        public ConsolAmtBlkCreateIOType CabmIO
-        {
-            get
-            {
-                return this.cabmIOField;
-            }
-            set
-            {
-                this.cabmIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECONSOLAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECONSOLAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECONSOLAMTBLK_IOPK_RESFCUBS_BODY
-    {
-        
-        private ConsolAmtBlkPKType cabmPKField;
-        
-        private ConsolAmtBlkCreateIOType cabmIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-PK", Order=0)]
-        public ConsolAmtBlkPKType CabmPK
-        {
-            get
-            {
-                return this.cabmPKField;
-            }
-            set
-            {
-                this.cabmPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=1)]
-        public ConsolAmtBlkCreateIOType CabmIO
-        {
-            get
-            {
-                return this.cabmIOField;
-            }
-            set
-            {
-                this.cabmIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateConsolAmtBlkIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_REQ CREATECONSOLAMTBLK_IOPK_REQ;
-        
-        public CreateConsolAmtBlkIORequest()
-        {
-        }
-        
-        public CreateConsolAmtBlkIORequest(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_REQ CREATECONSOLAMTBLK_IOPK_REQ)
-        {
-            this.CREATECONSOLAMTBLK_IOPK_REQ = CREATECONSOLAMTBLK_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateConsolAmtBlkIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_RES CREATECONSOLAMTBLK_IOPK_RES;
-        
-        public CreateConsolAmtBlkIOResponse()
-        {
-        }
-        
-        public CreateConsolAmtBlkIOResponse(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_RES CREATECONSOLAMTBLK_IOPK_RES)
-        {
-            this.CREATECONSOLAMTBLK_IOPK_RES = CREATECONSOLAMTBLK_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY
-    {
-        
-        private CustSegAssociationFullType custSegMappingFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
-        public CustSegAssociationFullType CustSegMappingFull
-        {
-            get
-            {
-                return this.custSegMappingFullField;
-            }
-            set
-            {
-                this.custSegMappingFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY
-    {
-        
-        private CustSegAssociationFullType custSegMappingFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
-        public CustSegAssociationFullType CustSegMappingFull
-        {
-            get
-            {
-                return this.custSegMappingFullField;
-            }
-            set
-            {
-                this.custSegMappingFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateCustSegAssociationFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_REQ CREATECUSTSEGASSOCIATION_FSFS_REQ;
-        
-        public CreateCustSegAssociationFSRequest()
-        {
-        }
-        
-        public CreateCustSegAssociationFSRequest(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_REQ CREATECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            this.CREATECUSTSEGASSOCIATION_FSFS_REQ = CREATECUSTSEGASSOCIATION_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateCustSegAssociationFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_RES CREATECUSTSEGASSOCIATION_FSFS_RES;
-        
-        public CreateCustSegAssociationFSResponse()
-        {
-        }
-        
-        public CreateCustSegAssociationFSResponse(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_RES CREATECUSTSEGASSOCIATION_FSFS_RES)
-        {
-            this.CREATECUSTSEGASSOCIATION_FSFS_RES = CREATECUSTSEGASSOCIATION_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_IOPK_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY
-    {
-        
-        private CustSegAssociationCreateIOType custSegMappingIOField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=0)]
-        public CustSegAssociationCreateIOType CustSegMappingIO
-        {
-            get
-            {
-                return this.custSegMappingIOField;
-            }
-            set
-            {
-                this.custSegMappingIOField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_IOPK_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY
-    {
-        
-        private CustSegAssociationPKType custSegMappingPKField;
-        
-        private CustSegAssociationCreateIOType custSegMappingIOField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-PK", Order=0)]
-        public CustSegAssociationPKType CustSegMappingPK
-        {
-            get
-            {
-                return this.custSegMappingPKField;
-            }
-            set
-            {
-                this.custSegMappingPKField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=1)]
-        public CustSegAssociationCreateIOType CustSegMappingIO
-        {
-            get
-            {
-                return this.custSegMappingIOField;
-            }
-            set
-            {
-                this.custSegMappingIOField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateCustSegAssociationIORequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_REQ CREATECUSTSEGASSOCIATION_IOPK_REQ;
-        
-        public CreateCustSegAssociationIORequest()
-        {
-        }
-        
-        public CreateCustSegAssociationIORequest(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_REQ CREATECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            this.CREATECUSTSEGASSOCIATION_IOPK_REQ = CREATECUSTSEGASSOCIATION_IOPK_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateCustSegAssociationIOResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_RES CREATECUSTSEGASSOCIATION_IOPK_RES;
-        
-        public CreateCustSegAssociationIOResponse()
-        {
-        }
-        
-        public CreateCustSegAssociationIOResponse(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_RES CREATECUSTSEGASSOCIATION_IOPK_RES)
-        {
-            this.CREATECUSTSEGASSOCIATION_IOPK_RES = CREATECUSTSEGASSOCIATION_IOPK_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTOMER_FSFS_REQ
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECUSTOMER_FSFS_REQFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECUSTOMER_FSFS_REQFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTOMER_FSFS_REQFCUBS_BODY
-    {
-        
-        private CustomerFullType customerFullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
-        public CustomerFullType CustomerFull
-        {
-            get
-            {
-                return this.customerFullField;
-            }
-            set
-            {
-                this.customerFullField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTOMER_FSFS_RES
-    {
-        
-        private FCUBS_HEADERType fCUBS_HEADERField;
-        
-        private CREATECUSTOMER_FSFS_RESFCUBS_BODY fCUBS_BODYField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public FCUBS_HEADERType FCUBS_HEADER
-        {
-            get
-            {
-                return this.fCUBS_HEADERField;
-            }
-            set
-            {
-                this.fCUBS_HEADERField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public CREATECUSTOMER_FSFS_RESFCUBS_BODY FCUBS_BODY
-        {
-            get
-            {
-                return this.fCUBS_BODYField;
-            }
-            set
-            {
-                this.fCUBS_BODYField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
-    public partial class CREATECUSTOMER_FSFS_RESFCUBS_BODY
-    {
-        
-        private CustomerFullType customerFullField;
-        
-        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
-        
-        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
-        public CustomerFullType CustomerFull
-        {
-            get
-            {
-                return this.customerFullField;
-            }
-            set
-            {
-                this.customerFullField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
-        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
-        {
-            get
-            {
-                return this.fCUBS_ERROR_RESPField;
-            }
-            set
-            {
-                this.fCUBS_ERROR_RESPField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
-        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
-        {
-            get
-            {
-                return this.fCUBS_WARNING_RESPField;
-            }
-            set
-            {
-                this.fCUBS_WARNING_RESPField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateCustomerFSRequest
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_REQ CREATECUSTOMER_FSFS_REQ;
-        
-        public CreateCustomerFSRequest()
-        {
-        }
-        
-        public CreateCustomerFSRequest(FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_REQ CREATECUSTOMER_FSFS_REQ)
-        {
-            this.CREATECUSTOMER_FSFS_REQ = CREATECUSTOMER_FSFS_REQ;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CreateCustomerFSResponse
-    {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
-        public FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_RES CREATECUSTOMER_FSFS_RES;
-        
-        public CreateCustomerFSResponse()
-        {
-        }
-        
-        public CreateCustomerFSResponse(FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_RES CREATECUSTOMER_FSFS_RES)
-        {
-            this.CREATECUSTOMER_FSFS_RES = CREATECUSTOMER_FSFS_RES;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
     public partial class CREATECUSTOMER_IOPK_REQ
     {
         
@@ -71101,6 +66525,3988 @@ namespace FCUBSCustomerServiceReference
         public ModifyCustomerObligationIOResponse(FCUBSCustomerServiceReference.MODIFYCUSTOMEROBLIGATION_IOPK_RES MODIFYCUSTOMEROBLIGATION_IOPK_RES)
         {
             this.MODIFYCUSTOMEROBLIGATION_IOPK_RES = MODIFYCUSTOMEROBLIGATION_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSEAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSEAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_FSFS_REQFCUBS_BODY
+    {
+        
+        private AmtBlkFullType amountBlocksFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
+        public AmtBlkFullType AmountBlocksFull
+        {
+            get
+            {
+                return this.amountBlocksFullField;
+            }
+            set
+            {
+                this.amountBlocksFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSEAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSEAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_FSFS_RESFCUBS_BODY
+    {
+        
+        private AmtBlkFullType amountBlocksFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
+        public AmtBlkFullType AmountBlocksFull
+        {
+            get
+            {
+                return this.amountBlocksFullField;
+            }
+            set
+            {
+                this.amountBlocksFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseAmtBlkFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_REQ CLOSEAMTBLK_FSFS_REQ;
+        
+        public CloseAmtBlkFSRequest()
+        {
+        }
+        
+        public CloseAmtBlkFSRequest(FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_REQ CLOSEAMTBLK_FSFS_REQ)
+        {
+            this.CLOSEAMTBLK_FSFS_REQ = CLOSEAMTBLK_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseAmtBlkFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_RES CLOSEAMTBLK_FSFS_RES;
+        
+        public CloseAmtBlkFSResponse()
+        {
+        }
+        
+        public CloseAmtBlkFSResponse(FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_RES CLOSEAMTBLK_FSFS_RES)
+        {
+            this.CLOSEAMTBLK_FSFS_RES = CLOSEAMTBLK_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSEAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSEAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_IOPK_REQFCUBS_BODY
+    {
+        
+        private AmtBlkCloseIOType amountBlocksIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=0)]
+        public AmtBlkCloseIOType AmountBlocksIO
+        {
+            get
+            {
+                return this.amountBlocksIOField;
+            }
+            set
+            {
+                this.amountBlocksIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSEAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSEAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSEAMTBLK_IOPK_RESFCUBS_BODY
+    {
+        
+        private AmtBlkPKType amountBlocksPKField;
+        
+        private AmtBlkCloseIOType amountBlocksIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-PK", Order=0)]
+        public AmtBlkPKType AmountBlocksPK
+        {
+            get
+            {
+                return this.amountBlocksPKField;
+            }
+            set
+            {
+                this.amountBlocksPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=1)]
+        public AmtBlkCloseIOType AmountBlocksIO
+        {
+            get
+            {
+                return this.amountBlocksIOField;
+            }
+            set
+            {
+                this.amountBlocksIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseAmtBlkIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_REQ CLOSEAMTBLK_IOPK_REQ;
+        
+        public CloseAmtBlkIORequest()
+        {
+        }
+        
+        public CloseAmtBlkIORequest(FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_REQ CLOSEAMTBLK_IOPK_REQ)
+        {
+            this.CLOSEAMTBLK_IOPK_REQ = CLOSEAMTBLK_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseAmtBlkIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_RES CLOSEAMTBLK_IOPK_RES;
+        
+        public CloseAmtBlkIOResponse()
+        {
+        }
+        
+        public CloseAmtBlkIOResponse(FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_RES CLOSEAMTBLK_IOPK_RES)
+        {
+            this.CLOSEAMTBLK_IOPK_RES = CLOSEAMTBLK_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECONSOLAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECONSOLAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_FSFS_REQFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkFullType cabmFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
+        public ConsolAmtBlkFullType CabmFull
+        {
+            get
+            {
+                return this.cabmFullField;
+            }
+            set
+            {
+                this.cabmFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECONSOLAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECONSOLAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_FSFS_RESFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkFullType cabmFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
+        public ConsolAmtBlkFullType CabmFull
+        {
+            get
+            {
+                return this.cabmFullField;
+            }
+            set
+            {
+                this.cabmFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseConsolAmtBlkFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_REQ CLOSECONSOLAMTBLK_FSFS_REQ;
+        
+        public CloseConsolAmtBlkFSRequest()
+        {
+        }
+        
+        public CloseConsolAmtBlkFSRequest(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_REQ CLOSECONSOLAMTBLK_FSFS_REQ)
+        {
+            this.CLOSECONSOLAMTBLK_FSFS_REQ = CLOSECONSOLAMTBLK_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseConsolAmtBlkFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_RES CLOSECONSOLAMTBLK_FSFS_RES;
+        
+        public CloseConsolAmtBlkFSResponse()
+        {
+        }
+        
+        public CloseConsolAmtBlkFSResponse(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_RES CLOSECONSOLAMTBLK_FSFS_RES)
+        {
+            this.CLOSECONSOLAMTBLK_FSFS_RES = CLOSECONSOLAMTBLK_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECONSOLAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECONSOLAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_IOPK_REQFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkCloseIOType cabmIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=0)]
+        public ConsolAmtBlkCloseIOType CabmIO
+        {
+            get
+            {
+                return this.cabmIOField;
+            }
+            set
+            {
+                this.cabmIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECONSOLAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECONSOLAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECONSOLAMTBLK_IOPK_RESFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkPKType cabmPKField;
+        
+        private ConsolAmtBlkCloseIOType cabmIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-PK", Order=0)]
+        public ConsolAmtBlkPKType CabmPK
+        {
+            get
+            {
+                return this.cabmPKField;
+            }
+            set
+            {
+                this.cabmPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=1)]
+        public ConsolAmtBlkCloseIOType CabmIO
+        {
+            get
+            {
+                return this.cabmIOField;
+            }
+            set
+            {
+                this.cabmIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseConsolAmtBlkIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_REQ CLOSECONSOLAMTBLK_IOPK_REQ;
+        
+        public CloseConsolAmtBlkIORequest()
+        {
+        }
+        
+        public CloseConsolAmtBlkIORequest(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_REQ CLOSECONSOLAMTBLK_IOPK_REQ)
+        {
+            this.CLOSECONSOLAMTBLK_IOPK_REQ = CLOSECONSOLAMTBLK_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseConsolAmtBlkIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_RES CLOSECONSOLAMTBLK_IOPK_RES;
+        
+        public CloseConsolAmtBlkIOResponse()
+        {
+        }
+        
+        public CloseConsolAmtBlkIOResponse(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_RES CLOSECONSOLAMTBLK_IOPK_RES)
+        {
+            this.CLOSECONSOLAMTBLK_IOPK_RES = CLOSECONSOLAMTBLK_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY
+    {
+        
+        private CustSegAssociationFullType custSegMappingFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
+        public CustSegAssociationFullType CustSegMappingFull
+        {
+            get
+            {
+                return this.custSegMappingFullField;
+            }
+            set
+            {
+                this.custSegMappingFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY
+    {
+        
+        private CustSegAssociationFullType custSegMappingFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
+        public CustSegAssociationFullType CustSegMappingFull
+        {
+            get
+            {
+                return this.custSegMappingFullField;
+            }
+            set
+            {
+                this.custSegMappingFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustSegAssociationFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_REQ CLOSECUSTSEGASSOCIATION_FSFS_REQ;
+        
+        public CloseCustSegAssociationFSRequest()
+        {
+        }
+        
+        public CloseCustSegAssociationFSRequest(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_REQ CLOSECUSTSEGASSOCIATION_FSFS_REQ)
+        {
+            this.CLOSECUSTSEGASSOCIATION_FSFS_REQ = CLOSECUSTSEGASSOCIATION_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustSegAssociationFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_RES CLOSECUSTSEGASSOCIATION_FSFS_RES;
+        
+        public CloseCustSegAssociationFSResponse()
+        {
+        }
+        
+        public CloseCustSegAssociationFSResponse(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_RES CLOSECUSTSEGASSOCIATION_FSFS_RES)
+        {
+            this.CLOSECUSTSEGASSOCIATION_FSFS_RES = CLOSECUSTSEGASSOCIATION_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY
+    {
+        
+        private CustSegAssociationCloseIOType custSegMappingIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=0)]
+        public CustSegAssociationCloseIOType CustSegMappingIO
+        {
+            get
+            {
+                return this.custSegMappingIOField;
+            }
+            set
+            {
+                this.custSegMappingIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY
+    {
+        
+        private CustSegAssociationPKType custSegMappingPKField;
+        
+        private CustSegAssociationCloseIOType custSegMappingIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-PK", Order=0)]
+        public CustSegAssociationPKType CustSegMappingPK
+        {
+            get
+            {
+                return this.custSegMappingPKField;
+            }
+            set
+            {
+                this.custSegMappingPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=1)]
+        public CustSegAssociationCloseIOType CustSegMappingIO
+        {
+            get
+            {
+                return this.custSegMappingIOField;
+            }
+            set
+            {
+                this.custSegMappingIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustSegAssociationIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_REQ CLOSECUSTSEGASSOCIATION_IOPK_REQ;
+        
+        public CloseCustSegAssociationIORequest()
+        {
+        }
+        
+        public CloseCustSegAssociationIORequest(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_REQ CLOSECUSTSEGASSOCIATION_IOPK_REQ)
+        {
+            this.CLOSECUSTSEGASSOCIATION_IOPK_REQ = CLOSECUSTSEGASSOCIATION_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustSegAssociationIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_RES CLOSECUSTSEGASSOCIATION_IOPK_RES;
+        
+        public CloseCustSegAssociationIOResponse()
+        {
+        }
+        
+        public CloseCustSegAssociationIOResponse(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_RES CLOSECUSTSEGASSOCIATION_IOPK_RES)
+        {
+            this.CLOSECUSTSEGASSOCIATION_IOPK_RES = CLOSECUSTSEGASSOCIATION_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTOMER_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTOMER_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_FSFS_REQFCUBS_BODY
+    {
+        
+        private CustomerFullType customerFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
+        public CustomerFullType CustomerFull
+        {
+            get
+            {
+                return this.customerFullField;
+            }
+            set
+            {
+                this.customerFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTOMER_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTOMER_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_FSFS_RESFCUBS_BODY
+    {
+        
+        private CustomerFullType customerFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
+        public CustomerFullType CustomerFull
+        {
+            get
+            {
+                return this.customerFullField;
+            }
+            set
+            {
+                this.customerFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustomerFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_REQ CLOSECUSTOMER_FSFS_REQ;
+        
+        public CloseCustomerFSRequest()
+        {
+        }
+        
+        public CloseCustomerFSRequest(FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_REQ CLOSECUSTOMER_FSFS_REQ)
+        {
+            this.CLOSECUSTOMER_FSFS_REQ = CLOSECUSTOMER_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustomerFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_RES CLOSECUSTOMER_FSFS_RES;
+        
+        public CloseCustomerFSResponse()
+        {
+        }
+        
+        public CloseCustomerFSResponse(FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_RES CLOSECUSTOMER_FSFS_RES)
+        {
+            this.CLOSECUSTOMER_FSFS_RES = CLOSECUSTOMER_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTOMER_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTOMER_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_IOPK_REQFCUBS_BODY
+    {
+        
+        private CustomerCloseIOType customerIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Customer-IO", Order=0)]
+        public CustomerCloseIOType CustomerIO
+        {
+            get
+            {
+                return this.customerIOField;
+            }
+            set
+            {
+                this.customerIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSECUSTOMER_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSECUSTOMER_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSECUSTOMER_IOPK_RESFCUBS_BODY
+    {
+        
+        private CustomerPKType customerPKField;
+        
+        private CustomerCloseIOType customerIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Customer-PK", Order=0)]
+        public CustomerPKType CustomerPK
+        {
+            get
+            {
+                return this.customerPKField;
+            }
+            set
+            {
+                this.customerPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Customer-IO", Order=1)]
+        public CustomerCloseIOType CustomerIO
+        {
+            get
+            {
+                return this.customerIOField;
+            }
+            set
+            {
+                this.customerIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustomerIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_REQ CLOSECUSTOMER_IOPK_REQ;
+        
+        public CloseCustomerIORequest()
+        {
+        }
+        
+        public CloseCustomerIORequest(FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_REQ CLOSECUSTOMER_IOPK_REQ)
+        {
+            this.CLOSECUSTOMER_IOPK_REQ = CLOSECUSTOMER_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseCustomerIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_RES CLOSECUSTOMER_IOPK_RES;
+        
+        public CloseCustomerIOResponse()
+        {
+        }
+        
+        public CloseCustomerIOResponse(FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_RES CLOSECUSTOMER_IOPK_RES)
+        {
+            this.CLOSECUSTOMER_IOPK_RES = CLOSECUSTOMER_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSETDAMOUNTBLOCK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSETDAMOUNTBLOCK_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_FSFS_REQFCUBS_BODY
+    {
+        
+        private TDAmountBlockFullType amountBlocksFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
+        public TDAmountBlockFullType AmountBlocksFull
+        {
+            get
+            {
+                return this.amountBlocksFullField;
+            }
+            set
+            {
+                this.amountBlocksFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSETDAMOUNTBLOCK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSETDAMOUNTBLOCK_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_FSFS_RESFCUBS_BODY
+    {
+        
+        private TDAmountBlockFullType amountBlocksFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
+        public TDAmountBlockFullType AmountBlocksFull
+        {
+            get
+            {
+                return this.amountBlocksFullField;
+            }
+            set
+            {
+                this.amountBlocksFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseTDAmountBlockFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_REQ CLOSETDAMOUNTBLOCK_FSFS_REQ;
+        
+        public CloseTDAmountBlockFSRequest()
+        {
+        }
+        
+        public CloseTDAmountBlockFSRequest(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_REQ CLOSETDAMOUNTBLOCK_FSFS_REQ)
+        {
+            this.CLOSETDAMOUNTBLOCK_FSFS_REQ = CLOSETDAMOUNTBLOCK_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseTDAmountBlockFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_RES CLOSETDAMOUNTBLOCK_FSFS_RES;
+        
+        public CloseTDAmountBlockFSResponse()
+        {
+        }
+        
+        public CloseTDAmountBlockFSResponse(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_RES CLOSETDAMOUNTBLOCK_FSFS_RES)
+        {
+            this.CLOSETDAMOUNTBLOCK_FSFS_RES = CLOSETDAMOUNTBLOCK_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSETDAMOUNTBLOCK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSETDAMOUNTBLOCK_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_IOPK_REQFCUBS_BODY
+    {
+        
+        private TDAmountBlockCloseIOType amountBlocksIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=0)]
+        public TDAmountBlockCloseIOType AmountBlocksIO
+        {
+            get
+            {
+                return this.amountBlocksIOField;
+            }
+            set
+            {
+                this.amountBlocksIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CLOSETDAMOUNTBLOCK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CLOSETDAMOUNTBLOCK_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CLOSETDAMOUNTBLOCK_IOPK_RESFCUBS_BODY
+    {
+        
+        private TDAmountBlockPKType amountBlocksPKField;
+        
+        private TDAmountBlockCloseIOType amountBlocksIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-PK", Order=0)]
+        public TDAmountBlockPKType AmountBlocksPK
+        {
+            get
+            {
+                return this.amountBlocksPKField;
+            }
+            set
+            {
+                this.amountBlocksPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=1)]
+        public TDAmountBlockCloseIOType AmountBlocksIO
+        {
+            get
+            {
+                return this.amountBlocksIOField;
+            }
+            set
+            {
+                this.amountBlocksIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseTDAmountBlockIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_REQ CLOSETDAMOUNTBLOCK_IOPK_REQ;
+        
+        public CloseTDAmountBlockIORequest()
+        {
+        }
+        
+        public CloseTDAmountBlockIORequest(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_REQ CLOSETDAMOUNTBLOCK_IOPK_REQ)
+        {
+            this.CLOSETDAMOUNTBLOCK_IOPK_REQ = CLOSETDAMOUNTBLOCK_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CloseTDAmountBlockIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_RES CLOSETDAMOUNTBLOCK_IOPK_RES;
+        
+        public CloseTDAmountBlockIOResponse()
+        {
+        }
+        
+        public CloseTDAmountBlockIOResponse(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_RES CLOSETDAMOUNTBLOCK_IOPK_RES)
+        {
+            this.CLOSETDAMOUNTBLOCK_IOPK_RES = CLOSETDAMOUNTBLOCK_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATEAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATEAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_FSFS_REQFCUBS_BODY
+    {
+        
+        private AmtBlkFullType amountBlocksFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
+        public AmtBlkFullType AmountBlocksFull
+        {
+            get
+            {
+                return this.amountBlocksFullField;
+            }
+            set
+            {
+                this.amountBlocksFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATEAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATEAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_FSFS_RESFCUBS_BODY
+    {
+        
+        private AmtBlkFullType amountBlocksFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-Full", Order=0)]
+        public AmtBlkFullType AmountBlocksFull
+        {
+            get
+            {
+                return this.amountBlocksFullField;
+            }
+            set
+            {
+                this.amountBlocksFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateAmtBlkFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_REQ CREATEAMTBLK_FSFS_REQ;
+        
+        public CreateAmtBlkFSRequest()
+        {
+        }
+        
+        public CreateAmtBlkFSRequest(FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_REQ CREATEAMTBLK_FSFS_REQ)
+        {
+            this.CREATEAMTBLK_FSFS_REQ = CREATEAMTBLK_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateAmtBlkFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_RES CREATEAMTBLK_FSFS_RES;
+        
+        public CreateAmtBlkFSResponse()
+        {
+        }
+        
+        public CreateAmtBlkFSResponse(FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_RES CREATEAMTBLK_FSFS_RES)
+        {
+            this.CREATEAMTBLK_FSFS_RES = CREATEAMTBLK_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATEAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATEAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_IOPK_REQFCUBS_BODY
+    {
+        
+        private AmtBlkCreateIOType amountBlocksIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=0)]
+        public AmtBlkCreateIOType AmountBlocksIO
+        {
+            get
+            {
+                return this.amountBlocksIOField;
+            }
+            set
+            {
+                this.amountBlocksIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATEAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATEAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATEAMTBLK_IOPK_RESFCUBS_BODY
+    {
+        
+        private AmtBlkPKType amountBlocksPKField;
+        
+        private AmtBlkCreateIOType amountBlocksIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-PK", Order=0)]
+        public AmtBlkPKType AmountBlocksPK
+        {
+            get
+            {
+                return this.amountBlocksPKField;
+            }
+            set
+            {
+                this.amountBlocksPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Amount-Blocks-IO", Order=1)]
+        public AmtBlkCreateIOType AmountBlocksIO
+        {
+            get
+            {
+                return this.amountBlocksIOField;
+            }
+            set
+            {
+                this.amountBlocksIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateAmtBlkIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_REQ CREATEAMTBLK_IOPK_REQ;
+        
+        public CreateAmtBlkIORequest()
+        {
+        }
+        
+        public CreateAmtBlkIORequest(FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_REQ CREATEAMTBLK_IOPK_REQ)
+        {
+            this.CREATEAMTBLK_IOPK_REQ = CREATEAMTBLK_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateAmtBlkIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_RES CREATEAMTBLK_IOPK_RES;
+        
+        public CreateAmtBlkIOResponse()
+        {
+        }
+        
+        public CreateAmtBlkIOResponse(FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_RES CREATEAMTBLK_IOPK_RES)
+        {
+            this.CREATEAMTBLK_IOPK_RES = CREATEAMTBLK_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECLOSUREDATA_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECLOSUREDATA_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_FSFS_REQFCUBS_BODY
+    {
+        
+        private ClosureDataFullType custClosureFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-Full", Order=0)]
+        public ClosureDataFullType CustClosureFull
+        {
+            get
+            {
+                return this.custClosureFullField;
+            }
+            set
+            {
+                this.custClosureFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECLOSUREDATA_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECLOSUREDATA_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_FSFS_RESFCUBS_BODY
+    {
+        
+        private ClosureDataFullType custClosureFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-Full", Order=0)]
+        public ClosureDataFullType CustClosureFull
+        {
+            get
+            {
+                return this.custClosureFullField;
+            }
+            set
+            {
+                this.custClosureFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateClosureDataFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_REQ CREATECLOSUREDATA_FSFS_REQ;
+        
+        public CreateClosureDataFSRequest()
+        {
+        }
+        
+        public CreateClosureDataFSRequest(FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_REQ CREATECLOSUREDATA_FSFS_REQ)
+        {
+            this.CREATECLOSUREDATA_FSFS_REQ = CREATECLOSUREDATA_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateClosureDataFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_RES CREATECLOSUREDATA_FSFS_RES;
+        
+        public CreateClosureDataFSResponse()
+        {
+        }
+        
+        public CreateClosureDataFSResponse(FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_RES CREATECLOSUREDATA_FSFS_RES)
+        {
+            this.CREATECLOSUREDATA_FSFS_RES = CREATECLOSUREDATA_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECLOSUREDATA_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECLOSUREDATA_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_IOPK_REQFCUBS_BODY
+    {
+        
+        private ClosureDataCreateIOType custClosureIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-IO", Order=0)]
+        public ClosureDataCreateIOType CustClosureIO
+        {
+            get
+            {
+                return this.custClosureIOField;
+            }
+            set
+            {
+                this.custClosureIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECLOSUREDATA_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECLOSUREDATA_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECLOSUREDATA_IOPK_RESFCUBS_BODY
+    {
+        
+        private ClosureDataPKType custClosurePKField;
+        
+        private ClosureDataCreateIOType custClosureIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-PK", Order=0)]
+        public ClosureDataPKType CustClosurePK
+        {
+            get
+            {
+                return this.custClosurePKField;
+            }
+            set
+            {
+                this.custClosurePKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Closure-IO", Order=1)]
+        public ClosureDataCreateIOType CustClosureIO
+        {
+            get
+            {
+                return this.custClosureIOField;
+            }
+            set
+            {
+                this.custClosureIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateClosureDataIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_REQ CREATECLOSUREDATA_IOPK_REQ;
+        
+        public CreateClosureDataIORequest()
+        {
+        }
+        
+        public CreateClosureDataIORequest(FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_REQ CREATECLOSUREDATA_IOPK_REQ)
+        {
+            this.CREATECLOSUREDATA_IOPK_REQ = CREATECLOSUREDATA_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateClosureDataIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_RES CREATECLOSUREDATA_IOPK_RES;
+        
+        public CreateClosureDataIOResponse()
+        {
+        }
+        
+        public CreateClosureDataIOResponse(FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_RES CREATECLOSUREDATA_IOPK_RES)
+        {
+            this.CREATECLOSUREDATA_IOPK_RES = CREATECLOSUREDATA_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECONSOLAMTBLK_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECONSOLAMTBLK_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_FSFS_REQFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkFullType cabmFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
+        public ConsolAmtBlkFullType CabmFull
+        {
+            get
+            {
+                return this.cabmFullField;
+            }
+            set
+            {
+                this.cabmFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECONSOLAMTBLK_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECONSOLAMTBLK_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_FSFS_RESFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkFullType cabmFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-Full", Order=0)]
+        public ConsolAmtBlkFullType CabmFull
+        {
+            get
+            {
+                return this.cabmFullField;
+            }
+            set
+            {
+                this.cabmFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateConsolAmtBlkFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_REQ CREATECONSOLAMTBLK_FSFS_REQ;
+        
+        public CreateConsolAmtBlkFSRequest()
+        {
+        }
+        
+        public CreateConsolAmtBlkFSRequest(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_REQ CREATECONSOLAMTBLK_FSFS_REQ)
+        {
+            this.CREATECONSOLAMTBLK_FSFS_REQ = CREATECONSOLAMTBLK_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateConsolAmtBlkFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_RES CREATECONSOLAMTBLK_FSFS_RES;
+        
+        public CreateConsolAmtBlkFSResponse()
+        {
+        }
+        
+        public CreateConsolAmtBlkFSResponse(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_RES CREATECONSOLAMTBLK_FSFS_RES)
+        {
+            this.CREATECONSOLAMTBLK_FSFS_RES = CREATECONSOLAMTBLK_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECONSOLAMTBLK_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECONSOLAMTBLK_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_IOPK_REQFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkCreateIOType cabmIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=0)]
+        public ConsolAmtBlkCreateIOType CabmIO
+        {
+            get
+            {
+                return this.cabmIOField;
+            }
+            set
+            {
+                this.cabmIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECONSOLAMTBLK_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECONSOLAMTBLK_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECONSOLAMTBLK_IOPK_RESFCUBS_BODY
+    {
+        
+        private ConsolAmtBlkPKType cabmPKField;
+        
+        private ConsolAmtBlkCreateIOType cabmIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-PK", Order=0)]
+        public ConsolAmtBlkPKType CabmPK
+        {
+            get
+            {
+                return this.cabmPKField;
+            }
+            set
+            {
+                this.cabmPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cabm-IO", Order=1)]
+        public ConsolAmtBlkCreateIOType CabmIO
+        {
+            get
+            {
+                return this.cabmIOField;
+            }
+            set
+            {
+                this.cabmIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateConsolAmtBlkIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_REQ CREATECONSOLAMTBLK_IOPK_REQ;
+        
+        public CreateConsolAmtBlkIORequest()
+        {
+        }
+        
+        public CreateConsolAmtBlkIORequest(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_REQ CREATECONSOLAMTBLK_IOPK_REQ)
+        {
+            this.CREATECONSOLAMTBLK_IOPK_REQ = CREATECONSOLAMTBLK_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateConsolAmtBlkIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_RES CREATECONSOLAMTBLK_IOPK_RES;
+        
+        public CreateConsolAmtBlkIOResponse()
+        {
+        }
+        
+        public CreateConsolAmtBlkIOResponse(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_RES CREATECONSOLAMTBLK_IOPK_RES)
+        {
+            this.CREATECONSOLAMTBLK_IOPK_RES = CREATECONSOLAMTBLK_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_FSFS_REQFCUBS_BODY
+    {
+        
+        private CustSegAssociationFullType custSegMappingFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
+        public CustSegAssociationFullType CustSegMappingFull
+        {
+            get
+            {
+                return this.custSegMappingFullField;
+            }
+            set
+            {
+                this.custSegMappingFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_FSFS_RESFCUBS_BODY
+    {
+        
+        private CustSegAssociationFullType custSegMappingFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-Full", Order=0)]
+        public CustSegAssociationFullType CustSegMappingFull
+        {
+            get
+            {
+                return this.custSegMappingFullField;
+            }
+            set
+            {
+                this.custSegMappingFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateCustSegAssociationFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_REQ CREATECUSTSEGASSOCIATION_FSFS_REQ;
+        
+        public CreateCustSegAssociationFSRequest()
+        {
+        }
+        
+        public CreateCustSegAssociationFSRequest(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_REQ CREATECUSTSEGASSOCIATION_FSFS_REQ)
+        {
+            this.CREATECUSTSEGASSOCIATION_FSFS_REQ = CREATECUSTSEGASSOCIATION_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateCustSegAssociationFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_RES CREATECUSTSEGASSOCIATION_FSFS_RES;
+        
+        public CreateCustSegAssociationFSResponse()
+        {
+        }
+        
+        public CreateCustSegAssociationFSResponse(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_RES CREATECUSTSEGASSOCIATION_FSFS_RES)
+        {
+            this.CREATECUSTSEGASSOCIATION_FSFS_RES = CREATECUSTSEGASSOCIATION_FSFS_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_IOPK_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_IOPK_REQFCUBS_BODY
+    {
+        
+        private CustSegAssociationCreateIOType custSegMappingIOField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=0)]
+        public CustSegAssociationCreateIOType CustSegMappingIO
+        {
+            get
+            {
+                return this.custSegMappingIOField;
+            }
+            set
+            {
+                this.custSegMappingIOField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_IOPK_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTSEGASSOCIATION_IOPK_RESFCUBS_BODY
+    {
+        
+        private CustSegAssociationPKType custSegMappingPKField;
+        
+        private CustSegAssociationCreateIOType custSegMappingIOField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-PK", Order=0)]
+        public CustSegAssociationPKType CustSegMappingPK
+        {
+            get
+            {
+                return this.custSegMappingPKField;
+            }
+            set
+            {
+                this.custSegMappingPKField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Cust-Seg-Mapping-IO", Order=1)]
+        public CustSegAssociationCreateIOType CustSegMappingIO
+        {
+            get
+            {
+                return this.custSegMappingIOField;
+            }
+            set
+            {
+                this.custSegMappingIOField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateCustSegAssociationIORequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_REQ CREATECUSTSEGASSOCIATION_IOPK_REQ;
+        
+        public CreateCustSegAssociationIORequest()
+        {
+        }
+        
+        public CreateCustSegAssociationIORequest(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_REQ CREATECUSTSEGASSOCIATION_IOPK_REQ)
+        {
+            this.CREATECUSTSEGASSOCIATION_IOPK_REQ = CREATECUSTSEGASSOCIATION_IOPK_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateCustSegAssociationIOResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_RES CREATECUSTSEGASSOCIATION_IOPK_RES;
+        
+        public CreateCustSegAssociationIOResponse()
+        {
+        }
+        
+        public CreateCustSegAssociationIOResponse(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_RES CREATECUSTSEGASSOCIATION_IOPK_RES)
+        {
+            this.CREATECUSTSEGASSOCIATION_IOPK_RES = CREATECUSTSEGASSOCIATION_IOPK_RES;
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTOMER_FSFS_REQ
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECUSTOMER_FSFS_REQFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECUSTOMER_FSFS_REQFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTOMER_FSFS_REQFCUBS_BODY
+    {
+        
+        private CustomerFullType customerFullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
+        public CustomerFullType CustomerFull
+        {
+            get
+            {
+                return this.customerFullField;
+            }
+            set
+            {
+                this.customerFullField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTOMER_FSFS_RES
+    {
+        
+        private FCUBS_HEADERType fCUBS_HEADERField;
+        
+        private CREATECUSTOMER_FSFS_RESFCUBS_BODY fCUBS_BODYField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public FCUBS_HEADERType FCUBS_HEADER
+        {
+            get
+            {
+                return this.fCUBS_HEADERField;
+            }
+            set
+            {
+                this.fCUBS_HEADERField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public CREATECUSTOMER_FSFS_RESFCUBS_BODY FCUBS_BODY
+        {
+            get
+            {
+                return this.fCUBS_BODYField;
+            }
+            set
+            {
+                this.fCUBS_BODYField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService")]
+    public partial class CREATECUSTOMER_FSFS_RESFCUBS_BODY
+    {
+        
+        private CustomerFullType customerFullField;
+        
+        private ERRORDETAILSType[][] fCUBS_ERROR_RESPField;
+        
+        private WARNINGDETAILSType[][] fCUBS_WARNING_RESPField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Customer-Full", Order=0)]
+        public CustomerFullType CustomerFull
+        {
+            get
+            {
+                return this.customerFullField;
+            }
+            set
+            {
+                this.customerFullField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("ERROR", typeof(ERRORDETAILSType), IsNullable=false)]
+        public ERRORDETAILSType[][] FCUBS_ERROR_RESP
+        {
+            get
+            {
+                return this.fCUBS_ERROR_RESPField;
+            }
+            set
+            {
+                this.fCUBS_ERROR_RESPField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("WARNING", typeof(WARNINGDETAILSType), IsNullable=false)]
+        public WARNINGDETAILSType[][] FCUBS_WARNING_RESP
+        {
+            get
+            {
+                return this.fCUBS_WARNING_RESPField;
+            }
+            set
+            {
+                this.fCUBS_WARNING_RESPField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateCustomerFSRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_REQ CREATECUSTOMER_FSFS_REQ;
+        
+        public CreateCustomerFSRequest()
+        {
+        }
+        
+        public CreateCustomerFSRequest(FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_REQ CREATECUSTOMER_FSFS_REQ)
+        {
+            this.CREATECUSTOMER_FSFS_REQ = CREATECUSTOMER_FSFS_REQ;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class CreateCustomerFSResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://fcubs.ofss.com/service/FCUBSCustomerService", Order=0)]
+        public FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_RES CREATECUSTOMER_FSFS_RES;
+        
+        public CreateCustomerFSResponse()
+        {
+        }
+        
+        public CreateCustomerFSResponse(FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_RES CREATECUSTOMER_FSFS_RES)
+        {
+            this.CREATECUSTOMER_FSFS_RES = CREATECUSTOMER_FSFS_RES;
         }
     }
     
@@ -78625,20 +78031,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeAmtBlkFS(FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest request)
-        {
-            return base.Channel.AuthorizeAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZEAMTBLK_FSFS_RES AuthorizeAmtBlkFS(FCUBSCustomerServiceReference.AUTHORIZEAMTBLK_FSFS_REQ AUTHORIZEAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest();
-            inValue.AUTHORIZEAMTBLK_FSFS_REQ = AUTHORIZEAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.AuthorizeAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeAmtBlkFS(inValue);
-            return retVal.AUTHORIZEAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeAmtBlkFSAsync(FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest request)
         {
             return base.Channel.AuthorizeAmtBlkFSAsync(request);
@@ -78649,20 +78041,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeAmtBlkFSRequest();
             inValue.AUTHORIZEAMTBLK_FSFS_REQ = AUTHORIZEAMTBLK_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeAmtBlkIO(FCUBSCustomerServiceReference.AuthorizeAmtBlkIORequest request)
-        {
-            return base.Channel.AuthorizeAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZEAMTBLK_IOPK_RES AuthorizeAmtBlkIO(FCUBSCustomerServiceReference.AUTHORIZEAMTBLK_IOPK_REQ AUTHORIZEAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.AuthorizeAmtBlkIORequest();
-            inValue.AUTHORIZEAMTBLK_IOPK_REQ = AUTHORIZEAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.AuthorizeAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeAmtBlkIO(inValue);
-            return retVal.AUTHORIZEAMTBLK_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -78679,20 +78057,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeClosureDataFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeClosureDataFS(FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest request)
-        {
-            return base.Channel.AuthorizeClosureDataFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECLOSUREDATA_FSFS_RES AuthorizeClosureDataFS(FCUBSCustomerServiceReference.AUTHORIZECLOSUREDATA_FSFS_REQ AUTHORIZECLOSUREDATA_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest();
-            inValue.AUTHORIZECLOSUREDATA_FSFS_REQ = AUTHORIZECLOSUREDATA_FSFS_REQ;
-            FCUBSCustomerServiceReference.AuthorizeClosureDataFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeClosureDataFS(inValue);
-            return retVal.AUTHORIZECLOSUREDATA_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeClosureDataFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeClosureDataFSAsync(FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest request)
         {
             return base.Channel.AuthorizeClosureDataFSAsync(request);
@@ -78703,20 +78067,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeClosureDataFSRequest();
             inValue.AUTHORIZECLOSUREDATA_FSFS_REQ = AUTHORIZECLOSUREDATA_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeClosureDataFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeClosureDataIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeClosureDataIO(FCUBSCustomerServiceReference.AuthorizeClosureDataIORequest request)
-        {
-            return base.Channel.AuthorizeClosureDataIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECLOSUREDATA_IOPK_RES AuthorizeClosureDataIO(FCUBSCustomerServiceReference.AUTHORIZECLOSUREDATA_IOPK_REQ AUTHORIZECLOSUREDATA_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeClosureDataIORequest inValue = new FCUBSCustomerServiceReference.AuthorizeClosureDataIORequest();
-            inValue.AUTHORIZECLOSUREDATA_IOPK_REQ = AUTHORIZECLOSUREDATA_IOPK_REQ;
-            FCUBSCustomerServiceReference.AuthorizeClosureDataIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeClosureDataIO(inValue);
-            return retVal.AUTHORIZECLOSUREDATA_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -78733,20 +78083,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeConsolAmtBlkFS(FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.AuthorizeConsolAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECONSOLAMTBLK_FSFS_RES AuthorizeConsolAmtBlkFS(FCUBSCustomerServiceReference.AUTHORIZECONSOLAMTBLK_FSFS_REQ AUTHORIZECONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest();
-            inValue.AUTHORIZECONSOLAMTBLK_FSFS_REQ = AUTHORIZECONSOLAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeConsolAmtBlkFS(inValue);
-            return retVal.AUTHORIZECONSOLAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest request)
         {
             return base.Channel.AuthorizeConsolAmtBlkFSAsync(request);
@@ -78757,20 +78093,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkFSRequest();
             inValue.AUTHORIZECONSOLAMTBLK_FSFS_REQ = AUTHORIZECONSOLAMTBLK_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeConsolAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeConsolAmtBlkIO(FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIORequest request)
-        {
-            return base.Channel.AuthorizeConsolAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECONSOLAMTBLK_IOPK_RES AuthorizeConsolAmtBlkIO(FCUBSCustomerServiceReference.AUTHORIZECONSOLAMTBLK_IOPK_REQ AUTHORIZECONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIORequest();
-            inValue.AUTHORIZECONSOLAMTBLK_IOPK_REQ = AUTHORIZECONSOLAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.AuthorizeConsolAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeConsolAmtBlkIO(inValue);
-            return retVal.AUTHORIZECONSOLAMTBLK_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -78787,20 +78109,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeCustSegAssociationFS(FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest request)
-        {
-            return base.Channel.AuthorizeCustSegAssociationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECUSTSEGASSOCIATION_FSFS_RES AuthorizeCustSegAssociationFS(FCUBSCustomerServiceReference.AUTHORIZECUSTSEGASSOCIATION_FSFS_REQ AUTHORIZECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest();
-            inValue.AUTHORIZECUSTSEGASSOCIATION_FSFS_REQ = AUTHORIZECUSTSEGASSOCIATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeCustSegAssociationFS(inValue);
-            return retVal.AUTHORIZECUSTSEGASSOCIATION_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeCustSegAssociationFSAsync(FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest request)
         {
             return base.Channel.AuthorizeCustSegAssociationFSAsync(request);
@@ -78811,20 +78119,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeCustSegAssociationFSRequest();
             inValue.AUTHORIZECUSTSEGASSOCIATION_FSFS_REQ = AUTHORIZECUSTSEGASSOCIATION_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeCustSegAssociationFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeCustSegAssociationIO(FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIORequest request)
-        {
-            return base.Channel.AuthorizeCustSegAssociationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECUSTSEGASSOCIATION_IOPK_RES AuthorizeCustSegAssociationIO(FCUBSCustomerServiceReference.AUTHORIZECUSTSEGASSOCIATION_IOPK_REQ AUTHORIZECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIORequest();
-            inValue.AUTHORIZECUSTSEGASSOCIATION_IOPK_REQ = AUTHORIZECUSTSEGASSOCIATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.AuthorizeCustSegAssociationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeCustSegAssociationIO(inValue);
-            return retVal.AUTHORIZECUSTSEGASSOCIATION_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -78841,20 +78135,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeCustomerFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeCustomerFS(FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest request)
-        {
-            return base.Channel.AuthorizeCustomerFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECUSTOMER_FSFS_RES AuthorizeCustomerFS(FCUBSCustomerServiceReference.AUTHORIZECUSTOMER_FSFS_REQ AUTHORIZECUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest();
-            inValue.AUTHORIZECUSTOMER_FSFS_REQ = AUTHORIZECUSTOMER_FSFS_REQ;
-            FCUBSCustomerServiceReference.AuthorizeCustomerFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeCustomerFS(inValue);
-            return retVal.AUTHORIZECUSTOMER_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeCustomerFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeCustomerFSAsync(FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest request)
         {
             return base.Channel.AuthorizeCustomerFSAsync(request);
@@ -78865,20 +78145,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeCustomerFSRequest();
             inValue.AUTHORIZECUSTOMER_FSFS_REQ = AUTHORIZECUSTOMER_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeCustomerFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeCustomerIO(FCUBSCustomerServiceReference.AuthorizeCustomerIORequest request)
-        {
-            return base.Channel.AuthorizeCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZECUSTOMER_IOPK_RES AuthorizeCustomerIO(FCUBSCustomerServiceReference.AUTHORIZECUSTOMER_IOPK_REQ AUTHORIZECUSTOMER_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeCustomerIORequest inValue = new FCUBSCustomerServiceReference.AuthorizeCustomerIORequest();
-            inValue.AUTHORIZECUSTOMER_IOPK_REQ = AUTHORIZECUSTOMER_IOPK_REQ;
-            FCUBSCustomerServiceReference.AuthorizeCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeCustomerIO(inValue);
-            return retVal.AUTHORIZECUSTOMER_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -78895,20 +78161,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeTDAmountBlockFS(FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest request)
-        {
-            return base.Channel.AuthorizeTDAmountBlockFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZETDAMOUNTBLOCK_FSFS_RES AuthorizeTDAmountBlockFS(FCUBSCustomerServiceReference.AUTHORIZETDAMOUNTBLOCK_FSFS_REQ AUTHORIZETDAMOUNTBLOCK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest();
-            inValue.AUTHORIZETDAMOUNTBLOCK_FSFS_REQ = AUTHORIZETDAMOUNTBLOCK_FSFS_REQ;
-            FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeTDAmountBlockFS(inValue);
-            return retVal.AUTHORIZETDAMOUNTBLOCK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeTDAmountBlockFSAsync(FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest request)
         {
             return base.Channel.AuthorizeTDAmountBlockFSAsync(request);
@@ -78919,20 +78171,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.AuthorizeTDAmountBlockFSRequest();
             inValue.AUTHORIZETDAMOUNTBLOCK_FSFS_REQ = AUTHORIZETDAMOUNTBLOCK_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeTDAmountBlockFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.AuthorizeTDAmountBlockIO(FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIORequest request)
-        {
-            return base.Channel.AuthorizeTDAmountBlockIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.AUTHORIZETDAMOUNTBLOCK_IOPK_RES AuthorizeTDAmountBlockIO(FCUBSCustomerServiceReference.AUTHORIZETDAMOUNTBLOCK_IOPK_REQ AUTHORIZETDAMOUNTBLOCK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIORequest();
-            inValue.AUTHORIZETDAMOUNTBLOCK_IOPK_REQ = AUTHORIZETDAMOUNTBLOCK_IOPK_REQ;
-            FCUBSCustomerServiceReference.AuthorizeTDAmountBlockIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).AuthorizeTDAmountBlockIO(inValue);
-            return retVal.AUTHORIZETDAMOUNTBLOCK_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -78949,533 +78187,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseAmtBlkFS(FCUBSCustomerServiceReference.CloseAmtBlkFSRequest request)
-        {
-            return base.Channel.CloseAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_RES CloseAmtBlkFS(FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_REQ CLOSEAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CloseAmtBlkFSRequest();
-            inValue.CLOSEAMTBLK_FSFS_REQ = CLOSEAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.CloseAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseAmtBlkFS(inValue);
-            return retVal.CLOSEAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseAmtBlkFSRequest request)
-        {
-            return base.Channel.CloseAmtBlkFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkFSResponse> CloseAmtBlkFSAsync(FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_REQ CLOSEAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CloseAmtBlkFSRequest();
-            inValue.CLOSEAMTBLK_FSFS_REQ = CLOSEAMTBLK_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseAmtBlkIO(FCUBSCustomerServiceReference.CloseAmtBlkIORequest request)
-        {
-            return base.Channel.CloseAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_RES CloseAmtBlkIO(FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_REQ CLOSEAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CloseAmtBlkIORequest();
-            inValue.CLOSEAMTBLK_IOPK_REQ = CLOSEAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.CloseAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseAmtBlkIO(inValue);
-            return retVal.CLOSEAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseAmtBlkIORequest request)
-        {
-            return base.Channel.CloseAmtBlkIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkIOResponse> CloseAmtBlkIOAsync(FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_REQ CLOSEAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CloseAmtBlkIORequest();
-            inValue.CLOSEAMTBLK_IOPK_REQ = CLOSEAMTBLK_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseConsolAmtBlkFS(FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.CloseConsolAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_RES CloseConsolAmtBlkFS(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_REQ CLOSECONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest();
-            inValue.CLOSECONSOLAMTBLK_FSFS_REQ = CLOSECONSOLAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseConsolAmtBlkFS(inValue);
-            return retVal.CLOSECONSOLAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.CloseConsolAmtBlkFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse> CloseConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_REQ CLOSECONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest();
-            inValue.CLOSECONSOLAMTBLK_FSFS_REQ = CLOSECONSOLAMTBLK_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseConsolAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseConsolAmtBlkIO(FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest request)
-        {
-            return base.Channel.CloseConsolAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_RES CloseConsolAmtBlkIO(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_REQ CLOSECONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest();
-            inValue.CLOSECONSOLAMTBLK_IOPK_REQ = CLOSECONSOLAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseConsolAmtBlkIO(inValue);
-            return retVal.CLOSECONSOLAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest request)
-        {
-            return base.Channel.CloseConsolAmtBlkIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse> CloseConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_REQ CLOSECONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest();
-            inValue.CLOSECONSOLAMTBLK_IOPK_REQ = CLOSECONSOLAMTBLK_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseConsolAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustSegAssociationFS(FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest request)
-        {
-            return base.Channel.CloseCustSegAssociationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_RES CloseCustSegAssociationFS(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_REQ CLOSECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest();
-            inValue.CLOSECUSTSEGASSOCIATION_FSFS_REQ = CLOSECUSTSEGASSOCIATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustSegAssociationFS(inValue);
-            return retVal.CLOSECUSTSEGASSOCIATION_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest request)
-        {
-            return base.Channel.CloseCustSegAssociationFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse> CloseCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_REQ CLOSECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest();
-            inValue.CLOSECUSTSEGASSOCIATION_FSFS_REQ = CLOSECUSTSEGASSOCIATION_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustSegAssociationFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustSegAssociationIO(FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest request)
-        {
-            return base.Channel.CloseCustSegAssociationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_RES CloseCustSegAssociationIO(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_REQ CLOSECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest();
-            inValue.CLOSECUSTSEGASSOCIATION_IOPK_REQ = CLOSECUSTSEGASSOCIATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustSegAssociationIO(inValue);
-            return retVal.CLOSECUSTSEGASSOCIATION_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest request)
-        {
-            return base.Channel.CloseCustSegAssociationIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse> CloseCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_REQ CLOSECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest();
-            inValue.CLOSECUSTSEGASSOCIATION_IOPK_REQ = CLOSECUSTSEGASSOCIATION_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustSegAssociationIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseCustomerFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustomerFS(FCUBSCustomerServiceReference.CloseCustomerFSRequest request)
-        {
-            return base.Channel.CloseCustomerFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_RES CloseCustomerFS(FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_REQ CLOSECUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustomerFSRequest inValue = new FCUBSCustomerServiceReference.CloseCustomerFSRequest();
-            inValue.CLOSECUSTOMER_FSFS_REQ = CLOSECUSTOMER_FSFS_REQ;
-            FCUBSCustomerServiceReference.CloseCustomerFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustomerFS(inValue);
-            return retVal.CLOSECUSTOMER_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustomerFSAsync(FCUBSCustomerServiceReference.CloseCustomerFSRequest request)
-        {
-            return base.Channel.CloseCustomerFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerFSResponse> CloseCustomerFSAsync(FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_REQ CLOSECUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustomerFSRequest inValue = new FCUBSCustomerServiceReference.CloseCustomerFSRequest();
-            inValue.CLOSECUSTOMER_FSFS_REQ = CLOSECUSTOMER_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustomerFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustomerIO(FCUBSCustomerServiceReference.CloseCustomerIORequest request)
-        {
-            return base.Channel.CloseCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_RES CloseCustomerIO(FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_REQ CLOSECUSTOMER_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustomerIORequest inValue = new FCUBSCustomerServiceReference.CloseCustomerIORequest();
-            inValue.CLOSECUSTOMER_IOPK_REQ = CLOSECUSTOMER_IOPK_REQ;
-            FCUBSCustomerServiceReference.CloseCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustomerIO(inValue);
-            return retVal.CLOSECUSTOMER_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustomerIOAsync(FCUBSCustomerServiceReference.CloseCustomerIORequest request)
-        {
-            return base.Channel.CloseCustomerIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerIOResponse> CloseCustomerIOAsync(FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_REQ CLOSECUSTOMER_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseCustomerIORequest inValue = new FCUBSCustomerServiceReference.CloseCustomerIORequest();
-            inValue.CLOSECUSTOMER_IOPK_REQ = CLOSECUSTOMER_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustomerIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseTDAmountBlockFS(FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest request)
-        {
-            return base.Channel.CloseTDAmountBlockFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_RES CloseTDAmountBlockFS(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_REQ CLOSETDAMOUNTBLOCK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest();
-            inValue.CLOSETDAMOUNTBLOCK_FSFS_REQ = CLOSETDAMOUNTBLOCK_FSFS_REQ;
-            FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseTDAmountBlockFS(inValue);
-            return retVal.CLOSETDAMOUNTBLOCK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseTDAmountBlockFSAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest request)
-        {
-            return base.Channel.CloseTDAmountBlockFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse> CloseTDAmountBlockFSAsync(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_REQ CLOSETDAMOUNTBLOCK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest();
-            inValue.CLOSETDAMOUNTBLOCK_FSFS_REQ = CLOSETDAMOUNTBLOCK_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseTDAmountBlockFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseTDAmountBlockIO(FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest request)
-        {
-            return base.Channel.CloseTDAmountBlockIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_RES CloseTDAmountBlockIO(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_REQ CLOSETDAMOUNTBLOCK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest();
-            inValue.CLOSETDAMOUNTBLOCK_IOPK_REQ = CLOSETDAMOUNTBLOCK_IOPK_REQ;
-            FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseTDAmountBlockIO(inValue);
-            return retVal.CLOSETDAMOUNTBLOCK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest request)
-        {
-            return base.Channel.CloseTDAmountBlockIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse> CloseTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_REQ CLOSETDAMOUNTBLOCK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest();
-            inValue.CLOSETDAMOUNTBLOCK_IOPK_REQ = CLOSETDAMOUNTBLOCK_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseTDAmountBlockIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateAmtBlkFS(FCUBSCustomerServiceReference.CreateAmtBlkFSRequest request)
-        {
-            return base.Channel.CreateAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_RES CreateAmtBlkFS(FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_REQ CREATEAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CreateAmtBlkFSRequest();
-            inValue.CREATEAMTBLK_FSFS_REQ = CREATEAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateAmtBlkFS(inValue);
-            return retVal.CREATEAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateAmtBlkFSRequest request)
-        {
-            return base.Channel.CreateAmtBlkFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkFSResponse> CreateAmtBlkFSAsync(FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_REQ CREATEAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CreateAmtBlkFSRequest();
-            inValue.CREATEAMTBLK_FSFS_REQ = CREATEAMTBLK_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateAmtBlkIO(FCUBSCustomerServiceReference.CreateAmtBlkIORequest request)
-        {
-            return base.Channel.CreateAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_RES CreateAmtBlkIO(FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_REQ CREATEAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CreateAmtBlkIORequest();
-            inValue.CREATEAMTBLK_IOPK_REQ = CREATEAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateAmtBlkIO(inValue);
-            return retVal.CREATEAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateAmtBlkIORequest request)
-        {
-            return base.Channel.CreateAmtBlkIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkIOResponse> CreateAmtBlkIOAsync(FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_REQ CREATEAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CreateAmtBlkIORequest();
-            inValue.CREATEAMTBLK_IOPK_REQ = CREATEAMTBLK_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateClosureDataFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateClosureDataFS(FCUBSCustomerServiceReference.CreateClosureDataFSRequest request)
-        {
-            return base.Channel.CreateClosureDataFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_RES CreateClosureDataFS(FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_REQ CREATECLOSUREDATA_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateClosureDataFSRequest inValue = new FCUBSCustomerServiceReference.CreateClosureDataFSRequest();
-            inValue.CREATECLOSUREDATA_FSFS_REQ = CREATECLOSUREDATA_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateClosureDataFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateClosureDataFS(inValue);
-            return retVal.CREATECLOSUREDATA_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateClosureDataFSAsync(FCUBSCustomerServiceReference.CreateClosureDataFSRequest request)
-        {
-            return base.Channel.CreateClosureDataFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataFSResponse> CreateClosureDataFSAsync(FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_REQ CREATECLOSUREDATA_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateClosureDataFSRequest inValue = new FCUBSCustomerServiceReference.CreateClosureDataFSRequest();
-            inValue.CREATECLOSUREDATA_FSFS_REQ = CREATECLOSUREDATA_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateClosureDataFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateClosureDataIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateClosureDataIO(FCUBSCustomerServiceReference.CreateClosureDataIORequest request)
-        {
-            return base.Channel.CreateClosureDataIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_RES CreateClosureDataIO(FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_REQ CREATECLOSUREDATA_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateClosureDataIORequest inValue = new FCUBSCustomerServiceReference.CreateClosureDataIORequest();
-            inValue.CREATECLOSUREDATA_IOPK_REQ = CREATECLOSUREDATA_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateClosureDataIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateClosureDataIO(inValue);
-            return retVal.CREATECLOSUREDATA_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateClosureDataIOAsync(FCUBSCustomerServiceReference.CreateClosureDataIORequest request)
-        {
-            return base.Channel.CreateClosureDataIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataIOResponse> CreateClosureDataIOAsync(FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_REQ CREATECLOSUREDATA_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateClosureDataIORequest inValue = new FCUBSCustomerServiceReference.CreateClosureDataIORequest();
-            inValue.CREATECLOSUREDATA_IOPK_REQ = CREATECLOSUREDATA_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateClosureDataIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateConsolAmtBlkFS(FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.CreateConsolAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_RES CreateConsolAmtBlkFS(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_REQ CREATECONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest();
-            inValue.CREATECONSOLAMTBLK_FSFS_REQ = CREATECONSOLAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateConsolAmtBlkFS(inValue);
-            return retVal.CREATECONSOLAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.CreateConsolAmtBlkFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse> CreateConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_REQ CREATECONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest();
-            inValue.CREATECONSOLAMTBLK_FSFS_REQ = CREATECONSOLAMTBLK_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateConsolAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateConsolAmtBlkIO(FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest request)
-        {
-            return base.Channel.CreateConsolAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_RES CreateConsolAmtBlkIO(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_REQ CREATECONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest();
-            inValue.CREATECONSOLAMTBLK_IOPK_REQ = CREATECONSOLAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateConsolAmtBlkIO(inValue);
-            return retVal.CREATECONSOLAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest request)
-        {
-            return base.Channel.CreateConsolAmtBlkIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse> CreateConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_REQ CREATECONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest();
-            inValue.CREATECONSOLAMTBLK_IOPK_REQ = CREATECONSOLAMTBLK_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateConsolAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustSegAssociationFS(FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest request)
-        {
-            return base.Channel.CreateCustSegAssociationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_RES CreateCustSegAssociationFS(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_REQ CREATECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest();
-            inValue.CREATECUSTSEGASSOCIATION_FSFS_REQ = CREATECUSTSEGASSOCIATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustSegAssociationFS(inValue);
-            return retVal.CREATECUSTSEGASSOCIATION_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest request)
-        {
-            return base.Channel.CreateCustSegAssociationFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse> CreateCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_REQ CREATECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest();
-            inValue.CREATECUSTSEGASSOCIATION_FSFS_REQ = CREATECUSTSEGASSOCIATION_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustSegAssociationFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustSegAssociationIO(FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest request)
-        {
-            return base.Channel.CreateCustSegAssociationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_RES CreateCustSegAssociationIO(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_REQ CREATECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest();
-            inValue.CREATECUSTSEGASSOCIATION_IOPK_REQ = CREATECUSTSEGASSOCIATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustSegAssociationIO(inValue);
-            return retVal.CREATECUSTSEGASSOCIATION_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest request)
-        {
-            return base.Channel.CreateCustSegAssociationIOAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse> CreateCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_REQ CREATECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest();
-            inValue.CREATECUSTSEGASSOCIATION_IOPK_REQ = CREATECUSTSEGASSOCIATION_IOPK_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustSegAssociationIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateCustomerFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerFS(FCUBSCustomerServiceReference.CreateCustomerFSRequest request)
-        {
-            return base.Channel.CreateCustomerFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_RES CreateCustomerFS(FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_REQ CREATECUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustomerFSRequest inValue = new FCUBSCustomerServiceReference.CreateCustomerFSRequest();
-            inValue.CREATECUSTOMER_FSFS_REQ = CREATECUSTOMER_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateCustomerFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerFS(inValue);
-            return retVal.CREATECUSTOMER_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerFSAsync(FCUBSCustomerServiceReference.CreateCustomerFSRequest request)
-        {
-            return base.Channel.CreateCustomerFSAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerFSResponse> CreateCustomerFSAsync(FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_REQ CREATECUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustomerFSRequest inValue = new FCUBSCustomerServiceReference.CreateCustomerFSRequest();
-            inValue.CREATECUSTOMER_FSFS_REQ = CREATECUSTOMER_FSFS_REQ;
-            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerIO(FCUBSCustomerServiceReference.CreateCustomerIORequest request)
-        {
-            return base.Channel.CreateCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECUSTOMER_IOPK_RES CreateCustomerIO(FCUBSCustomerServiceReference.CREATECUSTOMER_IOPK_REQ CREATECUSTOMER_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustomerIORequest inValue = new FCUBSCustomerServiceReference.CreateCustomerIORequest();
-            inValue.CREATECUSTOMER_IOPK_REQ = CREATECUSTOMER_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerIO(inValue);
-            return retVal.CREATECUSTOMER_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerIOAsync(FCUBSCustomerServiceReference.CreateCustomerIORequest request)
         {
             return base.Channel.CreateCustomerIOAsync(request);
@@ -79486,20 +78197,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.CreateCustomerIORequest inValue = new FCUBSCustomerServiceReference.CreateCustomerIORequest();
             inValue.CREATECUSTOMER_IOPK_REQ = CREATECUSTOMER_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateCustomerObligationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerObligationFS(FCUBSCustomerServiceReference.CreateCustomerObligationFSRequest request)
-        {
-            return base.Channel.CreateCustomerObligationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECUSTOMEROBLIGATION_FSFS_RES CreateCustomerObligationFS(FCUBSCustomerServiceReference.CREATECUSTOMEROBLIGATION_FSFS_REQ CREATECUSTOMEROBLIGATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustomerObligationFSRequest inValue = new FCUBSCustomerServiceReference.CreateCustomerObligationFSRequest();
-            inValue.CREATECUSTOMEROBLIGATION_FSFS_REQ = CREATECUSTOMEROBLIGATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateCustomerObligationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerObligationFS(inValue);
-            return retVal.CREATECUSTOMEROBLIGATION_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79516,20 +78213,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateCustomerObligationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerObligationIO(FCUBSCustomerServiceReference.CreateCustomerObligationIORequest request)
-        {
-            return base.Channel.CreateCustomerObligationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATECUSTOMEROBLIGATION_IOPK_RES CreateCustomerObligationIO(FCUBSCustomerServiceReference.CREATECUSTOMEROBLIGATION_IOPK_REQ CREATECUSTOMEROBLIGATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateCustomerObligationIORequest inValue = new FCUBSCustomerServiceReference.CreateCustomerObligationIORequest();
-            inValue.CREATECUSTOMEROBLIGATION_IOPK_REQ = CREATECUSTOMEROBLIGATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateCustomerObligationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerObligationIO(inValue);
-            return retVal.CREATECUSTOMEROBLIGATION_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerObligationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerObligationIOAsync(FCUBSCustomerServiceReference.CreateCustomerObligationIORequest request)
         {
             return base.Channel.CreateCustomerObligationIOAsync(request);
@@ -79540,20 +78223,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.CreateCustomerObligationIORequest inValue = new FCUBSCustomerServiceReference.CreateCustomerObligationIORequest();
             inValue.CREATECUSTOMEROBLIGATION_IOPK_REQ = CREATECUSTOMEROBLIGATION_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerObligationIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateFATCAFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateFATCAFS(FCUBSCustomerServiceReference.CreateFATCAFSRequest request)
-        {
-            return base.Channel.CreateFATCAFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATEFATCA_FSFS_RES CreateFATCAFS(FCUBSCustomerServiceReference.CREATEFATCA_FSFS_REQ CREATEFATCA_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateFATCAFSRequest inValue = new FCUBSCustomerServiceReference.CreateFATCAFSRequest();
-            inValue.CREATEFATCA_FSFS_REQ = CREATEFATCA_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateFATCAFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateFATCAFS(inValue);
-            return retVal.CREATEFATCA_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79570,20 +78239,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateFATCAIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateFATCAIO(FCUBSCustomerServiceReference.CreateFATCAIORequest request)
-        {
-            return base.Channel.CreateFATCAIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATEFATCA_IOPK_RES CreateFATCAIO(FCUBSCustomerServiceReference.CREATEFATCA_IOPK_REQ CREATEFATCA_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateFATCAIORequest inValue = new FCUBSCustomerServiceReference.CreateFATCAIORequest();
-            inValue.CREATEFATCA_IOPK_REQ = CREATEFATCA_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateFATCAIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateFATCAIO(inValue);
-            return retVal.CREATEFATCA_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateFATCAIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateFATCAIOAsync(FCUBSCustomerServiceReference.CreateFATCAIORequest request)
         {
             return base.Channel.CreateFATCAIOAsync(request);
@@ -79594,20 +78249,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.CreateFATCAIORequest inValue = new FCUBSCustomerServiceReference.CreateFATCAIORequest();
             inValue.CREATEFATCA_IOPK_REQ = CREATEFATCA_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateFATCAIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateNSFMutualFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateNSFMutualFS(FCUBSCustomerServiceReference.CreateNSFMutualFSRequest request)
-        {
-            return base.Channel.CreateNSFMutualFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATENSFMUTUAL_FSFS_RES CreateNSFMutualFS(FCUBSCustomerServiceReference.CREATENSFMUTUAL_FSFS_REQ CREATENSFMUTUAL_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateNSFMutualFSRequest inValue = new FCUBSCustomerServiceReference.CreateNSFMutualFSRequest();
-            inValue.CREATENSFMUTUAL_FSFS_REQ = CREATENSFMUTUAL_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateNSFMutualFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateNSFMutualFS(inValue);
-            return retVal.CREATENSFMUTUAL_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79624,20 +78265,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateNSFMutualIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateNSFMutualIO(FCUBSCustomerServiceReference.CreateNSFMutualIORequest request)
-        {
-            return base.Channel.CreateNSFMutualIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATENSFMUTUAL_IOPK_RES CreateNSFMutualIO(FCUBSCustomerServiceReference.CREATENSFMUTUAL_IOPK_REQ CREATENSFMUTUAL_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateNSFMutualIORequest inValue = new FCUBSCustomerServiceReference.CreateNSFMutualIORequest();
-            inValue.CREATENSFMUTUAL_IOPK_REQ = CREATENSFMUTUAL_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateNSFMutualIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateNSFMutualIO(inValue);
-            return retVal.CREATENSFMUTUAL_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateNSFMutualIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateNSFMutualIOAsync(FCUBSCustomerServiceReference.CreateNSFMutualIORequest request)
         {
             return base.Channel.CreateNSFMutualIOAsync(request);
@@ -79648,20 +78275,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.CreateNSFMutualIORequest inValue = new FCUBSCustomerServiceReference.CreateNSFMutualIORequest();
             inValue.CREATENSFMUTUAL_IOPK_REQ = CREATENSFMUTUAL_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateNSFMutualIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateTDAmountBlockFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateTDAmountBlockFS(FCUBSCustomerServiceReference.CreateTDAmountBlockFSRequest request)
-        {
-            return base.Channel.CreateTDAmountBlockFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATETDAMOUNTBLOCK_FSFS_RES CreateTDAmountBlockFS(FCUBSCustomerServiceReference.CREATETDAMOUNTBLOCK_FSFS_REQ CREATETDAMOUNTBLOCK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.CreateTDAmountBlockFSRequest();
-            inValue.CREATETDAMOUNTBLOCK_FSFS_REQ = CREATETDAMOUNTBLOCK_FSFS_REQ;
-            FCUBSCustomerServiceReference.CreateTDAmountBlockFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateTDAmountBlockFS(inValue);
-            return retVal.CREATETDAMOUNTBLOCK_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79678,20 +78291,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.CreateTDAmountBlockIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateTDAmountBlockIO(FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest request)
-        {
-            return base.Channel.CreateTDAmountBlockIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.CREATETDAMOUNTBLOCK_IOPK_RES CreateTDAmountBlockIO(FCUBSCustomerServiceReference.CREATETDAMOUNTBLOCK_IOPK_REQ CREATETDAMOUNTBLOCK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest();
-            inValue.CREATETDAMOUNTBLOCK_IOPK_REQ = CREATETDAMOUNTBLOCK_IOPK_REQ;
-            FCUBSCustomerServiceReference.CreateTDAmountBlockIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateTDAmountBlockIO(inValue);
-            return retVal.CREATETDAMOUNTBLOCK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateTDAmountBlockIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest request)
         {
             return base.Channel.CreateTDAmountBlockIOAsync(request);
@@ -79702,20 +78301,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.CreateTDAmountBlockIORequest();
             inValue.CREATETDAMOUNTBLOCK_IOPK_REQ = CREATETDAMOUNTBLOCK_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateTDAmountBlockIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteAmtBlkFS(FCUBSCustomerServiceReference.DeleteAmtBlkFSRequest request)
-        {
-            return base.Channel.DeleteAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETEAMTBLK_FSFS_RES DeleteAmtBlkFS(FCUBSCustomerServiceReference.DELETEAMTBLK_FSFS_REQ DELETEAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.DeleteAmtBlkFSRequest();
-            inValue.DELETEAMTBLK_FSFS_REQ = DELETEAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.DeleteAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteAmtBlkFS(inValue);
-            return retVal.DELETEAMTBLK_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79732,20 +78317,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteAmtBlkIO(FCUBSCustomerServiceReference.DeleteAmtBlkIORequest request)
-        {
-            return base.Channel.DeleteAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETEAMTBLK_IOPK_RES DeleteAmtBlkIO(FCUBSCustomerServiceReference.DELETEAMTBLK_IOPK_REQ DELETEAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.DeleteAmtBlkIORequest();
-            inValue.DELETEAMTBLK_IOPK_REQ = DELETEAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.DeleteAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteAmtBlkIO(inValue);
-            return retVal.DELETEAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteAmtBlkIOAsync(FCUBSCustomerServiceReference.DeleteAmtBlkIORequest request)
         {
             return base.Channel.DeleteAmtBlkIOAsync(request);
@@ -79756,20 +78327,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.DeleteAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.DeleteAmtBlkIORequest();
             inValue.DELETEAMTBLK_IOPK_REQ = DELETEAMTBLK_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteConsolAmtBlkFS(FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.DeleteConsolAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETECONSOLAMTBLK_FSFS_RES DeleteConsolAmtBlkFS(FCUBSCustomerServiceReference.DELETECONSOLAMTBLK_FSFS_REQ DELETECONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSRequest();
-            inValue.DELETECONSOLAMTBLK_FSFS_REQ = DELETECONSOLAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.DeleteConsolAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteConsolAmtBlkFS(inValue);
-            return retVal.DELETECONSOLAMTBLK_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79786,20 +78343,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteConsolAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteConsolAmtBlkIO(FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest request)
-        {
-            return base.Channel.DeleteConsolAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETECONSOLAMTBLK_IOPK_RES DeleteConsolAmtBlkIO(FCUBSCustomerServiceReference.DELETECONSOLAMTBLK_IOPK_REQ DELETECONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest();
-            inValue.DELETECONSOLAMTBLK_IOPK_REQ = DELETECONSOLAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.DeleteConsolAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteConsolAmtBlkIO(inValue);
-            return retVal.DELETECONSOLAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteConsolAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest request)
         {
             return base.Channel.DeleteConsolAmtBlkIOAsync(request);
@@ -79810,20 +78353,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.DeleteConsolAmtBlkIORequest();
             inValue.DELETECONSOLAMTBLK_IOPK_REQ = DELETECONSOLAMTBLK_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteConsolAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteCustSegAssociationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteCustSegAssociationFS(FCUBSCustomerServiceReference.DeleteCustSegAssociationFSRequest request)
-        {
-            return base.Channel.DeleteCustSegAssociationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETECUSTSEGASSOCIATION_FSFS_RES DeleteCustSegAssociationFS(FCUBSCustomerServiceReference.DELETECUSTSEGASSOCIATION_FSFS_REQ DELETECUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.DeleteCustSegAssociationFSRequest();
-            inValue.DELETECUSTSEGASSOCIATION_FSFS_REQ = DELETECUSTSEGASSOCIATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.DeleteCustSegAssociationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteCustSegAssociationFS(inValue);
-            return retVal.DELETECUSTSEGASSOCIATION_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79840,20 +78369,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteCustSegAssociationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteCustSegAssociationIO(FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest request)
-        {
-            return base.Channel.DeleteCustSegAssociationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETECUSTSEGASSOCIATION_IOPK_RES DeleteCustSegAssociationIO(FCUBSCustomerServiceReference.DELETECUSTSEGASSOCIATION_IOPK_REQ DELETECUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest();
-            inValue.DELETECUSTSEGASSOCIATION_IOPK_REQ = DELETECUSTSEGASSOCIATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.DeleteCustSegAssociationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteCustSegAssociationIO(inValue);
-            return retVal.DELETECUSTSEGASSOCIATION_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteCustSegAssociationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteCustSegAssociationIOAsync(FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest request)
         {
             return base.Channel.DeleteCustSegAssociationIOAsync(request);
@@ -79864,20 +78379,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.DeleteCustSegAssociationIORequest();
             inValue.DELETECUSTSEGASSOCIATION_IOPK_REQ = DELETECUSTSEGASSOCIATION_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteCustSegAssociationIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteCustomerFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteCustomerFS(FCUBSCustomerServiceReference.DeleteCustomerFSRequest request)
-        {
-            return base.Channel.DeleteCustomerFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETECUSTOMER_FSFS_RES DeleteCustomerFS(FCUBSCustomerServiceReference.DELETECUSTOMER_FSFS_REQ DELETECUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteCustomerFSRequest inValue = new FCUBSCustomerServiceReference.DeleteCustomerFSRequest();
-            inValue.DELETECUSTOMER_FSFS_REQ = DELETECUSTOMER_FSFS_REQ;
-            FCUBSCustomerServiceReference.DeleteCustomerFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteCustomerFS(inValue);
-            return retVal.DELETECUSTOMER_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79894,20 +78395,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteCustomerIO(FCUBSCustomerServiceReference.DeleteCustomerIORequest request)
-        {
-            return base.Channel.DeleteCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETECUSTOMER_IOPK_RES DeleteCustomerIO(FCUBSCustomerServiceReference.DELETECUSTOMER_IOPK_REQ DELETECUSTOMER_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteCustomerIORequest inValue = new FCUBSCustomerServiceReference.DeleteCustomerIORequest();
-            inValue.DELETECUSTOMER_IOPK_REQ = DELETECUSTOMER_IOPK_REQ;
-            FCUBSCustomerServiceReference.DeleteCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteCustomerIO(inValue);
-            return retVal.DELETECUSTOMER_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteCustomerIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteCustomerIOAsync(FCUBSCustomerServiceReference.DeleteCustomerIORequest request)
         {
             return base.Channel.DeleteCustomerIOAsync(request);
@@ -79918,20 +78405,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.DeleteCustomerIORequest inValue = new FCUBSCustomerServiceReference.DeleteCustomerIORequest();
             inValue.DELETECUSTOMER_IOPK_REQ = DELETECUSTOMER_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteCustomerIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteFATCAFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteFATCAFS(FCUBSCustomerServiceReference.DeleteFATCAFSRequest request)
-        {
-            return base.Channel.DeleteFATCAFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETEFATCA_FSFS_RES DeleteFATCAFS(FCUBSCustomerServiceReference.DELETEFATCA_FSFS_REQ DELETEFATCA_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteFATCAFSRequest inValue = new FCUBSCustomerServiceReference.DeleteFATCAFSRequest();
-            inValue.DELETEFATCA_FSFS_REQ = DELETEFATCA_FSFS_REQ;
-            FCUBSCustomerServiceReference.DeleteFATCAFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteFATCAFS(inValue);
-            return retVal.DELETEFATCA_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -79948,20 +78421,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteFATCAIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteFATCAIO(FCUBSCustomerServiceReference.DeleteFATCAIORequest request)
-        {
-            return base.Channel.DeleteFATCAIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETEFATCA_IOPK_RES DeleteFATCAIO(FCUBSCustomerServiceReference.DELETEFATCA_IOPK_REQ DELETEFATCA_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteFATCAIORequest inValue = new FCUBSCustomerServiceReference.DeleteFATCAIORequest();
-            inValue.DELETEFATCA_IOPK_REQ = DELETEFATCA_IOPK_REQ;
-            FCUBSCustomerServiceReference.DeleteFATCAIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteFATCAIO(inValue);
-            return retVal.DELETEFATCA_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteFATCAIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteFATCAIOAsync(FCUBSCustomerServiceReference.DeleteFATCAIORequest request)
         {
             return base.Channel.DeleteFATCAIOAsync(request);
@@ -79972,20 +78431,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.DeleteFATCAIORequest inValue = new FCUBSCustomerServiceReference.DeleteFATCAIORequest();
             inValue.DELETEFATCA_IOPK_REQ = DELETEFATCA_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteFATCAIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteTDAmountBlockFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteTDAmountBlockFS(FCUBSCustomerServiceReference.DeleteTDAmountBlockFSRequest request)
-        {
-            return base.Channel.DeleteTDAmountBlockFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETETDAMOUNTBLOCK_FSFS_RES DeleteTDAmountBlockFS(FCUBSCustomerServiceReference.DELETETDAMOUNTBLOCK_FSFS_REQ DELETETDAMOUNTBLOCK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.DeleteTDAmountBlockFSRequest();
-            inValue.DELETETDAMOUNTBLOCK_FSFS_REQ = DELETETDAMOUNTBLOCK_FSFS_REQ;
-            FCUBSCustomerServiceReference.DeleteTDAmountBlockFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteTDAmountBlockFS(inValue);
-            return retVal.DELETETDAMOUNTBLOCK_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80002,20 +78447,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.DeleteTDAmountBlockIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteTDAmountBlockIO(FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest request)
-        {
-            return base.Channel.DeleteTDAmountBlockIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.DELETETDAMOUNTBLOCK_IOPK_RES DeleteTDAmountBlockIO(FCUBSCustomerServiceReference.DELETETDAMOUNTBLOCK_IOPK_REQ DELETETDAMOUNTBLOCK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest();
-            inValue.DELETETDAMOUNTBLOCK_IOPK_REQ = DELETETDAMOUNTBLOCK_IOPK_REQ;
-            FCUBSCustomerServiceReference.DeleteTDAmountBlockIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteTDAmountBlockIO(inValue);
-            return retVal.DELETETDAMOUNTBLOCK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.DeleteTDAmountBlockIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.DeleteTDAmountBlockIOAsync(FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest request)
         {
             return base.Channel.DeleteTDAmountBlockIOAsync(request);
@@ -80026,20 +78457,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.DeleteTDAmountBlockIORequest();
             inValue.DELETETDAMOUNTBLOCK_IOPK_REQ = DELETETDAMOUNTBLOCK_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).DeleteTDAmountBlockIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyAmtBlkFS(FCUBSCustomerServiceReference.ModifyAmtBlkFSRequest request)
-        {
-            return base.Channel.ModifyAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYAMTBLK_FSFS_RES ModifyAmtBlkFS(FCUBSCustomerServiceReference.MODIFYAMTBLK_FSFS_REQ MODIFYAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.ModifyAmtBlkFSRequest();
-            inValue.MODIFYAMTBLK_FSFS_REQ = MODIFYAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyAmtBlkFS(inValue);
-            return retVal.MODIFYAMTBLK_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80056,20 +78473,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyAmtBlkIO(FCUBSCustomerServiceReference.ModifyAmtBlkIORequest request)
-        {
-            return base.Channel.ModifyAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYAMTBLK_IOPK_RES ModifyAmtBlkIO(FCUBSCustomerServiceReference.MODIFYAMTBLK_IOPK_REQ MODIFYAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.ModifyAmtBlkIORequest();
-            inValue.MODIFYAMTBLK_IOPK_REQ = MODIFYAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyAmtBlkIO(inValue);
-            return retVal.MODIFYAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyAmtBlkIOAsync(FCUBSCustomerServiceReference.ModifyAmtBlkIORequest request)
         {
             return base.Channel.ModifyAmtBlkIOAsync(request);
@@ -80080,20 +78483,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.ModifyAmtBlkIORequest();
             inValue.MODIFYAMTBLK_IOPK_REQ = MODIFYAMTBLK_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyClosureDataFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyClosureDataFS(FCUBSCustomerServiceReference.ModifyClosureDataFSRequest request)
-        {
-            return base.Channel.ModifyClosureDataFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCLOSUREDATA_FSFS_RES ModifyClosureDataFS(FCUBSCustomerServiceReference.MODIFYCLOSUREDATA_FSFS_REQ MODIFYCLOSUREDATA_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyClosureDataFSRequest inValue = new FCUBSCustomerServiceReference.ModifyClosureDataFSRequest();
-            inValue.MODIFYCLOSUREDATA_FSFS_REQ = MODIFYCLOSUREDATA_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyClosureDataFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyClosureDataFS(inValue);
-            return retVal.MODIFYCLOSUREDATA_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80110,20 +78499,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyClosureDataIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyClosureDataIO(FCUBSCustomerServiceReference.ModifyClosureDataIORequest request)
-        {
-            return base.Channel.ModifyClosureDataIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCLOSUREDATA_IOPK_RES ModifyClosureDataIO(FCUBSCustomerServiceReference.MODIFYCLOSUREDATA_IOPK_REQ MODIFYCLOSUREDATA_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyClosureDataIORequest inValue = new FCUBSCustomerServiceReference.ModifyClosureDataIORequest();
-            inValue.MODIFYCLOSUREDATA_IOPK_REQ = MODIFYCLOSUREDATA_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyClosureDataIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyClosureDataIO(inValue);
-            return retVal.MODIFYCLOSUREDATA_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyClosureDataIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyClosureDataIOAsync(FCUBSCustomerServiceReference.ModifyClosureDataIORequest request)
         {
             return base.Channel.ModifyClosureDataIOAsync(request);
@@ -80134,20 +78509,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyClosureDataIORequest inValue = new FCUBSCustomerServiceReference.ModifyClosureDataIORequest();
             inValue.MODIFYCLOSUREDATA_IOPK_REQ = MODIFYCLOSUREDATA_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyClosureDataIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyConsolAmtBlkFS(FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.ModifyConsolAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCONSOLAMTBLK_FSFS_RES ModifyConsolAmtBlkFS(FCUBSCustomerServiceReference.MODIFYCONSOLAMTBLK_FSFS_REQ MODIFYCONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSRequest();
-            inValue.MODIFYCONSOLAMTBLK_FSFS_REQ = MODIFYCONSOLAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyConsolAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyConsolAmtBlkFS(inValue);
-            return retVal.MODIFYCONSOLAMTBLK_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80164,20 +78525,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyConsolAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyConsolAmtBlkIO(FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest request)
-        {
-            return base.Channel.ModifyConsolAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCONSOLAMTBLK_IOPK_RES ModifyConsolAmtBlkIO(FCUBSCustomerServiceReference.MODIFYCONSOLAMTBLK_IOPK_REQ MODIFYCONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest();
-            inValue.MODIFYCONSOLAMTBLK_IOPK_REQ = MODIFYCONSOLAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyConsolAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyConsolAmtBlkIO(inValue);
-            return retVal.MODIFYCONSOLAMTBLK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyConsolAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest request)
         {
             return base.Channel.ModifyConsolAmtBlkIOAsync(request);
@@ -80188,20 +78535,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.ModifyConsolAmtBlkIORequest();
             inValue.MODIFYCONSOLAMTBLK_IOPK_REQ = MODIFYCONSOLAMTBLK_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyConsolAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyCustSegAssociationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustSegAssociationFS(FCUBSCustomerServiceReference.ModifyCustSegAssociationFSRequest request)
-        {
-            return base.Channel.ModifyCustSegAssociationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCUSTSEGASSOCIATION_FSFS_RES ModifyCustSegAssociationFS(FCUBSCustomerServiceReference.MODIFYCUSTSEGASSOCIATION_FSFS_REQ MODIFYCUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.ModifyCustSegAssociationFSRequest();
-            inValue.MODIFYCUSTSEGASSOCIATION_FSFS_REQ = MODIFYCUSTSEGASSOCIATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyCustSegAssociationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustSegAssociationFS(inValue);
-            return retVal.MODIFYCUSTSEGASSOCIATION_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80218,20 +78551,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyCustSegAssociationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustSegAssociationIO(FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest request)
-        {
-            return base.Channel.ModifyCustSegAssociationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCUSTSEGASSOCIATION_IOPK_RES ModifyCustSegAssociationIO(FCUBSCustomerServiceReference.MODIFYCUSTSEGASSOCIATION_IOPK_REQ MODIFYCUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest();
-            inValue.MODIFYCUSTSEGASSOCIATION_IOPK_REQ = MODIFYCUSTSEGASSOCIATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyCustSegAssociationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustSegAssociationIO(inValue);
-            return retVal.MODIFYCUSTSEGASSOCIATION_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustSegAssociationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustSegAssociationIOAsync(FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest request)
         {
             return base.Channel.ModifyCustSegAssociationIOAsync(request);
@@ -80242,20 +78561,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.ModifyCustSegAssociationIORequest();
             inValue.MODIFYCUSTSEGASSOCIATION_IOPK_REQ = MODIFYCUSTSEGASSOCIATION_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustSegAssociationIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyCustomerFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustomerFS(FCUBSCustomerServiceReference.ModifyCustomerFSRequest request)
-        {
-            return base.Channel.ModifyCustomerFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCUSTOMER_FSFS_RES ModifyCustomerFS(FCUBSCustomerServiceReference.MODIFYCUSTOMER_FSFS_REQ MODIFYCUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyCustomerFSRequest inValue = new FCUBSCustomerServiceReference.ModifyCustomerFSRequest();
-            inValue.MODIFYCUSTOMER_FSFS_REQ = MODIFYCUSTOMER_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyCustomerFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustomerFS(inValue);
-            return retVal.MODIFYCUSTOMER_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80272,20 +78577,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustomerIO(FCUBSCustomerServiceReference.ModifyCustomerIORequest request)
-        {
-            return base.Channel.ModifyCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCUSTOMER_IOPK_RES ModifyCustomerIO(FCUBSCustomerServiceReference.MODIFYCUSTOMER_IOPK_REQ MODIFYCUSTOMER_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyCustomerIORequest inValue = new FCUBSCustomerServiceReference.ModifyCustomerIORequest();
-            inValue.MODIFYCUSTOMER_IOPK_REQ = MODIFYCUSTOMER_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustomerIO(inValue);
-            return retVal.MODIFYCUSTOMER_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustomerIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustomerIOAsync(FCUBSCustomerServiceReference.ModifyCustomerIORequest request)
         {
             return base.Channel.ModifyCustomerIOAsync(request);
@@ -80296,20 +78587,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyCustomerIORequest inValue = new FCUBSCustomerServiceReference.ModifyCustomerIORequest();
             inValue.MODIFYCUSTOMER_IOPK_REQ = MODIFYCUSTOMER_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustomerIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyCustomerObligationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustomerObligationFS(FCUBSCustomerServiceReference.ModifyCustomerObligationFSRequest request)
-        {
-            return base.Channel.ModifyCustomerObligationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCUSTOMEROBLIGATION_FSFS_RES ModifyCustomerObligationFS(FCUBSCustomerServiceReference.MODIFYCUSTOMEROBLIGATION_FSFS_REQ MODIFYCUSTOMEROBLIGATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyCustomerObligationFSRequest inValue = new FCUBSCustomerServiceReference.ModifyCustomerObligationFSRequest();
-            inValue.MODIFYCUSTOMEROBLIGATION_FSFS_REQ = MODIFYCUSTOMEROBLIGATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyCustomerObligationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustomerObligationFS(inValue);
-            return retVal.MODIFYCUSTOMEROBLIGATION_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80326,20 +78603,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyCustomerObligationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustomerObligationIO(FCUBSCustomerServiceReference.ModifyCustomerObligationIORequest request)
-        {
-            return base.Channel.ModifyCustomerObligationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYCUSTOMEROBLIGATION_IOPK_RES ModifyCustomerObligationIO(FCUBSCustomerServiceReference.MODIFYCUSTOMEROBLIGATION_IOPK_REQ MODIFYCUSTOMEROBLIGATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyCustomerObligationIORequest inValue = new FCUBSCustomerServiceReference.ModifyCustomerObligationIORequest();
-            inValue.MODIFYCUSTOMEROBLIGATION_IOPK_REQ = MODIFYCUSTOMEROBLIGATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyCustomerObligationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyCustomerObligationIO(inValue);
-            return retVal.MODIFYCUSTOMEROBLIGATION_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyCustomerObligationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyCustomerObligationIOAsync(FCUBSCustomerServiceReference.ModifyCustomerObligationIORequest request)
         {
             return base.Channel.ModifyCustomerObligationIOAsync(request);
@@ -80353,17 +78616,250 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyFATCAFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyFATCAFS(FCUBSCustomerServiceReference.ModifyFATCAFSRequest request)
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseAmtBlkFSRequest request)
         {
-            return base.Channel.ModifyFATCAFS(request);
+            return base.Channel.CloseAmtBlkFSAsync(request);
         }
         
-        public FCUBSCustomerServiceReference.MODIFYFATCA_FSFS_RES ModifyFATCAFS(FCUBSCustomerServiceReference.MODIFYFATCA_FSFS_REQ MODIFYFATCA_FSFS_REQ)
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkFSResponse> CloseAmtBlkFSAsync(FCUBSCustomerServiceReference.CLOSEAMTBLK_FSFS_REQ CLOSEAMTBLK_FSFS_REQ)
         {
-            FCUBSCustomerServiceReference.ModifyFATCAFSRequest inValue = new FCUBSCustomerServiceReference.ModifyFATCAFSRequest();
-            inValue.MODIFYFATCA_FSFS_REQ = MODIFYFATCA_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyFATCAFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyFATCAFS(inValue);
-            return retVal.MODIFYFATCA_FSFS_RES;
+            FCUBSCustomerServiceReference.CloseAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CloseAmtBlkFSRequest();
+            inValue.CLOSEAMTBLK_FSFS_REQ = CLOSEAMTBLK_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseAmtBlkFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseAmtBlkIORequest request)
+        {
+            return base.Channel.CloseAmtBlkIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseAmtBlkIOResponse> CloseAmtBlkIOAsync(FCUBSCustomerServiceReference.CLOSEAMTBLK_IOPK_REQ CLOSEAMTBLK_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CloseAmtBlkIORequest();
+            inValue.CLOSEAMTBLK_IOPK_REQ = CLOSEAMTBLK_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseAmtBlkIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest request)
+        {
+            return base.Channel.CloseConsolAmtBlkFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkFSResponse> CloseConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_FSFS_REQ CLOSECONSOLAMTBLK_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CloseConsolAmtBlkFSRequest();
+            inValue.CLOSECONSOLAMTBLK_FSFS_REQ = CLOSECONSOLAMTBLK_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseConsolAmtBlkFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest request)
+        {
+            return base.Channel.CloseConsolAmtBlkIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseConsolAmtBlkIOResponse> CloseConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CLOSECONSOLAMTBLK_IOPK_REQ CLOSECONSOLAMTBLK_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CloseConsolAmtBlkIORequest();
+            inValue.CLOSECONSOLAMTBLK_IOPK_REQ = CLOSECONSOLAMTBLK_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseConsolAmtBlkIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest request)
+        {
+            return base.Channel.CloseCustSegAssociationFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationFSResponse> CloseCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_FSFS_REQ CLOSECUSTSEGASSOCIATION_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.CloseCustSegAssociationFSRequest();
+            inValue.CLOSECUSTSEGASSOCIATION_FSFS_REQ = CLOSECUSTSEGASSOCIATION_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustSegAssociationFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest request)
+        {
+            return base.Channel.CloseCustSegAssociationIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustSegAssociationIOResponse> CloseCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CLOSECUSTSEGASSOCIATION_IOPK_REQ CLOSECUSTSEGASSOCIATION_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.CloseCustSegAssociationIORequest();
+            inValue.CLOSECUSTSEGASSOCIATION_IOPK_REQ = CLOSECUSTSEGASSOCIATION_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustSegAssociationIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustomerFSAsync(FCUBSCustomerServiceReference.CloseCustomerFSRequest request)
+        {
+            return base.Channel.CloseCustomerFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerFSResponse> CloseCustomerFSAsync(FCUBSCustomerServiceReference.CLOSECUSTOMER_FSFS_REQ CLOSECUSTOMER_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseCustomerFSRequest inValue = new FCUBSCustomerServiceReference.CloseCustomerFSRequest();
+            inValue.CLOSECUSTOMER_FSFS_REQ = CLOSECUSTOMER_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustomerFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseCustomerIOAsync(FCUBSCustomerServiceReference.CloseCustomerIORequest request)
+        {
+            return base.Channel.CloseCustomerIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseCustomerIOResponse> CloseCustomerIOAsync(FCUBSCustomerServiceReference.CLOSECUSTOMER_IOPK_REQ CLOSECUSTOMER_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseCustomerIORequest inValue = new FCUBSCustomerServiceReference.CloseCustomerIORequest();
+            inValue.CLOSECUSTOMER_IOPK_REQ = CLOSECUSTOMER_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseCustomerIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseTDAmountBlockFSAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest request)
+        {
+            return base.Channel.CloseTDAmountBlockFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockFSResponse> CloseTDAmountBlockFSAsync(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_FSFS_REQ CLOSETDAMOUNTBLOCK_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.CloseTDAmountBlockFSRequest();
+            inValue.CLOSETDAMOUNTBLOCK_FSFS_REQ = CLOSETDAMOUNTBLOCK_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseTDAmountBlockFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CloseTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest request)
+        {
+            return base.Channel.CloseTDAmountBlockIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CloseTDAmountBlockIOResponse> CloseTDAmountBlockIOAsync(FCUBSCustomerServiceReference.CLOSETDAMOUNTBLOCK_IOPK_REQ CLOSETDAMOUNTBLOCK_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.CloseTDAmountBlockIORequest();
+            inValue.CLOSETDAMOUNTBLOCK_IOPK_REQ = CLOSETDAMOUNTBLOCK_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CloseTDAmountBlockIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateAmtBlkFSRequest request)
+        {
+            return base.Channel.CreateAmtBlkFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkFSResponse> CreateAmtBlkFSAsync(FCUBSCustomerServiceReference.CREATEAMTBLK_FSFS_REQ CREATEAMTBLK_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CreateAmtBlkFSRequest();
+            inValue.CREATEAMTBLK_FSFS_REQ = CREATEAMTBLK_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateAmtBlkFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateAmtBlkIORequest request)
+        {
+            return base.Channel.CreateAmtBlkIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateAmtBlkIOResponse> CreateAmtBlkIOAsync(FCUBSCustomerServiceReference.CREATEAMTBLK_IOPK_REQ CREATEAMTBLK_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CreateAmtBlkIORequest();
+            inValue.CREATEAMTBLK_IOPK_REQ = CREATEAMTBLK_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateAmtBlkIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateClosureDataFSAsync(FCUBSCustomerServiceReference.CreateClosureDataFSRequest request)
+        {
+            return base.Channel.CreateClosureDataFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataFSResponse> CreateClosureDataFSAsync(FCUBSCustomerServiceReference.CREATECLOSUREDATA_FSFS_REQ CREATECLOSUREDATA_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateClosureDataFSRequest inValue = new FCUBSCustomerServiceReference.CreateClosureDataFSRequest();
+            inValue.CREATECLOSUREDATA_FSFS_REQ = CREATECLOSUREDATA_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateClosureDataFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateClosureDataIOAsync(FCUBSCustomerServiceReference.CreateClosureDataIORequest request)
+        {
+            return base.Channel.CreateClosureDataIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateClosureDataIOResponse> CreateClosureDataIOAsync(FCUBSCustomerServiceReference.CREATECLOSUREDATA_IOPK_REQ CREATECLOSUREDATA_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateClosureDataIORequest inValue = new FCUBSCustomerServiceReference.CreateClosureDataIORequest();
+            inValue.CREATECLOSUREDATA_IOPK_REQ = CREATECLOSUREDATA_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateClosureDataIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest request)
+        {
+            return base.Channel.CreateConsolAmtBlkFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkFSResponse> CreateConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_FSFS_REQ CREATECONSOLAMTBLK_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.CreateConsolAmtBlkFSRequest();
+            inValue.CREATECONSOLAMTBLK_FSFS_REQ = CREATECONSOLAMTBLK_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateConsolAmtBlkFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest request)
+        {
+            return base.Channel.CreateConsolAmtBlkIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateConsolAmtBlkIOResponse> CreateConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.CREATECONSOLAMTBLK_IOPK_REQ CREATECONSOLAMTBLK_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.CreateConsolAmtBlkIORequest();
+            inValue.CREATECONSOLAMTBLK_IOPK_REQ = CREATECONSOLAMTBLK_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateConsolAmtBlkIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest request)
+        {
+            return base.Channel.CreateCustSegAssociationFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationFSResponse> CreateCustSegAssociationFSAsync(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_FSFS_REQ CREATECUSTSEGASSOCIATION_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.CreateCustSegAssociationFSRequest();
+            inValue.CREATECUSTSEGASSOCIATION_FSFS_REQ = CREATECUSTSEGASSOCIATION_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustSegAssociationFSAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest request)
+        {
+            return base.Channel.CreateCustSegAssociationIOAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustSegAssociationIOResponse> CreateCustSegAssociationIOAsync(FCUBSCustomerServiceReference.CREATECUSTSEGASSOCIATION_IOPK_REQ CREATECUSTSEGASSOCIATION_IOPK_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.CreateCustSegAssociationIORequest();
+            inValue.CREATECUSTSEGASSOCIATION_IOPK_REQ = CREATECUSTSEGASSOCIATION_IOPK_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustSegAssociationIOAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.CreateCustomerFSAsync(FCUBSCustomerServiceReference.CreateCustomerFSRequest request)
+        {
+            return base.Channel.CreateCustomerFSAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<FCUBSCustomerServiceReference.CreateCustomerFSResponse> CreateCustomerFSAsync(FCUBSCustomerServiceReference.CREATECUSTOMER_FSFS_REQ CREATECUSTOMER_FSFS_REQ)
+        {
+            FCUBSCustomerServiceReference.CreateCustomerFSRequest inValue = new FCUBSCustomerServiceReference.CreateCustomerFSRequest();
+            inValue.CREATECUSTOMER_FSFS_REQ = CREATECUSTOMER_FSFS_REQ;
+            return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).CreateCustomerFSAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80380,20 +78876,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyFATCAIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyFATCAIO(FCUBSCustomerServiceReference.ModifyFATCAIORequest request)
-        {
-            return base.Channel.ModifyFATCAIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYFATCA_IOPK_RES ModifyFATCAIO(FCUBSCustomerServiceReference.MODIFYFATCA_IOPK_REQ MODIFYFATCA_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyFATCAIORequest inValue = new FCUBSCustomerServiceReference.ModifyFATCAIORequest();
-            inValue.MODIFYFATCA_IOPK_REQ = MODIFYFATCA_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyFATCAIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyFATCAIO(inValue);
-            return retVal.MODIFYFATCA_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyFATCAIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyFATCAIOAsync(FCUBSCustomerServiceReference.ModifyFATCAIORequest request)
         {
             return base.Channel.ModifyFATCAIOAsync(request);
@@ -80404,20 +78886,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyFATCAIORequest inValue = new FCUBSCustomerServiceReference.ModifyFATCAIORequest();
             inValue.MODIFYFATCA_IOPK_REQ = MODIFYFATCA_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyFATCAIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyNSFMutualFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyNSFMutualFS(FCUBSCustomerServiceReference.ModifyNSFMutualFSRequest request)
-        {
-            return base.Channel.ModifyNSFMutualFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYNSFMUTUAL_FSFS_RES ModifyNSFMutualFS(FCUBSCustomerServiceReference.MODIFYNSFMUTUAL_FSFS_REQ MODIFYNSFMUTUAL_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyNSFMutualFSRequest inValue = new FCUBSCustomerServiceReference.ModifyNSFMutualFSRequest();
-            inValue.MODIFYNSFMUTUAL_FSFS_REQ = MODIFYNSFMUTUAL_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyNSFMutualFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyNSFMutualFS(inValue);
-            return retVal.MODIFYNSFMUTUAL_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80434,20 +78902,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyNSFMutualIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyNSFMutualIO(FCUBSCustomerServiceReference.ModifyNSFMutualIORequest request)
-        {
-            return base.Channel.ModifyNSFMutualIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYNSFMUTUAL_IOPK_RES ModifyNSFMutualIO(FCUBSCustomerServiceReference.MODIFYNSFMUTUAL_IOPK_REQ MODIFYNSFMUTUAL_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyNSFMutualIORequest inValue = new FCUBSCustomerServiceReference.ModifyNSFMutualIORequest();
-            inValue.MODIFYNSFMUTUAL_IOPK_REQ = MODIFYNSFMUTUAL_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyNSFMutualIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyNSFMutualIO(inValue);
-            return retVal.MODIFYNSFMUTUAL_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyNSFMutualIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyNSFMutualIOAsync(FCUBSCustomerServiceReference.ModifyNSFMutualIORequest request)
         {
             return base.Channel.ModifyNSFMutualIOAsync(request);
@@ -80458,20 +78912,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyNSFMutualIORequest inValue = new FCUBSCustomerServiceReference.ModifyNSFMutualIORequest();
             inValue.MODIFYNSFMUTUAL_IOPK_REQ = MODIFYNSFMUTUAL_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyNSFMutualIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyTDAmountBlockFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyTDAmountBlockFS(FCUBSCustomerServiceReference.ModifyTDAmountBlockFSRequest request)
-        {
-            return base.Channel.ModifyTDAmountBlockFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYTDAMOUNTBLOCK_FSFS_RES ModifyTDAmountBlockFS(FCUBSCustomerServiceReference.MODIFYTDAMOUNTBLOCK_FSFS_REQ MODIFYTDAMOUNTBLOCK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.ModifyTDAmountBlockFSRequest();
-            inValue.MODIFYTDAMOUNTBLOCK_FSFS_REQ = MODIFYTDAMOUNTBLOCK_FSFS_REQ;
-            FCUBSCustomerServiceReference.ModifyTDAmountBlockFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyTDAmountBlockFS(inValue);
-            return retVal.MODIFYTDAMOUNTBLOCK_FSFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80488,20 +78928,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ModifyTDAmountBlockIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyTDAmountBlockIO(FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest request)
-        {
-            return base.Channel.ModifyTDAmountBlockIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.MODIFYTDAMOUNTBLOCK_IOPK_RES ModifyTDAmountBlockIO(FCUBSCustomerServiceReference.MODIFYTDAMOUNTBLOCK_IOPK_REQ MODIFYTDAMOUNTBLOCK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest();
-            inValue.MODIFYTDAMOUNTBLOCK_IOPK_REQ = MODIFYTDAMOUNTBLOCK_IOPK_REQ;
-            FCUBSCustomerServiceReference.ModifyTDAmountBlockIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyTDAmountBlockIO(inValue);
-            return retVal.MODIFYTDAMOUNTBLOCK_IOPK_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ModifyTDAmountBlockIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ModifyTDAmountBlockIOAsync(FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest request)
         {
             return base.Channel.ModifyTDAmountBlockIOAsync(request);
@@ -80512,20 +78938,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.ModifyTDAmountBlockIORequest();
             inValue.MODIFYTDAMOUNTBLOCK_IOPK_REQ = MODIFYTDAMOUNTBLOCK_IOPK_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ModifyTDAmountBlockIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryAmtBlkIO(FCUBSCustomerServiceReference.QueryAmtBlkIORequest request)
-        {
-            return base.Channel.QueryAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYAMTBLK_IOFS_RES QueryAmtBlkIO(FCUBSCustomerServiceReference.QUERYAMTBLK_IOFS_REQ QUERYAMTBLK_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.QueryAmtBlkIORequest();
-            inValue.QUERYAMTBLK_IOFS_REQ = QUERYAMTBLK_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryAmtBlkIO(inValue);
-            return retVal.QUERYAMTBLK_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80542,20 +78954,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryBlkIO(FCUBSCustomerServiceReference.QueryBlkIORequest request)
-        {
-            return base.Channel.QueryBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYBLK_IOFS_RES QueryBlkIO(FCUBSCustomerServiceReference.QUERYBLK_IOFS_REQ QUERYBLK_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryBlkIORequest inValue = new FCUBSCustomerServiceReference.QueryBlkIORequest();
-            inValue.QUERYBLK_IOFS_REQ = QUERYBLK_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryBlkIO(inValue);
-            return retVal.QUERYBLK_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryBlkIOAsync(FCUBSCustomerServiceReference.QueryBlkIORequest request)
         {
             return base.Channel.QueryBlkIOAsync(request);
@@ -80566,20 +78964,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryBlkIORequest inValue = new FCUBSCustomerServiceReference.QueryBlkIORequest();
             inValue.QUERYBLK_IOFS_REQ = QUERYBLK_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryClosureDataIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryClosureDataIO(FCUBSCustomerServiceReference.QueryClosureDataIORequest request)
-        {
-            return base.Channel.QueryClosureDataIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCLOSUREDATA_IOFS_RES QueryClosureDataIO(FCUBSCustomerServiceReference.QUERYCLOSUREDATA_IOFS_REQ QUERYCLOSUREDATA_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryClosureDataIORequest inValue = new FCUBSCustomerServiceReference.QueryClosureDataIORequest();
-            inValue.QUERYCLOSUREDATA_IOFS_REQ = QUERYCLOSUREDATA_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryClosureDataIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryClosureDataIO(inValue);
-            return retVal.QUERYCLOSUREDATA_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80596,20 +78980,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryConsolAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryConsolAmtBlkIO(FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest request)
-        {
-            return base.Channel.QueryConsolAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCONSOLAMTBLK_IOFS_RES QueryConsolAmtBlkIO(FCUBSCustomerServiceReference.QUERYCONSOLAMTBLK_IOFS_REQ QUERYCONSOLAMTBLK_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest();
-            inValue.QUERYCONSOLAMTBLK_IOFS_REQ = QUERYCONSOLAMTBLK_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryConsolAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryConsolAmtBlkIO(inValue);
-            return retVal.QUERYCONSOLAMTBLK_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryConsolAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryConsolAmtBlkIOAsync(FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest request)
         {
             return base.Channel.QueryConsolAmtBlkIOAsync(request);
@@ -80620,20 +78990,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.QueryConsolAmtBlkIORequest();
             inValue.QUERYCONSOLAMTBLK_IOFS_REQ = QUERYCONSOLAMTBLK_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryConsolAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustAccDetailIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustAccDetailIO(FCUBSCustomerServiceReference.QueryCustAccDetailIORequest request)
-        {
-            return base.Channel.QueryCustAccDetailIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTACCDETAIL_IOFS_RES QueryCustAccDetailIO(FCUBSCustomerServiceReference.QUERYCUSTACCDETAIL_IOFS_REQ QUERYCUSTACCDETAIL_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustAccDetailIORequest inValue = new FCUBSCustomerServiceReference.QueryCustAccDetailIORequest();
-            inValue.QUERYCUSTACCDETAIL_IOFS_REQ = QUERYCUSTACCDETAIL_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustAccDetailIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustAccDetailIO(inValue);
-            return retVal.QUERYCUSTACCDETAIL_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80650,20 +79006,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustSegAssociationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustSegAssociationIO(FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest request)
-        {
-            return base.Channel.QueryCustSegAssociationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTSEGASSOCIATION_IOFS_RES QueryCustSegAssociationIO(FCUBSCustomerServiceReference.QUERYCUSTSEGASSOCIATION_IOFS_REQ QUERYCUSTSEGASSOCIATION_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest();
-            inValue.QUERYCUSTSEGASSOCIATION_IOFS_REQ = QUERYCUSTSEGASSOCIATION_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustSegAssociationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustSegAssociationIO(inValue);
-            return retVal.QUERYCUSTSEGASSOCIATION_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustSegAssociationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustSegAssociationIOAsync(FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest request)
         {
             return base.Channel.QueryCustSegAssociationIOAsync(request);
@@ -80674,20 +79016,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.QueryCustSegAssociationIORequest();
             inValue.QUERYCUSTSEGASSOCIATION_IOFS_REQ = QUERYCUSTSEGASSOCIATION_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustSegAssociationIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustSigHistoryIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustSigHistoryIO(FCUBSCustomerServiceReference.QueryCustSigHistoryIORequest request)
-        {
-            return base.Channel.QueryCustSigHistoryIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTSIGHISTORY_IOFS_RES QueryCustSigHistoryIO(FCUBSCustomerServiceReference.QUERYCUSTSIGHISTORY_IOFS_REQ QUERYCUSTSIGHISTORY_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustSigHistoryIORequest inValue = new FCUBSCustomerServiceReference.QueryCustSigHistoryIORequest();
-            inValue.QUERYCUSTSIGHISTORY_IOFS_REQ = QUERYCUSTSIGHISTORY_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustSigHistoryIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustSigHistoryIO(inValue);
-            return retVal.QUERYCUSTSIGHISTORY_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80704,20 +79032,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustSignImgeIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustSignImgeIO(FCUBSCustomerServiceReference.QueryCustSignImgeIORequest request)
-        {
-            return base.Channel.QueryCustSignImgeIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTSIGNIMGE_IOFS_RES QueryCustSignImgeIO(FCUBSCustomerServiceReference.QUERYCUSTSIGNIMGE_IOFS_REQ QUERYCUSTSIGNIMGE_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustSignImgeIORequest inValue = new FCUBSCustomerServiceReference.QueryCustSignImgeIORequest();
-            inValue.QUERYCUSTSIGNIMGE_IOFS_REQ = QUERYCUSTSIGNIMGE_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustSignImgeIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustSignImgeIO(inValue);
-            return retVal.QUERYCUSTSIGNIMGE_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustSignImgeIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustSignImgeIOAsync(FCUBSCustomerServiceReference.QueryCustSignImgeIORequest request)
         {
             return base.Channel.QueryCustSignImgeIOAsync(request);
@@ -80728,20 +79042,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryCustSignImgeIORequest inValue = new FCUBSCustomerServiceReference.QueryCustSignImgeIORequest();
             inValue.QUERYCUSTSIGNIMGE_IOFS_REQ = QUERYCUSTSIGNIMGE_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustSignImgeIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustStsIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustStsIO(FCUBSCustomerServiceReference.QueryCustStsIORequest request)
-        {
-            return base.Channel.QueryCustStsIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTSTS_IOFS_RES QueryCustStsIO(FCUBSCustomerServiceReference.QUERYCUSTSTS_IOFS_REQ QUERYCUSTSTS_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustStsIORequest inValue = new FCUBSCustomerServiceReference.QueryCustStsIORequest();
-            inValue.QUERYCUSTSTS_IOFS_REQ = QUERYCUSTSTS_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustStsIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustStsIO(inValue);
-            return retVal.QUERYCUSTSTS_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80758,20 +79058,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustomerIO(FCUBSCustomerServiceReference.QueryCustomerIORequest request)
-        {
-            return base.Channel.QueryCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTOMER_IOFS_RES QueryCustomerIO(FCUBSCustomerServiceReference.QUERYCUSTOMER_IOFS_REQ QUERYCUSTOMER_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustomerIORequest inValue = new FCUBSCustomerServiceReference.QueryCustomerIORequest();
-            inValue.QUERYCUSTOMER_IOFS_REQ = QUERYCUSTOMER_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustomerIO(inValue);
-            return retVal.QUERYCUSTOMER_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustomerIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustomerIOAsync(FCUBSCustomerServiceReference.QueryCustomerIORequest request)
         {
             return base.Channel.QueryCustomerIOAsync(request);
@@ -80782,20 +79068,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryCustomerIORequest inValue = new FCUBSCustomerServiceReference.QueryCustomerIORequest();
             inValue.QUERYCUSTOMER_IOFS_REQ = QUERYCUSTOMER_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustomerIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustomerDetailsIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustomerDetailsIO(FCUBSCustomerServiceReference.QueryCustomerDetailsIORequest request)
-        {
-            return base.Channel.QueryCustomerDetailsIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTOMERDETAILS_IOFS_RES QueryCustomerDetailsIO(FCUBSCustomerServiceReference.QUERYCUSTOMERDETAILS_IOFS_REQ QUERYCUSTOMERDETAILS_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustomerDetailsIORequest inValue = new FCUBSCustomerServiceReference.QueryCustomerDetailsIORequest();
-            inValue.QUERYCUSTOMERDETAILS_IOFS_REQ = QUERYCUSTOMERDETAILS_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustomerDetailsIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustomerDetailsIO(inValue);
-            return retVal.QUERYCUSTOMERDETAILS_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80812,20 +79084,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryCustomerObligationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustomerObligationIO(FCUBSCustomerServiceReference.QueryCustomerObligationIORequest request)
-        {
-            return base.Channel.QueryCustomerObligationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYCUSTOMEROBLIGATION_IOFS_RES QueryCustomerObligationIO(FCUBSCustomerServiceReference.QUERYCUSTOMEROBLIGATION_IOFS_REQ QUERYCUSTOMEROBLIGATION_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryCustomerObligationIORequest inValue = new FCUBSCustomerServiceReference.QueryCustomerObligationIORequest();
-            inValue.QUERYCUSTOMEROBLIGATION_IOFS_REQ = QUERYCUSTOMEROBLIGATION_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryCustomerObligationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustomerObligationIO(inValue);
-            return retVal.QUERYCUSTOMEROBLIGATION_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryCustomerObligationIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryCustomerObligationIOAsync(FCUBSCustomerServiceReference.QueryCustomerObligationIORequest request)
         {
             return base.Channel.QueryCustomerObligationIOAsync(request);
@@ -80836,20 +79094,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryCustomerObligationIORequest inValue = new FCUBSCustomerServiceReference.QueryCustomerObligationIORequest();
             inValue.QUERYCUSTOMEROBLIGATION_IOFS_REQ = QUERYCUSTOMEROBLIGATION_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryCustomerObligationIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryFATCAIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryFATCAIO(FCUBSCustomerServiceReference.QueryFATCAIORequest request)
-        {
-            return base.Channel.QueryFATCAIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYFATCA_IOFS_RES QueryFATCAIO(FCUBSCustomerServiceReference.QUERYFATCA_IOFS_REQ QUERYFATCA_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryFATCAIORequest inValue = new FCUBSCustomerServiceReference.QueryFATCAIORequest();
-            inValue.QUERYFATCA_IOFS_REQ = QUERYFATCA_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryFATCAIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryFATCAIO(inValue);
-            return retVal.QUERYFATCA_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80866,20 +79110,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryNSFCBenqIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryNSFCBenqIO(FCUBSCustomerServiceReference.QueryNSFCBenqIORequest request)
-        {
-            return base.Channel.QueryNSFCBenqIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYNSFCBENQ_IOFS_RES QueryNSFCBenqIO(FCUBSCustomerServiceReference.QUERYNSFCBENQ_IOFS_REQ QUERYNSFCBENQ_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryNSFCBenqIORequest inValue = new FCUBSCustomerServiceReference.QueryNSFCBenqIORequest();
-            inValue.QUERYNSFCBENQ_IOFS_REQ = QUERYNSFCBENQ_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryNSFCBenqIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryNSFCBenqIO(inValue);
-            return retVal.QUERYNSFCBENQ_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryNSFCBenqIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryNSFCBenqIOAsync(FCUBSCustomerServiceReference.QueryNSFCBenqIORequest request)
         {
             return base.Channel.QueryNSFCBenqIOAsync(request);
@@ -80890,20 +79120,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryNSFCBenqIORequest inValue = new FCUBSCustomerServiceReference.QueryNSFCBenqIORequest();
             inValue.QUERYNSFCBENQ_IOFS_REQ = QUERYNSFCBENQ_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryNSFCBenqIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryNSFCheckIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryNSFCheckIO(FCUBSCustomerServiceReference.QueryNSFCheckIORequest request)
-        {
-            return base.Channel.QueryNSFCheckIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYNSFCHECK_IOFS_RES QueryNSFCheckIO(FCUBSCustomerServiceReference.QUERYNSFCHECK_IOFS_REQ QUERYNSFCHECK_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryNSFCheckIORequest inValue = new FCUBSCustomerServiceReference.QueryNSFCheckIORequest();
-            inValue.QUERYNSFCHECK_IOFS_REQ = QUERYNSFCHECK_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryNSFCheckIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryNSFCheckIO(inValue);
-            return retVal.QUERYNSFCHECK_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80920,20 +79136,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryNSFMutualIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryNSFMutualIO(FCUBSCustomerServiceReference.QueryNSFMutualIORequest request)
-        {
-            return base.Channel.QueryNSFMutualIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYNSFMUTUAL_IOFS_RES QueryNSFMutualIO(FCUBSCustomerServiceReference.QUERYNSFMUTUAL_IOFS_REQ QUERYNSFMUTUAL_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryNSFMutualIORequest inValue = new FCUBSCustomerServiceReference.QueryNSFMutualIORequest();
-            inValue.QUERYNSFMUTUAL_IOFS_REQ = QUERYNSFMUTUAL_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryNSFMutualIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryNSFMutualIO(inValue);
-            return retVal.QUERYNSFMUTUAL_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.QueryNSFMutualIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryNSFMutualIOAsync(FCUBSCustomerServiceReference.QueryNSFMutualIORequest request)
         {
             return base.Channel.QueryNSFMutualIOAsync(request);
@@ -80944,20 +79146,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.QueryNSFMutualIORequest inValue = new FCUBSCustomerServiceReference.QueryNSFMutualIORequest();
             inValue.QUERYNSFMUTUAL_IOFS_REQ = QUERYNSFMUTUAL_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryNSFMutualIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.QueryTDAmountBlockIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.QueryTDAmountBlockIO(FCUBSCustomerServiceReference.QueryTDAmountBlockIORequest request)
-        {
-            return base.Channel.QueryTDAmountBlockIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.QUERYTDAMOUNTBLOCK_IOFS_RES QueryTDAmountBlockIO(FCUBSCustomerServiceReference.QUERYTDAMOUNTBLOCK_IOFS_REQ QUERYTDAMOUNTBLOCK_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.QueryTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.QueryTDAmountBlockIORequest();
-            inValue.QUERYTDAMOUNTBLOCK_IOFS_REQ = QUERYTDAMOUNTBLOCK_IOFS_REQ;
-            FCUBSCustomerServiceReference.QueryTDAmountBlockIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).QueryTDAmountBlockIO(inValue);
-            return retVal.QUERYTDAMOUNTBLOCK_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -80974,20 +79162,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenAmtBlkFS(FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest request)
-        {
-            return base.Channel.ReopenAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENAMTBLK_FSFS_RES ReopenAmtBlkFS(FCUBSCustomerServiceReference.REOPENAMTBLK_FSFS_REQ REOPENAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest();
-            inValue.REOPENAMTBLK_FSFS_REQ = REOPENAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.ReopenAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenAmtBlkFS(inValue);
-            return retVal.REOPENAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenAmtBlkFSAsync(FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest request)
         {
             return base.Channel.ReopenAmtBlkFSAsync(request);
@@ -80998,20 +79172,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.ReopenAmtBlkFSRequest();
             inValue.REOPENAMTBLK_FSFS_REQ = REOPENAMTBLK_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenAmtBlkIO(FCUBSCustomerServiceReference.ReopenAmtBlkIORequest request)
-        {
-            return base.Channel.ReopenAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENAMTBLK_IOPK_RES ReopenAmtBlkIO(FCUBSCustomerServiceReference.REOPENAMTBLK_IOPK_REQ REOPENAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.ReopenAmtBlkIORequest();
-            inValue.REOPENAMTBLK_IOPK_REQ = REOPENAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.ReopenAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenAmtBlkIO(inValue);
-            return retVal.REOPENAMTBLK_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -81028,20 +79188,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenConsolAmtBlkFS(FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest request)
-        {
-            return base.Channel.ReopenConsolAmtBlkFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENCONSOLAMTBLK_FSFS_RES ReopenConsolAmtBlkFS(FCUBSCustomerServiceReference.REOPENCONSOLAMTBLK_FSFS_REQ REOPENCONSOLAMTBLK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest();
-            inValue.REOPENCONSOLAMTBLK_FSFS_REQ = REOPENCONSOLAMTBLK_FSFS_REQ;
-            FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenConsolAmtBlkFS(inValue);
-            return retVal.REOPENCONSOLAMTBLK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenConsolAmtBlkFSAsync(FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest request)
         {
             return base.Channel.ReopenConsolAmtBlkFSAsync(request);
@@ -81052,20 +79198,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest inValue = new FCUBSCustomerServiceReference.ReopenConsolAmtBlkFSRequest();
             inValue.REOPENCONSOLAMTBLK_FSFS_REQ = REOPENCONSOLAMTBLK_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenConsolAmtBlkFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenConsolAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenConsolAmtBlkIO(FCUBSCustomerServiceReference.ReopenConsolAmtBlkIORequest request)
-        {
-            return base.Channel.ReopenConsolAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENCONSOLAMTBLK_IOPK_RES ReopenConsolAmtBlkIO(FCUBSCustomerServiceReference.REOPENCONSOLAMTBLK_IOPK_REQ REOPENCONSOLAMTBLK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenConsolAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.ReopenConsolAmtBlkIORequest();
-            inValue.REOPENCONSOLAMTBLK_IOPK_REQ = REOPENCONSOLAMTBLK_IOPK_REQ;
-            FCUBSCustomerServiceReference.ReopenConsolAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenConsolAmtBlkIO(inValue);
-            return retVal.REOPENCONSOLAMTBLK_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -81082,20 +79214,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenCustSegAssociationFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenCustSegAssociationFS(FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest request)
-        {
-            return base.Channel.ReopenCustSegAssociationFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENCUSTSEGASSOCIATION_FSFS_RES ReopenCustSegAssociationFS(FCUBSCustomerServiceReference.REOPENCUSTSEGASSOCIATION_FSFS_REQ REOPENCUSTSEGASSOCIATION_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest();
-            inValue.REOPENCUSTSEGASSOCIATION_FSFS_REQ = REOPENCUSTSEGASSOCIATION_FSFS_REQ;
-            FCUBSCustomerServiceReference.ReopenCustSegAssociationFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenCustSegAssociationFS(inValue);
-            return retVal.REOPENCUSTSEGASSOCIATION_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenCustSegAssociationFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenCustSegAssociationFSAsync(FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest request)
         {
             return base.Channel.ReopenCustSegAssociationFSAsync(request);
@@ -81106,20 +79224,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest inValue = new FCUBSCustomerServiceReference.ReopenCustSegAssociationFSRequest();
             inValue.REOPENCUSTSEGASSOCIATION_FSFS_REQ = REOPENCUSTSEGASSOCIATION_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenCustSegAssociationFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenCustSegAssociationIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenCustSegAssociationIO(FCUBSCustomerServiceReference.ReopenCustSegAssociationIORequest request)
-        {
-            return base.Channel.ReopenCustSegAssociationIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENCUSTSEGASSOCIATION_IOPK_RES ReopenCustSegAssociationIO(FCUBSCustomerServiceReference.REOPENCUSTSEGASSOCIATION_IOPK_REQ REOPENCUSTSEGASSOCIATION_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenCustSegAssociationIORequest inValue = new FCUBSCustomerServiceReference.ReopenCustSegAssociationIORequest();
-            inValue.REOPENCUSTSEGASSOCIATION_IOPK_REQ = REOPENCUSTSEGASSOCIATION_IOPK_REQ;
-            FCUBSCustomerServiceReference.ReopenCustSegAssociationIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenCustSegAssociationIO(inValue);
-            return retVal.REOPENCUSTSEGASSOCIATION_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -81136,20 +79240,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenCustomerFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenCustomerFS(FCUBSCustomerServiceReference.ReopenCustomerFSRequest request)
-        {
-            return base.Channel.ReopenCustomerFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENCUSTOMER_FSFS_RES ReopenCustomerFS(FCUBSCustomerServiceReference.REOPENCUSTOMER_FSFS_REQ REOPENCUSTOMER_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenCustomerFSRequest inValue = new FCUBSCustomerServiceReference.ReopenCustomerFSRequest();
-            inValue.REOPENCUSTOMER_FSFS_REQ = REOPENCUSTOMER_FSFS_REQ;
-            FCUBSCustomerServiceReference.ReopenCustomerFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenCustomerFS(inValue);
-            return retVal.REOPENCUSTOMER_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenCustomerFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenCustomerFSAsync(FCUBSCustomerServiceReference.ReopenCustomerFSRequest request)
         {
             return base.Channel.ReopenCustomerFSAsync(request);
@@ -81160,20 +79250,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ReopenCustomerFSRequest inValue = new FCUBSCustomerServiceReference.ReopenCustomerFSRequest();
             inValue.REOPENCUSTOMER_FSFS_REQ = REOPENCUSTOMER_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenCustomerFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenCustomerIO(FCUBSCustomerServiceReference.ReopenCustomerIORequest request)
-        {
-            return base.Channel.ReopenCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENCUSTOMER_IOPK_RES ReopenCustomerIO(FCUBSCustomerServiceReference.REOPENCUSTOMER_IOPK_REQ REOPENCUSTOMER_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenCustomerIORequest inValue = new FCUBSCustomerServiceReference.ReopenCustomerIORequest();
-            inValue.REOPENCUSTOMER_IOPK_REQ = REOPENCUSTOMER_IOPK_REQ;
-            FCUBSCustomerServiceReference.ReopenCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenCustomerIO(inValue);
-            return retVal.REOPENCUSTOMER_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -81190,20 +79266,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenTDAmountBlockFSResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenTDAmountBlockFS(FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest request)
-        {
-            return base.Channel.ReopenTDAmountBlockFS(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENTDAMOUNTBLOCK_FSFS_RES ReopenTDAmountBlockFS(FCUBSCustomerServiceReference.REOPENTDAMOUNTBLOCK_FSFS_REQ REOPENTDAMOUNTBLOCK_FSFS_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest();
-            inValue.REOPENTDAMOUNTBLOCK_FSFS_REQ = REOPENTDAMOUNTBLOCK_FSFS_REQ;
-            FCUBSCustomerServiceReference.ReopenTDAmountBlockFSResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenTDAmountBlockFS(inValue);
-            return retVal.REOPENTDAMOUNTBLOCK_FSFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.ReopenTDAmountBlockFSResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenTDAmountBlockFSAsync(FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest request)
         {
             return base.Channel.ReopenTDAmountBlockFSAsync(request);
@@ -81214,20 +79276,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest inValue = new FCUBSCustomerServiceReference.ReopenTDAmountBlockFSRequest();
             inValue.REOPENTDAMOUNTBLOCK_FSFS_REQ = REOPENTDAMOUNTBLOCK_FSFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenTDAmountBlockFSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.ReopenTDAmountBlockIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.ReopenTDAmountBlockIO(FCUBSCustomerServiceReference.ReopenTDAmountBlockIORequest request)
-        {
-            return base.Channel.ReopenTDAmountBlockIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.REOPENTDAMOUNTBLOCK_IOPK_RES ReopenTDAmountBlockIO(FCUBSCustomerServiceReference.REOPENTDAMOUNTBLOCK_IOPK_REQ REOPENTDAMOUNTBLOCK_IOPK_REQ)
-        {
-            FCUBSCustomerServiceReference.ReopenTDAmountBlockIORequest inValue = new FCUBSCustomerServiceReference.ReopenTDAmountBlockIORequest();
-            inValue.REOPENTDAMOUNTBLOCK_IOPK_REQ = REOPENTDAMOUNTBLOCK_IOPK_REQ;
-            FCUBSCustomerServiceReference.ReopenTDAmountBlockIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).ReopenTDAmountBlockIO(inValue);
-            return retVal.REOPENTDAMOUNTBLOCK_IOPK_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -81244,20 +79292,6 @@ namespace FCUBSCustomerServiceReference
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.SummaryQueryAmtBlkIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.SummaryQueryAmtBlkIO(FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest request)
-        {
-            return base.Channel.SummaryQueryAmtBlkIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.SUMMARYQUERYAMTBLK_IOFS_RES SummaryQueryAmtBlkIO(FCUBSCustomerServiceReference.SUMMARYQUERYAMTBLK_IOFS_REQ SUMMARYQUERYAMTBLK_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest();
-            inValue.SUMMARYQUERYAMTBLK_IOFS_REQ = SUMMARYQUERYAMTBLK_IOFS_REQ;
-            FCUBSCustomerServiceReference.SummaryQueryAmtBlkIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).SummaryQueryAmtBlkIO(inValue);
-            return retVal.SUMMARYQUERYAMTBLK_IOFS_RES;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         System.Threading.Tasks.Task<FCUBSCustomerServiceReference.SummaryQueryAmtBlkIOResponse> FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.SummaryQueryAmtBlkIOAsync(FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest request)
         {
             return base.Channel.SummaryQueryAmtBlkIOAsync(request);
@@ -81268,20 +79302,6 @@ namespace FCUBSCustomerServiceReference
             FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest inValue = new FCUBSCustomerServiceReference.SummaryQueryAmtBlkIORequest();
             inValue.SUMMARYQUERYAMTBLK_IOFS_REQ = SUMMARYQUERYAMTBLK_IOFS_REQ;
             return ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).SummaryQueryAmtBlkIOAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FCUBSCustomerServiceReference.SummaryQueryCustomerIOResponse FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI.SummaryQueryCustomerIO(FCUBSCustomerServiceReference.SummaryQueryCustomerIORequest request)
-        {
-            return base.Channel.SummaryQueryCustomerIO(request);
-        }
-        
-        public FCUBSCustomerServiceReference.SUMMARYQUERYCUSTOMER_IOFS_RES SummaryQueryCustomerIO(FCUBSCustomerServiceReference.SUMMARYQUERYCUSTOMER_IOFS_REQ SUMMARYQUERYCUSTOMER_IOFS_REQ)
-        {
-            FCUBSCustomerServiceReference.SummaryQueryCustomerIORequest inValue = new FCUBSCustomerServiceReference.SummaryQueryCustomerIORequest();
-            inValue.SUMMARYQUERYCUSTOMER_IOFS_REQ = SUMMARYQUERYCUSTOMER_IOFS_REQ;
-            FCUBSCustomerServiceReference.SummaryQueryCustomerIOResponse retVal = ((FCUBSCustomerServiceReference.FCUBSCustomerServiceSEI)(this)).SummaryQueryCustomerIO(inValue);
-            return retVal.SUMMARYQUERYCUSTOMER_IOFS_RES;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -81320,8 +79340,8 @@ namespace FCUBSCustomerServiceReference
         {
             if ((endpointConfiguration == EndpointConfiguration.FCUBSCustomerServiceSEI))
             {
-                return new System.ServiceModel.EndpointAddress("http://dev-tnr-stg-fxc-01.snwlbancotanner.vcndevbancotann.oraclevcn.com:7101/FCUB" +
-                        "SCustomerService/FCUBSCustomerService");
+                return new System.ServiceModel.EndpointAddress("http://dev-tnr-stg-fxc-01.bancotanner.cl:7101/FCUBSCustomerService/FCUBSCustomerS" +
+                        "ervice");
             }
             throw new System.InvalidOperationException(string.Format("No se pudo encontrar un punto de conexión con el nombre \"{0}\".", endpointConfiguration));
         }

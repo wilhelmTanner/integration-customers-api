@@ -12,13 +12,13 @@ namespace FCUBS.Customer.Service.Services.Models
     {
         public CreateCustomer(CustomerRequest customer)
         {
-            CREATECUSTOMER_FSFS_REQ.FCUBS_BODY.CustomerFull.ADDRLN1 = customer.Name;
-            CREATECUSTOMER_FSFS_REQ.FCUBS_BODY.CustomerFull.CUSTNO = customer.Id;
-            CREATECUSTOMER_FSFS_REQ.FCUBS_BODY.CustomerFull.COUNTRY = customer.Country;
-            CREATECUSTOMER_FSFS_REQ.FCUBS_BODY.CustomerFull.CCATEG = customer.Category;
-            CREATECUSTOMER_FSFS_REQ.FCUBS_BODY.CustomerFull.MEDIA = "MEDIA";
-            CREATECUSTOMER_FSFS_REQ.FCUBS_BODY.CustomerFull.LOC = customer.Location;
-            CREATECUSTOMER_FSFS_REQ.FCUBS_BODY.CustomerFull.Custpersonal.LANG = customer.Language;
+            FCUBS_BODY.CustomerFull.ADDRLN1 = customer.Id;
+            FCUBS_BODY.CustomerFull.CUSTNO = customer.Id;
+            FCUBS_BODY.CustomerFull.COUNTRY = customer.Id;
+            FCUBS_BODY.CustomerFull.CCATEG = customer.Id;
+            FCUBS_BODY.CustomerFull.MEDIA = "MEDIA";
+            FCUBS_BODY.CustomerFull.LOC = customer.Id;
+            FCUBS_BODY.CustomerFull.Custpersonal.LANG = customer.Id;
         } 
 
         public CreateCustomer()

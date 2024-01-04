@@ -19,60 +19,11 @@ namespace FCUBS.Customer.Service.API.Controllers
             _customerService = service;
         }
 
-        ///// <summary>
-        ///// 
-        ///// </summary>
-        //[HttpPost]
-        //[Consumes(MediaTypeNames.Application.Json)]
-        //[Produces(MediaTypeNames.Application.Json)]
-        //[SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<CustomerEntity>))]
-        //[SwaggerResponse((int)HttpStatusCode.BadRequest, type: typeof(BaseErrorResponse))]
-        //[SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
-        //[SwaggerResponse((int)HttpStatusCode.Forbidden)]
-        //[SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        //public async Task<ActionResult<BaseObjectResponse<RecordSavedResponse>>> InsertCustomer([FromBody] CustomerEntity customer)
-        //{
-        //    var response = await _customerService.Insert(customer);
-        //    return CustomOk(response);
-        //}
-
 
         /// <summary>
         /// 
         /// </summary>
-        //[HttpPost]
-        //[Consumes(MediaTypeNames.Application.Json)]
-        //[Produces(MediaTypeNames.Application.Json)]
-        //[SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<CustomerEntity>))]
-        //[SwaggerResponse((int)HttpStatusCode.BadRequest, type: typeof(BaseErrorResponse))]
-        //[SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
-        //[SwaggerResponse((int)HttpStatusCode.Forbidden)]
-        //[SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        //public async Task<ActionResult<BaseObjectResponse<RecordSavedResponse>>> CrreateCustomer([FromBody] CustomerRequest customer)
-        //{
-        //    //var response = await _customerService.
-        //    //return CustomOk(response);
-        //}
-
-        //[HttpPost]
-        //[Consumes(MediaTypeNames.Application.Json)]
-        //[Produces(MediaTypeNames.Application.Json)]
-        //[SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<CustomerEntity>))]
-        //[SwaggerResponse((int)HttpStatusCode.BadRequest, type: typeof(BaseErrorResponse))]
-        //[SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
-        //[SwaggerResponse((int)HttpStatusCode.Forbidden)]
-        //[SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        //public async Task<ActionResult<>> CrreateCustomer([FromBody] CustomerRequest customer)
-        //{
-        //    var response = await _customerService.crea
-        //    return CustomOk(response);
-        //}
-
-
-        /// <summary>
-        /// 
-        /// </summary>
-        [HttpPut]
+        [HttpPost]
         [Consumes(MediaTypeNames.Application.Json)]
         [Produces(MediaTypeNames.Application.Json)]
         [SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<CustomerEntity>))]
@@ -80,9 +31,9 @@ namespace FCUBS.Customer.Service.API.Controllers
         [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
         [SwaggerResponse((int)HttpStatusCode.Forbidden)]
         [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        public async Task<ActionResult<BaseObjectResponse<CustomerEntity>>> UpdateCustomer([FromBody] CustomerEntity customer)
+        public async Task<ActionResult<BaseObjectResponse<int>>> Create([FromBody] CustomerRequest customer)
         {
-            var response = await _customerService.UpdateAsync(customer);
+            var response = await _customerService.CreateAsync(customer);
             return CustomOk(response);
         }
 
@@ -97,34 +48,18 @@ namespace FCUBS.Customer.Service.API.Controllers
         [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
         [SwaggerResponse((int)HttpStatusCode.Forbidden)]
         [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        public async Task<ActionResult<BaseObjectResponse<CustomerEntity>>> GetById(string customerId)
+        public async Task<ActionResult<BaseObjectResponse<int>>> GetById(string id)
         {
+            CustomerRequest c = new();
+            c.Id = id;
 
-            //var policy = Policy.Handle<ApplicationException>()
-            //    .WaitAndRetryAsync(RETRIES, tiempo => TimeSpan.FromSeconds(1 * DELAY), (exception, timeSpan, retry, ctx) =>
-            //    {
-            //        Console.WriteLine($"Exception {exception.GetType().Name} with message {exception.Message} detected on attempt {retry} of {RETRIES}");
-            //    });
-
-            //var response = await policy.ExecuteAsync(() =>
-            //{
-            //    //throw new ApplicationException("---- Reintentando -----");
-
-            //    Random randomNumber = new Random();
-
-            //    if (randomNumber.Next(1, 3) == 2) throw new ApplicationException(" * Reintentando * ");
-
-            //    ObjectId id = ObjectId.Parse(customerId);
-            //    return _customerService.GetByIdAsync(id);
-            //});
-
-            var response = await _customerService.GetByIdAsync(new MongoDB.Bson.ObjectId());
+            var response = await _customerService.GetByIdAsync(c);
 
             var jsondata = response.ToJson();
 
             Console.WriteLine($"json: {jsondata}");
-
-            return CustomOk(response);
+         
+            return CustomOk(1);
         }
 
         /// <summary>
@@ -133,15 +68,34 @@ namespace FCUBS.Customer.Service.API.Controllers
         [HttpGet("all")]
         [Consumes(MediaTypeNames.Application.Json)]
         [Produces(MediaTypeNames.Application.Json)]
-        [SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<IEnumerable<CustomerEntity>>))]
+        [SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<List<CustomerEntity>>))]
         [SwaggerResponse((int)HttpStatusCode.BadRequest, type: typeof(BaseErrorResponse))]
         [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
         [SwaggerResponse((int)HttpStatusCode.Forbidden)]
         [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
-        public async Task<ActionResult<BaseObjectResponse<IEnumerable<CustomerEntity>>>> GetAllAsync()
+        public async Task<ActionResult<BaseObjectResponse<List<CustomerEntity>>>> GetAllAsync()
         {
-            var result = await _customerService.GetAllAsync();
-            return CustomOk(result);
+            // var result = await _customerService.GetAllAsync();
+            var l = new List<CustomerEntity>();
+
+            return CustomOk(l);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        [HttpPut]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [Produces(MediaTypeNames.Application.Json)]
+        [SwaggerResponse((int)HttpStatusCode.OK, type: typeof(BaseObjectResponse<CustomerEntity>))]
+        [SwaggerResponse((int)HttpStatusCode.BadRequest, type: typeof(BaseErrorResponse))]
+        [SwaggerResponse((int)HttpStatusCode.InternalServerError, type: typeof(BaseErrorResponse))]
+        [SwaggerResponse((int)HttpStatusCode.Forbidden)]
+        [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
+        public async Task<ActionResult<BaseObjectResponse<CustomerEntity>>> UpdateCustomer([FromBody] CustomerRequest customer)
+        {
+            var response = await _customerService.UpdateAsync(customer);
+            return CustomOk(response);
         }
     }
 
