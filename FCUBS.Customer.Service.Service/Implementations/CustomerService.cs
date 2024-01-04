@@ -2,47 +2,60 @@
 using MongoDB.Bson;
 using System;
 using System.Linq;
-using WsTipoCambio;
-
+using WsTipoCambio; 
+using System.Diagnostics.Metrics;
+using FCUBS.Customer.Service.Services.HttpClients;
+using FCUBS.Customer.Service.Services.Models;
+using FCUBSCustomerServiceReference;
 
 namespace FCUBS.Customer.Service.Services.Implementations
 {
-    public class CustomerService : ICustomerService
+    public class CustomerService
     {
 
         private readonly ILogger<CustomerService> _logger;
+        private FCUBSCustomerServiceSEIClient _client;
+
         public CustomerService(ILogger<CustomerService> logger)
         {
             _logger = logger;
+            _client = FBCustomerClient.Client;
         }
 
-        public IEnumerable<CustomerEntity> GetAll()
+        public async Task<IEnumerable<CustomerEntity>> GetAll(CustomerRequest customer)
         {
-            WeatherService.GlobalWeatherSoapClient client = new WeatherService.GlobalWeatherSoapClient(new WeatherService.GlobalWeatherSoapClient.EndpointConfiguration());
+            QueryCustomer queryCustomer = new QueryCustomer(customer);
 
+            QueryCustomerIOResponse queryResponse = await _client.QueryCustomerIOAsync(queryCustomer);
 
-            var result = client.GetWeatherAsync("Santiago", "Chile");
+            var resp = queryResponse.QUERYCUSTOMER_IOFS_RES.FCUBS_BODY.CustomerFull;
 
-
-            Random r = new Random();
-
-
-            // if(r.Next(1,4) == 2) throw new ApplicationException("---- Reintentando -----");
-
+            var error = queryResponse.QUERYCUSTOMER_IOFS_RES.FCUBS_BODY.FCUBS_ERROR_RESP[0][0].ECODE ?? string.Empty;
 
             List<CustomerEntity> customers = new();
-
-            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", SecondLastName = "Alarcon", Age = 20, Address="Avenida siempre viva 333" };
-
-            customers.Add(customer);
-
             return customers;
         }
 
-        public Task<IEnumerable<CustomerEntity>> GetAllAsync()
+        public async Task<int> CreateAsync (CustomerRequest request)
         {
-            return Task.FromResult(GetAll());
+
+            CreateCustomer customer = new(request);
+            
+
+            var result = await _client.CreateCustomerFSAsync(customer);
+
+            //var retorno = result.CREATECUSTOMER_FSFS_RES.FCUBS_BODY.FCUBS_ERROR_RESP;
+           
+            //string code = retorno[0][0].ECODE;
+            //string codeDesc = retorno[0][0].EDESC;
+
+            ////if(string.Compare)
+
+            ////Aca convertir result a objeto Response
+    
+            return 1;
         }
+          
         public async Task<CustomerEntity> GetByIdAsync(ObjectId customerId)
         {
 
@@ -56,15 +69,19 @@ namespace FCUBS.Customer.Service.Services.Implementations
             return await Task.FromResult(GetById(customerId));
         }
 
-        public async Task<RecordSavedResponse> Insert(CustomerEntity customer)
+        public async Task<RecordSavedResponse> Create(CustomerRequest customer)
         {
+ 
+
+            CreateCustomer create = new CreateCustomer(customer);
+            
             RecordSavedResponse response = new();
 
             if (customer != null)
             {
                 response.Success = false;
                 response.ErrorMessage = "Este es un error";
-                _logger.LogError($"Ha ocurrido un error {nameof(Insert)}");
+                _logger.LogError($"Ha ocurrido un error {nameof(Create)}");
             }
 
             return response;
@@ -77,13 +94,13 @@ namespace FCUBS.Customer.Service.Services.Implementations
 
         public CustomerEntity Update(CustomerEntity customer)
         {
-            CustomerEntity customerNew = new() { Name = "Wilhelm", LastName = "Sauerbaum", Age = 20 };
+            CustomerEntity customerNew = new() { Name = "Wilhelm", LastName = "Sauerbaum", Age = 20, Address="123455" };
             return customerNew;
         }
 
         public CustomerEntity GetById(ObjectId customerId)
         {
-            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", Age = 20 };
+            CustomerEntity customer = new() { Name = "Wilhelm", LastName = "Sauerbaum", Age = 20, Address = "123455" };
             return customer;
         }
     }

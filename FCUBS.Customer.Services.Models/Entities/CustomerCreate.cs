@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace FCUBS.Customer.Service.Common.Models.Entities;
 
-public  class CustomerCreate
+public sealed  class CustomerCreate
 {
-    public int MyProperty { get; set; }
 }

@@ -30,6 +30,7 @@ public class FakeEndpointClient : IFakeEndpointClient
         if (response.IsSuccessStatusCode)
         {
             contentResponse = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+
             return contentResponse.Deserialize<IEnumerable<ExternalServiceResponse>>();
         }
 

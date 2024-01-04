@@ -60,7 +60,7 @@ public static class ServicesCollectionExtensions
         services.AddScoped<ITemplateMongoService, TemplateMongoService>();
         services.AddScoped<ITemplateSQLRepository, TemplateSQLRepository>();
         services.AddScoped<ITemplateMongoRepository, TemplateMongoRepository>();
-        services.AddScoped<ICustomerService, CustomerService>();
+        //services.AddScoped<ICustomerService, CustomerService>();
 
         return services;
     }
@@ -119,9 +119,9 @@ public static class ServicesCollectionExtensions
             //c.DefaultRequestHeaders.Add("api-version", "1.0");
         }).SetHandlerLifetime(TimeSpan.FromMinutes(5)).AddPolicyHandler(PollyExtensions.GetRetryPolicy()); ;
 
-        services.AddHttpClient<ICustomerService, CustomerService>(nameof(CustomerService), (serviceSettings, client) =>
-        {
-        }).SetHandlerLifetime(TimeSpan.FromMinutes(5)).AddPolicyHandler(PollyExtensions.GetRetryPolicy());
+        //services.AddHttpClient<ICustomerService, CustomerService>(nameof(CustomerService), (serviceSettings, client) =>
+        //{
+        //}).SetHandlerLifetime(TimeSpan.FromMinutes(5)).AddPolicyHandler(PollyExtensions.GetRetryPolicy());
 
 
 

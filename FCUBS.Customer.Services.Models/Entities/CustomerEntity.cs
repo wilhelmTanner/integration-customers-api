@@ -1,15 +1,18 @@
 ﻿
+using FCUBCustomerServiceReference;
 using System.ComponentModel.DataAnnotations;
 
 namespace FCUBS.Customer.Service.Common.Models.Entities
 {
-    public sealed class CustomerEntity 
+    public class CustomerEntity2 : QUERYCUSTOMER_IOFS_REQ
     {
-        public CustomerEntity()
+        public CustomerEntity2()
         {
         }
 
-        public CustomerEntity(CustomerEntity customer) { 
+        
+
+        public CustomerEntity2(CustomerEntity customer) { 
 
             Id = customer.Id;
             Name = customer.Name;
@@ -17,12 +20,16 @@ namespace FCUBS.Customer.Service.Common.Models.Entities
             SecondLastName = customer.SecondLastName;
             Age = customer.Age;
             BirdthDate = customer.BirdthDate;
-        
+
+            FCUBS_BODY.CustomerIO.CUSTNO = customer.Id;
+
         }
 
 
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
+
+
+        //[BsonId]
+        //[BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
         //Maxlength 9
