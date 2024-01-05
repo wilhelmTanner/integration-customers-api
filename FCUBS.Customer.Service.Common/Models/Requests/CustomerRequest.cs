@@ -9,7 +9,14 @@ namespace FCUBS.Customer.Service.Common.Models.Requests
 {
     public class CustomerRequest : ICustomerRequest
     {
+        public string Source { get; set; }
+        public string MessageId { get; set; }
+        public string UserId { get; set; }
+        public string Branch { get; set; }
+        public string Service { get; set; }
+        public string Operation { get; set; }
         public string Id { get; set; }
+
         //public int Code { get; set; }
         //public string Name { get; set; }
         //public string FullName { get; set; }

@@ -50,8 +50,13 @@ namespace FCUBS.Customer.Service.API.Controllers
         [SwaggerResponse((int)HttpStatusCode.Unauthorized)]
         public async Task<ActionResult<BaseObjectResponse<int>>> GetById(string id)
         {
-            CustomerRequest c = new();
-            c.Id = id;
+
+            var req = Request.Headers;
+
+            CustomerRequest c = new()
+            {
+                Id = id
+            };
 
             var response = await _customerService.GetByIdAsync(c);
 

@@ -7,6 +7,7 @@ using System.Diagnostics.Metrics;
 using FCUBS.Customer.Service.Services.HttpClients;
 using FCUBS.Customer.Service.Services.Models;
 using FCUBSCustomerServiceReference;
+using Amazon.Runtime.Internal;
 
 namespace FCUBS.Customer.Service.Services.Implementations
 {
@@ -45,7 +46,6 @@ namespace FCUBS.Customer.Service.Services.Implementations
           
         public async Task<int> GetByIdAsync(CustomerRequest customer)
         {
-
             QueryCustomer queryCustomer = new QueryCustomer(customer);
             QueryCustomerIOResponse response = await _client.QueryCustomerIOAsync(queryCustomer);
 
